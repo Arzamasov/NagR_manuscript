@@ -1,0 +1,2512 @@
+seed_id	annotation
+fig|391904.5.peg.1	Chromosomal replication initiator protein DnaA
+fig|391904.5.peg.2	DNA polymerase III beta subunit (EC 2.7.7.7)
+fig|391904.5.peg.3	DNA recombination and repair protein RecF
+fig|391904.5.peg.4	"Zn-ribbon-containing, possibly RNA-binding protein and truncated derivatives"
+fig|391904.5.peg.5	DNA gyrase subunit B (EC 5.99.1.3)
+fig|391904.5.peg.6	DNA gyrase subunit A (EC 5.99.1.3)
+fig|391904.5.peg.7	FIG187021: hypothetical protein
+fig|391904.5.peg.8	"archaeal ATPase, fused to C-terminal DUF234 domain"
+fig|391904.5.peg.9	hypothetical protein
+fig|391904.5.peg.10	NADP-specific glutamate dehydrogenase (EC 1.4.1.4)
+fig|391904.5.peg.11	Antitoxin DinJ (binds YafQ toxin)
+fig|391904.5.peg.12	hypothetical protein
+fig|391904.5.peg.13	Transposase
+fig|391904.5.peg.14	hypothetical protein
+fig|391904.5.peg.15	"2&#39;,3&#39;-cyclic-nucleotide 2&#39;-phosphodiesterase (EC 3.1.4.16)"
+fig|391904.5.peg.16	Phosphonate ABC transporter permease protein phnE1 (TC 3.A.1.9.1)
+fig|391904.5.peg.17	Phosphonate ABC transporter permease protein phnE2 (TC 3.A.1.9.1)
+fig|391904.5.peg.18	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.19	Phosphonate ABC transporter substrate-binding protein PhnD (TC 3.A.1.9.1)
+fig|391904.5.peg.20	Transcriptional regulator
+fig|391904.5.peg.21	hypothetical protein
+fig|391904.5.peg.22	hypothetical protein
+fig|391904.5.peg.23	ATPase
+fig|391904.5.peg.24	hypothetical protein
+fig|391904.5.peg.25	hypothetical protein
+fig|391904.5.peg.26	Predicted ATPase (AAA+ superfamily)
+fig|391904.5.peg.27	Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)
+fig|391904.5.peg.28	Hemolysins and related proteins containing CBS domains
+fig|391904.5.peg.29	hypothetical protein
+fig|391904.5.peg.30	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.31	hypothetical protein
+fig|391904.5.peg.32	Carbonic anhydrase (EC 4.2.1.1)
+fig|391904.5.peg.33	Alkyl hydroperoxide reductase protein C (EC 1.11.1.15)
+fig|391904.5.peg.34	Alkyl hydroperoxide reductase protein F (EC 1.6.4.-)
+fig|391904.5.peg.35	Uncharacterized MFS-type transporter
+fig|391904.5.peg.36	hypothetical protein
+fig|391904.5.peg.37	Mobile element protein
+fig|391904.5.peg.38	Mobile element protein
+fig|391904.5.peg.39	hypothetical protein
+fig|391904.5.peg.40	"Maltose operon transcriptional repressor MalR, LacI family"
+fig|391904.5.peg.41	"ABC transporter, substrate-binding protein"
+fig|391904.5.peg.42	hypothetical protein
+fig|391904.5.peg.43	"ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)"
+fig|391904.5.peg.44	hypothetical protein
+fig|391904.5.peg.45	hypothetical protein
+fig|391904.5.peg.46	Transposase
+fig|391904.5.peg.47	ATPase
+fig|391904.5.peg.48	hypothetical protein
+fig|391904.5.peg.49	Phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+fig|391904.5.peg.50	Alkyl hydroperoxide reductase protein F (EC 1.6.4.-)
+fig|391904.5.peg.51	"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)"
+fig|391904.5.peg.52	"Oligopeptide ABC transporter, permease protein"
+fig|391904.5.peg.53	"Oligopeptide ABC transporter, permease protein"
+fig|391904.5.peg.54	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.55	Phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+fig|391904.5.peg.56	hypothetical protein
+fig|391904.5.peg.57	Integral membrane protein
+fig|391904.5.peg.58	Sodium/proline symporter
+fig|391904.5.peg.59	hypothetical protein
+fig|391904.5.peg.60	Exoenzymes regulatory protein AepA precursor
+fig|391904.5.peg.61	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
+fig|391904.5.peg.62	hypothetical protein
+fig|391904.5.peg.63	"Two component transcriptional regulator, LuxR family"
+fig|391904.5.peg.64	putative exodeoxyribonuclease V
+fig|391904.5.peg.65	Major facilitator superfamily MFS_1
+fig|391904.5.peg.66	FIG00820565: hypothetical protein
+fig|391904.5.peg.67	Glycogen phosphorylase (EC 2.4.1.1)
+fig|391904.5.peg.68	hypothetical protein
+fig|391904.5.peg.69	FIG056164: rhomboid family serine protease
+fig|391904.5.peg.70	FIG018426: putative septation inhibitor protein
+fig|391904.5.peg.71	FIG215594: Membrane spanning protein
+fig|391904.5.peg.72	Sortase (surface protein transpeptidase)
+fig|391904.5.peg.73	"Anthranilate synthase, amidotransferase component (EC 4.1.3.27) / Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)"
+fig|391904.5.peg.74	Serine/threonine-protein kinase PknB (EC 2.7.11.1)
+fig|391904.5.peg.75	Serine/threonine-protein kinase PknA (EC 2.7.11.1)
+fig|391904.5.peg.76	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+fig|391904.5.peg.77	Cell division protein FtsW
+fig|391904.5.peg.78	Serine/threonine phosphatase PPP (EC 3.1.3.16)
+fig|391904.5.peg.79	FHA-domain-containing proteins
+fig|391904.5.peg.80	Adenylate cyclase (EC 4.6.1.1)
+fig|391904.5.peg.81	hypothetical protein
+fig|391904.5.peg.82	Peptidase
+fig|391904.5.peg.83	Lysophospholipase L2 (EC 3.1.1.5)
+fig|391904.5.peg.84	Permease of the drug/metabolite transporter (DMT) superfamily
+fig|391904.5.peg.85	hypothetical protein
+fig|391904.5.peg.86	FIG00996524: hypothetical protein
+fig|391904.5.peg.87	hypothetical protein
+fig|391904.5.peg.88	Peptide methionine sulfoxide reductase MsrA (EC 1.8.4.11) / Peptide methionine sulfoxide reductase MsrB (EC 1.8.4.12)
+fig|391904.5.peg.89	5-nitroimidazole antibiotic resistance protein
+fig|391904.5.peg.90	hypothetical protein
+fig|391904.5.peg.91	DNA-cytosine methyltransferase (EC 2.1.1.37)
+fig|391904.5.peg.92	UPF0145 protein YbjQ
+fig|391904.5.peg.93	"FIG01964566: Predicted membrane protein, hemolysin III homolog"
+fig|391904.5.peg.94	hypothetical protein
+fig|391904.5.peg.95	hypothetical protein
+fig|391904.5.peg.96	"transcriptional modulator of MazE/toxin, MazF"
+fig|391904.5.peg.97	hypothetical protein
+fig|391904.5.peg.98	hypothetical protein
+fig|391904.5.peg.99	Mobile element protein
+fig|391904.5.peg.100	Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
+fig|391904.5.peg.101	FIG00672241: Uncharacterized peptidase
+fig|391904.5.peg.102	hypothetical protein
+fig|391904.5.peg.103	Cation transport ATPase
+fig|391904.5.peg.104	hypothetical protein
+fig|391904.5.peg.105	"Urea ABC transporter, substrate binding protein UrtA"
+fig|391904.5.peg.106	"Urea ABC transporter, permease protein UrtB"
+fig|391904.5.peg.107	"Urea ABC transporter, permease protein UrtC"
+fig|391904.5.peg.108	"Urea ABC transporter, ATPase protein UrtD"
+fig|391904.5.peg.109	"Urea ABC transporter, ATPase protein UrtE"
+fig|391904.5.peg.110	HoxN/HupN/NixA family nickel/cobalt transporter
+fig|391904.5.peg.111	Urease beta subunit (EC 3.5.1.5) / Urease gamma subunit (EC 3.5.1.5)
+fig|391904.5.peg.112	Urease alpha subunit (EC 3.5.1.5)
+fig|391904.5.peg.113	Urease accessory protein UreE
+fig|391904.5.peg.114	Urease accessory protein UreF
+fig|391904.5.peg.115	Urease accessory protein UreG
+fig|391904.5.peg.116	Urease accessory protein UreD
+fig|391904.5.peg.117	"Ferredoxin--NADP(+) reductase, actinobacterial (eukaryote-like) type (EC 1.18.1.2)"
+fig|391904.5.peg.118	Protease HtpX homolog
+fig|391904.5.peg.119	Major facilitator superfamily MFS_1
+fig|391904.5.peg.120	G:T/U mismatch-specific uracil/thymine DNA-glycosylase
+fig|391904.5.peg.121	Fructose-bisphosphate aldolase class II (EC 4.1.2.13)
+fig|391904.5.peg.122	hypothetical protein
+fig|391904.5.peg.123	hypothetical protein
+fig|391904.5.peg.124	Adenylosuccinate synthetase (EC 6.3.4.4)
+fig|391904.5.peg.125	Chloride channel protein
+fig|391904.5.peg.126	CrcB protein
+fig|391904.5.peg.127	CrcB protein
+fig|391904.5.peg.128	hypothetical protein
+fig|391904.5.peg.129	"Sucrose operon repressor ScrR, LacI family"
+fig|391904.5.peg.130	Sucrose phosphorylase (EC 2.4.1.7)
+fig|391904.5.peg.131	"Predicted sucrose permease, DHA1 family"
+fig|391904.5.peg.132	Uncharacterized MFS-type transporter
+fig|391904.5.peg.133	Ketol-acid reductoisomerase (NADP(+)) (EC 1.1.1.86)
+fig|391904.5.peg.134	Transmembrane component BioN of energizing module of biotin ECF transporter
+fig|391904.5.peg.135	ATPase component BioM of energizing module of biotin ECF transporter
+fig|391904.5.peg.136	Substrate-specific component BioY of biotin ECF transporter
+fig|391904.5.peg.137	hypothetical protein
+fig|391904.5.peg.138	Ketol-acid reductoisomerase (NADP(+)) (EC 1.1.1.86)
+fig|391904.5.peg.139	"Broad specificity exo-alpha-glucosidase, GH13"
+fig|391904.5.peg.140	"Maltodextrin utilization transcriptional regulator MalR6, LacI family"
+fig|391904.5.peg.141	4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)
+fig|391904.5.peg.142	hypothetical protein
+fig|391904.5.peg.143	hypothetical protein
+fig|391904.5.peg.144	Alkaline phosphatase (EC 3.1.3.1)
+fig|391904.5.peg.145	Chaperone protein DnaK
+fig|391904.5.peg.146	Heat shock protein GrpE
+fig|391904.5.peg.147	Chaperone protein DnaJ
+fig|391904.5.peg.148	"HspR, transcriptional repressor of DnaK operon"
+fig|391904.5.peg.149	Xanthine permease
+fig|391904.5.peg.150	Long-chain-fatty-acid--luciferin-component ligase (EC 6.2.1.19)
+fig|391904.5.peg.151	Acyl-CoA reductase (EC 1.2.1.50)
+fig|391904.5.peg.152	3-oxoacyl-[acyl-carrier protein] reductase
+fig|391904.5.peg.153	Putative hydrolase
+fig|391904.5.peg.154	DedA protein
+fig|391904.5.peg.155	COG family: septum formation inhibitor-activating ATPase
+fig|391904.5.peg.156	hypothetical protein
+fig|391904.5.peg.157	Flp pilus assembly protein TadC
+fig|391904.5.peg.158	hypothetical protein
+fig|391904.5.peg.159	hypothetical protein
+fig|391904.5.peg.160	hypothetical protein
+fig|391904.5.peg.161	"Transcriptional regulator, AcrR family"
+fig|391904.5.peg.162	DNA polymerase III subunits gamma and tau (EC 2.7.7.7)
+fig|391904.5.peg.163	Recombination protein RecR
+fig|391904.5.peg.164	"Sortase A, LPXTG specific"
+fig|391904.5.peg.165	Aspartokinase (EC 2.7.2.4)
+fig|391904.5.peg.166	Aspartokinase (EC 2.7.2.4)
+fig|391904.5.peg.167	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)
+fig|391904.5.peg.168	FIG00672068: hypothetical protein
+fig|391904.5.peg.169	phosphohydrolase
+fig|391904.5.peg.170	2-isopropylmalate synthase (EC 2.3.3.13)
+fig|391904.5.peg.171	Multimodular transpeptidase-transglycosylase (EC 2.4.1.129) (EC 3.4.-.-)
+fig|391904.5.peg.172	"Phosphoesterase, PA-phosphatase related"
+fig|391904.5.peg.173	hypothetical protein
+fig|391904.5.peg.174	DNA topoisomerase I (EC 5.99.1.2)
+fig|391904.5.peg.175	Thymidylate kinase (EC 2.7.4.9)
+fig|391904.5.peg.176	DNA polymerase III delta prime subunit (EC 2.7.7.7)
+fig|391904.5.peg.177	"Transcriptional regulator, LacI family"
+fig|391904.5.peg.178	"Phosphotransferase system, phosphocarrier protein HPr"
+fig|391904.5.peg.179	hypothetical protein
+fig|391904.5.peg.180	Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)
+fig|391904.5.peg.181	Phospholipid-binding protein
+fig|391904.5.peg.182	Putative dipeptidase
+fig|391904.5.peg.183	Formate--tetrahydrofolate ligase (EC 6.3.4.3)
+fig|391904.5.peg.184	hypothetical protein
+fig|391904.5.peg.185	narrowly conserved hypothetical membrane protein
+fig|391904.5.peg.186	Transcriptional regulator
+fig|391904.5.peg.187	"ABC transporter, permease protein"
+fig|391904.5.peg.188	"Hypothetical, related to broad specificity phosphatases COG0406"
+fig|391904.5.peg.189	hypothetical protein
+fig|391904.5.peg.190	Aldose 1-epimerase
+fig|391904.5.peg.191	hypothetical protein
+fig|391904.5.peg.192	Abi-like
+fig|391904.5.peg.193	Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)
+fig|391904.5.peg.194	Membrane protein involved in colicin uptake
+fig|391904.5.peg.195	hypothetical protein
+fig|391904.5.peg.196	hypothetical protein
+fig|391904.5.peg.197	hypothetical protein
+fig|391904.5.peg.198	hypothetical protein
+fig|391904.5.peg.199	High-affinity Fe2+/Pb2+ permease precursor
+fig|391904.5.peg.200	Periplasmic protein p19 involved in high-affinity Fe2+ transport
+fig|391904.5.peg.201	"Fe2+ ABC transporter, substrate binding protein"
+fig|391904.5.peg.202	"Fe2+ ABC transporter, permease protein 1"
+fig|391904.5.peg.203	"Fe2+ ABC transporter, permease protein 2"
+fig|391904.5.peg.204	"ABC-type antimicrobial peptide transport system, ATPase component"
+fig|391904.5.peg.205	hypothetical protein
+fig|391904.5.peg.206	"Transcriptional regulator, AcrR family"
+fig|391904.5.peg.207	hypothetical protein
+fig|391904.5.peg.208	Phage infection protein
+fig|391904.5.peg.209	hypothetical protein
+fig|391904.5.peg.210	"6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)"
+fig|391904.5.peg.211	"6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type"
+fig|391904.5.peg.212	"OpcA, an allosteric effector of glucose-6-phosphate dehydrogenase, actinobacterial"
+fig|391904.5.peg.213	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)
+fig|391904.5.peg.214	hypothetical protein
+fig|391904.5.peg.215	hypothetical protein
+fig|391904.5.peg.216	hypothetical protein
+fig|391904.5.peg.217	Major facilitator superfamily MFS_1
+fig|391904.5.peg.218	hypothetical protein
+fig|391904.5.peg.219	hypothetical protein
+fig|391904.5.peg.220	hypothetical protein
+fig|391904.5.peg.221	Dipeptidase
+fig|391904.5.peg.222	Glycosyltransferase
+fig|391904.5.peg.223	"Transcriptional regulator, AcrR family"
+fig|391904.5.peg.224	Signal recognition particle receptor FtsY
+fig|391904.5.peg.225	Ammonium transporter
+fig|391904.5.peg.226	Nitrogen regulatory protein P-II
+fig|391904.5.peg.227	[Protein-PII] uridylyltransferase (EC 2.7.7.59) / [Protein-PII]-UMP uridylyl-removing enzyme
+fig|391904.5.peg.228	MATE efflux family protein
+fig|391904.5.peg.229	Replicative DNA helicase (DnaB) (EC 3.6.4.12)
+fig|391904.5.peg.230	proposed amino acid ligase found clustered with an amidotransferase
+fig|391904.5.peg.231	Putative amidotransferase similar to cobyric acid synthase
+fig|391904.5.peg.232	hypothetical protein
+fig|391904.5.peg.233	Uncharacterized ABC1 family protein Bbr_0249
+fig|391904.5.peg.234	"Hypothetical protein YggS, proline synthase co-transcribed bacterial homolog PROSC"
+fig|391904.5.peg.235	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)
+fig|391904.5.peg.236	SSU ribosomal protein S6p
+fig|391904.5.peg.237	Single-stranded DNA-binding protein
+fig|391904.5.peg.238	"SSU ribosomal protein S18p @ SSU ribosomal protein S18p, zinc-independent"
+fig|391904.5.peg.239	LSU ribosomal protein L9p
+fig|391904.5.peg.240	Transposase and inactivated derivatives
+fig|391904.5.peg.241	hypothetical protein
+fig|391904.5.peg.242	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.243	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.244	hypothetical protein
+fig|391904.5.peg.245	Major facilitator superfamily MFS_1
+fig|391904.5.peg.246	Mobile element protein
+fig|391904.5.peg.247	"Predicted transporter of Fuc(a1-6)GlcNAc-peptide, Glucose Transporter (GT) Family"
+fig|391904.5.peg.248	"Exo-alpha-L-(1-6)-fucosidase, GH29"
+fig|391904.5.peg.249	Glycerol uptake facilitator protein
+fig|391904.5.peg.250	"Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)"
+fig|391904.5.peg.251	Repressor CsoR of the copZA operon
+fig|391904.5.peg.252	DNA recombination protein RmuC
+fig|391904.5.peg.253	hypothetical protein
+fig|391904.5.peg.254	rRNA methylases
+fig|391904.5.peg.255	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) / Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)
+fig|391904.5.peg.256	Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7) / Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6)
+fig|391904.5.peg.257	Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7) / Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6)
+fig|391904.5.peg.258	Putative acetyltransferase
+fig|391904.5.peg.259	Protein often found in Actinomycetes clustered with signal peptidase and/or RNaseHII
+fig|391904.5.peg.260	hypothetical protein
+fig|391904.5.peg.261	Protoporphyrinogen oxidase
+fig|391904.5.peg.262	Transcription termination factor Rho
+fig|391904.5.peg.263	"Predicted transcriptional regulator of b(1-3)-linked galactooligosaccharides utilization, LacI family"
+fig|391904.5.peg.264	"b(1-3)-linked GOS transporter, GPH:Cation Symporter Family"
+fig|391904.5.peg.265	"Exo-beta-(1-3)-galactosidase, GH2"
+fig|391904.5.peg.266	hypothetical protein
+fig|391904.5.peg.267	Transposase
+fig|391904.5.peg.268	"Transposase, mutator type"
+fig|391904.5.peg.269	hypothetical protein
+fig|391904.5.peg.270	hypothetical protein
+fig|391904.5.peg.271	Tyrosine recombinase XerD
+fig|391904.5.peg.272	hypothetical protein
+fig|391904.5.peg.273	Chorismate mutase I (EC 5.4.99.5)
+fig|391904.5.peg.274	hypothetical protein
+fig|391904.5.peg.275	Valyl-tRNA synthetase (EC 6.1.1.9)
+fig|391904.5.peg.276	"ABC transporter, substrate-binding protein"
+fig|391904.5.peg.277	Endonuclease III (EC 4.2.99.18)
+fig|391904.5.peg.278	hypothetical protein
+fig|391904.5.peg.279	Response regulators consisting of a CheY-like receiver domain and a winged-helix DNA-binding domain
+fig|391904.5.peg.280	hypothetical protein
+fig|391904.5.peg.281	Probable manganese efflux pump MntP
+fig|391904.5.peg.282	Inorganic pyrophosphatase (EC 3.6.1.1)
+fig|391904.5.peg.283	Alpha-amylase (EC 3.2.1.1)
+fig|391904.5.peg.284	hypothetical protein
+fig|391904.5.peg.285	hypothetical protein
+fig|391904.5.peg.286	hypothetical protein
+fig|391904.5.peg.287	hypothetical protein
+fig|391904.5.peg.288	hypothetical protein
+fig|391904.5.peg.289	hypothetical protein
+fig|391904.5.peg.290	hypothetical protein
+fig|391904.5.peg.291	hypothetical protein
+fig|391904.5.peg.292	Phage integrase
+fig|391904.5.peg.293	hypothetical protein
+fig|391904.5.peg.294	hypothetical protein
+fig|391904.5.peg.295	plasmid transfer protein
+fig|391904.5.peg.296	hypothetical protein
+fig|391904.5.peg.297	hypothetical protein
+fig|391904.5.peg.298	hypothetical protein
+fig|391904.5.peg.299	hypothetical protein
+fig|391904.5.peg.300	hypothetical protein
+fig|391904.5.peg.301	Homoserine O-succinyltransferase (EC 2.3.1.46)
+fig|391904.5.peg.302	ATP synthase F0 sector subunit a (EC 3.6.3.14)
+fig|391904.5.peg.303	ATP synthase F0 sector subunit c (EC 3.6.3.14)
+fig|391904.5.peg.304	ATP synthase F0 sector subunit b (EC 3.6.3.14)
+fig|391904.5.peg.305	ATP synthase delta chain (EC 3.6.3.14)
+fig|391904.5.peg.306	ATP synthase alpha chain (EC 3.6.3.14)
+fig|391904.5.peg.307	ATP synthase gamma chain (EC 3.6.3.14)
+fig|391904.5.peg.308	ATP synthase beta chain (EC 3.6.3.14)
+fig|391904.5.peg.309	ATP synthase epsilon chain (EC 3.6.3.14)
+fig|391904.5.peg.310	FIG00996186: hypothetical protein
+fig|391904.5.peg.311	possible secreted peptidyl-prolyl cis-trans isomerase protein
+fig|391904.5.peg.312	hypothetical protein
+fig|391904.5.peg.313	hypothetical protein
+fig|391904.5.peg.314	FIG000875: Thioredoxin domain-containing protein EC-YbbN
+fig|391904.5.peg.315	narrowly conserved hypothetical protein
+fig|391904.5.peg.316	RidA/YER057c/UK114 superfamily protein
+fig|391904.5.peg.317	1-acyl-sn-glycerol-3-phosphate acyltransferase
+fig|391904.5.peg.318	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)
+fig|391904.5.peg.319	D-alanine--D-alanine ligase (EC 6.3.2.4)
+fig|391904.5.peg.320	"ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)"
+fig|391904.5.peg.321	"ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)"
+fig|391904.5.peg.322	"ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)"
+fig|391904.5.peg.323	"ABC transporter, ATP-binding protein (cluster 1, maltose/g3p/polyamine/iron); ABC transporter, ATP-binding protein (cluster 10, nitrate/sulfonate/bicarbonate)"
+fig|391904.5.peg.324	hypothetical protein
+fig|391904.5.peg.325	hypothetical protein
+fig|391904.5.peg.326	Aspartate ammonia-lyase (EC 4.3.1.1)
+fig|391904.5.peg.327	hypothetical protein
+fig|391904.5.peg.328	hypothetical protein
+fig|391904.5.peg.329	Methylated-DNA--protein-cysteine methyltransferase (EC 2.1.1.63)
+fig|391904.5.peg.330	hypothetical protein
+fig|391904.5.peg.331	hypothetical protein
+fig|391904.5.peg.332	hypothetical protein
+fig|391904.5.peg.333	hypothetical protein
+fig|391904.5.peg.334	"Transcriptional regulator, MerR family"
+fig|391904.5.peg.335	hypothetical protein
+fig|391904.5.peg.336	probable PfkB family carbohydrate (sugar) kinase
+fig|391904.5.peg.337	"LSU ribosomal protein L28p @ LSU ribosomal protein L28p, zinc-dependent"
+fig|391904.5.peg.338	ATP-dependent DNA helicase RecG (EC 3.6.4.12)
+fig|391904.5.peg.339	"Predicted transcriptional regulator for fucosyllactose utilization, LacI family"
+fig|391904.5.peg.340	"2&#39;FL, 3FL, LDFT, LNFP I ABC transporter, permease component 1"
+fig|391904.5.peg.341	"2&#39;FL, 3FL, LDFT, LNFP I ABC transporter, permease component 2"
+fig|391904.5.peg.342	"2&#39;FL, 3FL ABC transporter, substrate-binding protein"
+fig|391904.5.peg.343	L-fuconate dehydratase (EC 4.2.1.68)
+fig|391904.5.peg.344	Permease of the major facilitator superfamily
+fig|391904.5.peg.345	hypothetical protein
+fig|391904.5.peg.346	hypothetical protein
+fig|391904.5.peg.347	Putative DNA methyltransferase
+fig|391904.5.peg.348	Mobile element protein
+fig|391904.5.peg.349	16S rRNA (guanine(966)-N(2))-methyltransferase (EC 2.1.1.171)
+fig|391904.5.peg.350	tRNA (guanine(37)-N(1))-methyltransferase (EC 2.1.1.228)
+fig|391904.5.peg.351	"peptidase, U32 family large subunit [C1]"
+fig|391904.5.peg.352	FIG00003370: Multicopper polyphenol oxidase
+fig|391904.5.peg.353	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)
+fig|391904.5.peg.354	Pyrrolidone-carboxylate peptidase (EC 3.4.19.3)
+fig|391904.5.peg.355	Cell division initiation protein DivIVA
+fig|391904.5.peg.356	Aminopeptidase C (EC 3.4.22.40)
+fig|391904.5.peg.357	2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I alpha (EC 2.5.1.54)
+fig|391904.5.peg.358	FIG00424813: hypothetical protein
+fig|391904.5.peg.359	2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I alpha (EC 2.5.1.54)
+fig|391904.5.peg.360	5&#39;-methylthioadenosine nucleosidase (EC 3.2.2.16) @ S-adenosylhomocysteine nucleosidase (EC 3.2.2.9)
+fig|391904.5.peg.361	transmembrane transport protein possibly for shikimate
+fig|391904.5.peg.362	Phosphate regulon sensor protein PhoR (SphS) (EC 2.7.13.3)
+fig|391904.5.peg.363	Phosphate regulon transcriptional regulatory protein PhoB (SphR)
+fig|391904.5.peg.364	"Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)"
+fig|391904.5.peg.365	Phosphate transport system permease protein PstC (TC 3.A.1.7.1)
+fig|391904.5.peg.366	Phosphate transport system permease protein PstA (TC 3.A.1.7.1)
+fig|391904.5.peg.367	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)
+fig|391904.5.peg.368	LemA protein
+fig|391904.5.peg.369	hypothetical protein
+fig|391904.5.peg.370	putative membrane protein
+fig|391904.5.peg.371	hypothetical protein
+fig|391904.5.peg.372	hypothetical protein
+fig|391904.5.peg.373	hypothetical protein
+fig|391904.5.peg.374	possible oxidoreductase of the aldo/keto reductase family
+fig|391904.5.peg.375	Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)
+fig|391904.5.peg.376	"Predicted transcriptional regulator of globotriosylceramide utilization, LacI family"
+fig|391904.5.peg.377	"Globotriose ABC transporter, substrate-binding protein"
+fig|391904.5.peg.378	"Globotriose ABC transporter, permease protein 1"
+fig|391904.5.peg.379	"Globotriose ABC transporter, permease protein 2"
+fig|391904.5.peg.380	"Predicted lyase in locus with globotriose ABC transporter, PL27"
+fig|391904.5.peg.381	Toxin HigB / Protein kinase domain of HipA
+fig|391904.5.peg.382	16S rRNA processing protein RimM
+fig|391904.5.peg.383	KH domain RNA binding protein YlqC
+fig|391904.5.peg.384	SSU ribosomal protein S16p
+fig|391904.5.peg.385	hypothetical protein
+fig|391904.5.peg.386	Aminodeoxychorismate lyase (EC 4.1.3.38)
+fig|391904.5.peg.387	"Para-aminobenzoate synthase, aminase component (EC 2.6.1.85)"
+fig|391904.5.peg.388	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)
+fig|391904.5.peg.389	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)
+fig|391904.5.peg.390	"GTP cyclohydrolase II (EC 3.5.4.25) / 3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12)"
+fig|391904.5.peg.391	"6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)"
+fig|391904.5.peg.392	hypothetical protein
+fig|391904.5.peg.393	Signal recognition particle protein Ffh
+fig|391904.5.peg.394	Cobalt-zinc-cadmium resistance protein
+fig|391904.5.peg.395	Cysteinyl-tRNA synthetase (EC 6.1.1.16)
+fig|391904.5.peg.396	"Glutamine amidotransferase, class I"
+fig|391904.5.peg.397	ATPase components of ABC transporters with duplicated ATPase domains
+fig|391904.5.peg.398	VapB protein (antitoxin to VapC)
+fig|391904.5.peg.399	Acetolactate synthase small subunit (EC 2.2.1.6)
+fig|391904.5.peg.400	Acetolactate synthase large subunit (EC 2.2.1.6)
+fig|391904.5.peg.401	Ribonuclease III (EC 3.1.26.3)
+fig|391904.5.peg.402	"LSU ribosomal protein L32p @ LSU ribosomal protein L32p, zinc-dependent"
+fig|391904.5.peg.403	"FIG01269488: protein, clustered with ribosomal protein L32p"
+fig|391904.5.peg.404	FIG00814129: Possible chaperone
+fig|391904.5.peg.405	Phosphopantetheine adenylyltransferase (EC 2.7.7.3)
+fig|391904.5.peg.406	hypothetical protein
+fig|391904.5.peg.407	Predicted oxidoreductases (related to aryl-alcohol dehydrogenases)
+fig|391904.5.peg.408	"Transcriptional regulator, MerR family"
+fig|391904.5.peg.409	Permeases of the major facilitator superfamily
+fig|391904.5.peg.410	Nicotinate phosphoribosyltransferase (EC 6.3.4.21)
+fig|391904.5.peg.411	FIG00425848: hypothetical protein
+fig|391904.5.peg.412	Ribonuclease PH (EC 2.7.7.56)
+fig|391904.5.peg.413	"Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC 3.6.1.15)"
+fig|391904.5.peg.414	hypothetical protein
+fig|391904.5.peg.415	hypothetical protein
+fig|391904.5.peg.416	hypothetical protein
+fig|391904.5.peg.417	Transporter
+fig|391904.5.peg.418	hypothetical protein
+fig|391904.5.peg.419	Glucose-6-phosphate isomerase (EC 5.3.1.9)
+fig|391904.5.peg.420	"ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component"
+fig|391904.5.peg.421	"ABC-type anion transport system, duplicated permease component"
+fig|391904.5.peg.422	LSU ribosomal protein L19p
+fig|391904.5.peg.423	Signal peptidase I (EC 3.4.21.89)
+fig|391904.5.peg.424	Ribonuclease HII (EC 3.1.26.4)
+fig|391904.5.peg.425	"AraQ transcriptional regulator, LacI family"
+fig|391904.5.peg.426	hypothetical protein
+fig|391904.5.peg.427	"Predicted transporter of Fuc(a1-6)GlcNAc-peptide, Glucose Transporter (GT) Family"
+fig|391904.5.peg.428	"Exo-alpha-L-(1-6)-fucosidase, GH29"
+fig|391904.5.peg.429	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+fig|391904.5.peg.430	hypothetical protein
+fig|391904.5.peg.431	hypothetical protein
+fig|391904.5.peg.432	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.433	hypothetical protein
+fig|391904.5.peg.434	hypothetical protein
+fig|391904.5.peg.435	hypothetical protein
+fig|391904.5.peg.436	hypothetical protein
+fig|391904.5.peg.437	hypothetical protein
+fig|391904.5.peg.438	hypothetical protein
+fig|391904.5.peg.439	ABC transporter related
+fig|391904.5.peg.440	hypothetical protein
+fig|391904.5.peg.441	hypothetical protein
+fig|391904.5.peg.442	"Transcriptional regulator of b(1-4)-linked galactooligosaccharides and galactan utilization, LacI family"
+fig|391904.5.peg.443	Truncated endo-beta-(1-4/1-3)-galactanase without the GH53 domain
+fig|391904.5.peg.444	dehydrogenase or reductase protein( EC:1.1.1.274 )
+fig|391904.5.peg.445	putative secreted protein
+fig|391904.5.peg.446	Manganese transport protein MntH
+fig|391904.5.peg.447	Permeases of the major facilitator superfamily
+fig|391904.5.peg.448	hypothetical protein
+fig|391904.5.peg.449	Replication protein
+fig|391904.5.peg.450	hypothetical protein
+fig|391904.5.peg.451	hypothetical protein
+fig|391904.5.peg.452	Mobile element protein
+fig|391904.5.peg.453	Integrase
+fig|391904.5.peg.454	Integrase
+fig|391904.5.peg.455	hypothetical protein
+fig|391904.5.peg.456	hypothetical protein
+fig|391904.5.peg.457	Integrase
+fig|391904.5.peg.458	"Exo-beta-(1-3/1-4/1-6)-N-acetylglucosaminidase, GH20"
+fig|391904.5.peg.459	"ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)"
+fig|391904.5.peg.460	"Type II HMOs transporter B. breve like, permease component 1"
+fig|391904.5.peg.461	"Type II HMOs transporter B. breve, substrate-binding protein"
+fig|391904.5.peg.462	Two-component system sensor protein
+fig|391904.5.peg.463	hypothetical protein
+fig|391904.5.peg.464	hypothetical protein
+fig|391904.5.peg.465	hypothetical protein
+fig|391904.5.peg.466	hypothetical protein
+fig|391904.5.peg.467	ABC transporter related
+fig|391904.5.peg.468	hypothetical protein
+fig|391904.5.peg.469	Serine/threonine protein kinase
+fig|391904.5.peg.470	Two-component system response regulator
+fig|391904.5.peg.471	Putative two-component sensor
+fig|391904.5.peg.472	"COG0577: ABC-type antimicrobial peptide transport system, permease component"
+fig|391904.5.peg.473	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.474	"ABC transporter, NBP/MSD fusion protein"
+fig|391904.5.peg.475	hypothetical protein
+fig|391904.5.peg.476	asparagine synthetase
+fig|391904.5.peg.477	hypothetical protein
+fig|391904.5.peg.478	hypothetical protein
+fig|391904.5.peg.479	Two-component system response regulator
+fig|391904.5.peg.480	Two-component system sensor protein
+fig|391904.5.peg.481	hypothetical protein
+fig|391904.5.peg.482	hypothetical protein
+fig|391904.5.peg.483	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.484	hypothetical protein
+fig|391904.5.peg.485	hypothetical protein
+fig|391904.5.peg.486	Aspartate aminotransferase (EC 2.6.1.1)
+fig|391904.5.peg.487	hypothetical protein
+fig|391904.5.peg.488	hypothetical protein
+fig|391904.5.peg.489	Putative permease
+fig|391904.5.peg.490	hypothetical protein
+fig|391904.5.peg.491	hypothetical protein
+fig|391904.5.peg.492	Mobile element protein
+fig|391904.5.peg.493	Integrase
+fig|391904.5.peg.494	hypothetical protein
+fig|391904.5.peg.495	hypothetical protein
+fig|391904.5.peg.496	hypothetical protein
+fig|391904.5.peg.497	"Tn5252, Orf23"
+fig|391904.5.peg.498	COG0477: Permeases of the major facilitator superfamily
+fig|391904.5.peg.499	Two-component system sensor histidine kinase
+fig|391904.5.peg.500	Two-component system response regulator
+fig|391904.5.peg.501	hypothetical protein
+fig|391904.5.peg.502	hypothetical protein
+fig|391904.5.peg.503	hypothetical protein
+fig|391904.5.peg.504	hypothetical protein
+fig|391904.5.peg.505	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.506	hypothetical protein
+fig|391904.5.peg.507	"Transcriptional regulator of lactose utilization, LacI family"
+fig|391904.5.peg.508	hypothetical protein
+fig|391904.5.peg.509	hypothetical protein
+fig|391904.5.peg.510	ABC transporter related
+fig|391904.5.peg.511	hypothetical protein
+fig|391904.5.peg.512	Helix-turn-helix domain protein
+fig|391904.5.peg.513	hypothetical protein
+fig|391904.5.peg.514	COG0583: Transcriptional regulator
+fig|391904.5.peg.515	COG1192: ATPases involved in chromosome partitioning
+fig|391904.5.peg.516	ParA
+fig|391904.5.peg.517	hypothetical protein
+fig|391904.5.peg.518	hypothetical protein
+fig|391904.5.peg.519	hypothetical protein
+fig|391904.5.peg.520	hypothetical protein
+fig|391904.5.peg.521	hypothetical protein
+fig|391904.5.peg.522	tRNA (guanine46-N7-)-methyltransferase (EC 2.1.1.33)
+fig|391904.5.peg.523	UDP-glucose 4-epimerase (EC 5.1.3.2)
+fig|391904.5.peg.524	Cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)
+fig|391904.5.peg.525	Lactaldehyde reductase (EC 1.1.1.77)
+fig|391904.5.peg.526	Putative glycosyltransferase
+fig|391904.5.peg.527	putative membrane protein
+fig|391904.5.peg.528	hypothetical protein
+fig|391904.5.peg.529	"Multidrug ABC transporter, ATP-binding protein"
+fig|391904.5.peg.530	hypothetical protein
+fig|391904.5.peg.531	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)
+fig|391904.5.peg.532	tRNA(Ile)-lysidine synthetase (EC 6.3.4.19)
+fig|391904.5.peg.533	Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)
+fig|391904.5.peg.534	Cell division protein FtsH (EC 3.4.24.-)
+fig|391904.5.peg.535	GTP cyclohydrolase I (EC 3.5.4.16) type 1
+fig|391904.5.peg.536	Dihydropteroate synthase (EC 2.5.1.15)
+fig|391904.5.peg.537	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3) / Dihydroneopterin aldolase (EC 4.1.2.25)
+fig|391904.5.peg.538	FIG027937: secreted protein
+fig|391904.5.peg.539	Acyl-CoA thioesterase II (EC 3.1.2.-)
+fig|391904.5.peg.540	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.541	Mobile element protein
+fig|391904.5.peg.542	hypothetical protein
+fig|391904.5.peg.543	hypothetical protein
+fig|391904.5.peg.544	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.545	"ABC transporter, permease protein"
+fig|391904.5.peg.546	Transcriptional regulator
+fig|391904.5.peg.547	Mobile element protein
+fig|391904.5.peg.548	Drug resistance transporter EmrB/QacA subfamily
+fig|391904.5.peg.549	Glucokinase (EC 2.7.1.2)
+fig|391904.5.peg.550	hypothetical protein
+fig|391904.5.peg.551	"oxidoreductase of aldo/keto reductase family, subgroup 1"
+fig|391904.5.peg.552	Peptide deformylase (EC 3.5.1.88)
+fig|391904.5.peg.553	hypothetical protein
+fig|391904.5.peg.554	COG0477: Permeases of the major facilitator superfamily
+fig|391904.5.peg.555	Multidrug resistance protein ErmB
+fig|391904.5.peg.556	hypothetical protein
+fig|391904.5.peg.558	"LSU ribosomal protein L31p @ LSU ribosomal protein L31p, zinc-dependent"
+fig|391904.5.peg.559	Peptide chain release factor 1
+fig|391904.5.peg.560	Peptide chain release factor N(5)-glutamine methyltransferase (EC 2.1.1.297)
+fig|391904.5.peg.561	"Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)"
+fig|391904.5.peg.562	hypothetical protein
+fig|391904.5.peg.563	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)
+fig|391904.5.peg.564	Branched-chain amino acid transport system permease protein LivM (TC 3.A.1.4.1)
+fig|391904.5.peg.565	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)
+fig|391904.5.peg.566	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)
+fig|391904.5.peg.567	TsaC protein (YrdC domain) required for threonylcarbamoyladenosine t(6)A37 modification in tRNA
+fig|391904.5.peg.568	Undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.33)
+fig|391904.5.peg.569	Inosine-5&#39;-monophosphate dehydrogenase (EC 1.1.1.205) / CBS domain
+fig|391904.5.peg.570	FIG00424669: hypothetical protein
+fig|391904.5.peg.571	3&#39;-to-5&#39; oligoribonuclease (orn)
+fig|391904.5.peg.572	Putative helicase
+fig|391904.5.peg.573	"COG1355, Predicted dioxygenase"
+fig|391904.5.peg.574	hypothetical protein
+fig|391904.5.peg.575	"Prolyl-tRNA synthetase (EC 6.1.1.15), bacterial type"
+fig|391904.5.peg.576	Single-stranded DNA-binding protein
+fig|391904.5.peg.577	Metallopeptidase
+fig|391904.5.peg.578	putative membrane protein
+fig|391904.5.peg.579	Methionine aminopeptidase (EC 3.4.11.18)
+fig|391904.5.peg.580	Citrate synthase (si) (EC 2.3.3.1)
+fig|391904.5.peg.581	"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)"
+fig|391904.5.peg.582	hypothetical protein
+fig|391904.5.peg.583	"COG0553: Superfamily II DNA/RNA helicases, SNF2 family"
+fig|391904.5.peg.584	COG0454: Histone acetyltransferase HPA2 and related acetyltransferases
+fig|391904.5.peg.585	Very-short-patch mismatch repair endonuclease (G-T specific)
+fig|391904.5.peg.586	Putative oxidoreductase for Trp catabolism
+fig|391904.5.peg.587	Valine--pyruvate aminotransferase (EC 2.6.1.66)
+fig|391904.5.peg.588	Exopolyphosphatase (EC 3.6.1.11)
+fig|391904.5.peg.589	INTEGRAL MEMBRANE PROTEIN (Rhomboid family)
+fig|391904.5.peg.590	Nucleoside 2-deoxyribosyltransferase
+fig|391904.5.peg.591	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+fig|391904.5.peg.592	NAD(P)H oxidoreductase YRKL (EC 1.6.99.-) @ Putative NADPH-quinone reductase (modulator of drug activity B) @ Flavodoxin 2
+fig|391904.5.peg.593	hypothetical protein
+fig|391904.5.peg.594	Exodeoxyribonuclease VII small subunit (EC 3.1.11.6)
+fig|391904.5.peg.595	Exodeoxyribonuclease VII large subunit (EC 3.1.11.6)
+fig|391904.5.peg.596	"Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)"
+fig|391904.5.peg.597	"Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)"
+fig|391904.5.peg.598	Activator of (R)-2-hydroxyglutaryl-CoA dehydratase
+fig|391904.5.peg.599	POSSIBLE RESOLVASE
+fig|391904.5.peg.600	"putative transposase, IS891/IS1136/IS1341"
+fig|391904.5.peg.601	Similar to Glutamate--cysteine ligase (EC 6.3.2.2)
+fig|391904.5.peg.602	putative beta-glucosidase
+fig|391904.5.peg.603	"Nucleotidyltransferase domain protein, Caur_2868 group"
+fig|391904.5.peg.604	"Protein of unknown function DUF86, Caur_2869 group"
+fig|391904.5.peg.605	"Hypothetical GH, GH5"
+fig|391904.5.peg.606	Mobile element protein
+fig|391904.5.peg.607	hypothetical protein
+fig|391904.5.peg.608	"Predicted beta-glucoside specific transcriptional regulator, TetR family"
+fig|391904.5.peg.609	hypothetical protein
+fig|391904.5.peg.610	"Beta-glucosidase, GH3"
+fig|391904.5.peg.611	hypothetical protein
+fig|391904.5.peg.612	hypothetical protein
+fig|391904.5.peg.613	hypothetical protein
+fig|391904.5.peg.614	"Glycosyl transferase, group 1 family protein"
+fig|391904.5.peg.615	Putative transmembrane protein
+fig|391904.5.peg.616	hypothetical protein
+fig|391904.5.peg.617	hypothetical protein
+fig|391904.5.peg.618	hypothetical protein
+fig|391904.5.peg.619	putative signaling protein
+fig|391904.5.peg.620	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.621	"ABC transporter, ATP-binding/permease protein"
+fig|391904.5.peg.622	hypothetical protein
+fig|391904.5.peg.623	Ribose operon repressor
+fig|391904.5.peg.624	Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)
+fig|391904.5.peg.625	"Predicted nucleoside transporter, MFS family"
+fig|391904.5.peg.626	Ribokinase (EC 2.7.1.15)
+fig|391904.5.peg.627	"Transcriptional regulator, LacI family"
+fig|391904.5.peg.628	"Transcriptional regulator of sialic acid metabolism, GntR family"
+fig|391904.5.peg.629	hypothetical protein
+fig|391904.5.peg.630	N-acetylmannosamine kinase (EC 2.7.1.60)
+fig|391904.5.peg.631	N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)
+fig|391904.5.peg.632	"Exo-alpha-(2-3/2-6)-sialidase, GH33"
+fig|391904.5.peg.633	hypothetical protein
+fig|391904.5.peg.634	"ABC transporter, predicted N-acetylneuraminate-binding protein"
+fig|391904.5.peg.635	hypothetical protein
+fig|391904.5.peg.636	"ABC transporter, predicted N-acetylneuraminate transport system permease protein 1"
+fig|391904.5.peg.637	"ABC transporter, predicted N-acetylneuraminate transport system permease protein 2 / ABC transporter, predicted N-acetylneuraminate transport system ATP-binding protein"
+fig|391904.5.peg.638	"ABC transporter, predicted N-acetylneuraminate transport system ATP-binding protein"
+fig|391904.5.peg.639	N-acetylneuraminate lyase (EC 4.1.3.3)
+fig|391904.5.peg.640	hypothetical protein
+fig|391904.5.peg.641	hypothetical protein
+fig|391904.5.peg.642	Isoleucyl-tRNA synthetase (EC 6.1.1.5)
+fig|391904.5.peg.643	hypothetical protein
+fig|391904.5.peg.644	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.645	"Transposase, mutator type"
+fig|391904.5.peg.646	Transposase
+fig|391904.5.peg.647	hypothetical protein
+fig|391904.5.peg.648	"Predicted hexuronate transporter, GPH family"
+fig|391904.5.peg.649	hypothetical protein
+fig|391904.5.peg.650	"Predicted hexuronate transporter, GPH family"
+fig|391904.5.peg.651	hypothetical protein
+fig|391904.5.peg.652	"Predicted hexuronate transporter, GPH family"
+fig|391904.5.peg.653	"Predicted regulator for glucuronate utilization, LacI family"
+fig|391904.5.peg.654	"Predicted regulator for glucuronate utilization, LacI family"
+fig|391904.5.peg.655	"Predicted 6-phospho-KDG dehydrogenase, decarboxylating / Predicted 2-dehydro-3-deoxygluconate kinase in Bifidobacteria (EC 2.7.1.45)"
+fig|391904.5.peg.656	Mannonate dehydratase (EC 4.2.1.8)
+fig|391904.5.peg.657	D-mannonate oxidoreductase (EC 1.1.1.57)
+fig|391904.5.peg.658	Uronate isomerase (EC 5.3.1.12)
+fig|391904.5.peg.659	hypothetical protein
+fig|391904.5.peg.660	hypothetical protein
+fig|391904.5.peg.661	hypothetical protein
+fig|391904.5.peg.662	hypothetical protein
+fig|391904.5.peg.663	Transposase
+fig|391904.5.peg.664	hypothetical protein
+fig|391904.5.peg.665	Transposase and inactivated derivatives
+fig|391904.5.peg.666	Mobile element protein
+fig|391904.5.peg.667	hypothetical protein
+fig|391904.5.peg.668	hypothetical protein
+fig|391904.5.peg.669	Transposase
+fig|391904.5.peg.670	DNA-binding protein HU-alpha
+fig|391904.5.peg.671	hypothetical protein
+fig|391904.5.peg.672	Adenylosuccinate lyase (EC 4.3.2.2) @ SAICAR lyase (EC 4.3.2.2)
+fig|391904.5.peg.673	Substrate-specific component YkoE of thiamin-regulated ECF transporter for Thiamin
+fig|391904.5.peg.674	hypothetical protein
+fig|391904.5.peg.675	hypothetical protein
+fig|391904.5.peg.676	hypothetical protein
+fig|391904.5.peg.677	hypothetical protein
+fig|391904.5.peg.678	COG2304: Uncharacterized protein containing a von Willebrand factor type A (vWA) domain
+fig|391904.5.peg.679	COG family: uncharacterized Bcr
+fig|391904.5.peg.680	hypothetical protein
+fig|391904.5.peg.681	hypothetical protein
+fig|391904.5.peg.682	widely conserved MoxR-like protein in magnesium chelatase family
+fig|391904.5.peg.683	"Uracil-DNA glycosylase, family 1"
+fig|391904.5.peg.684	hypothetical protein
+fig|391904.5.peg.685	Cold shock protein
+fig|391904.5.peg.686	hypothetical protein
+fig|391904.5.peg.687	Heat shock protein 60 family chaperone GroEL
+fig|391904.5.peg.688	hypothetical protein
+fig|391904.5.peg.689	hypothetical protein
+fig|391904.5.peg.690	Response regulators consisting of a CheY-like receiver domain and a winged-helix DNA-binding domain
+fig|391904.5.peg.691	Two-component system sensor histidine kinase
+fig|391904.5.peg.692	Cold shock protein of CSP family => SCO4325
+fig|391904.5.peg.693	narrowly conserved hypothetical protein
+fig|391904.5.peg.694	Universal stress protein family; UspA
+fig|391904.5.peg.695	"ATP-dependent Clp protease, ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB"
+fig|391904.5.peg.696	5&#39;-nucleotidase (EC 3.1.3.5)
+fig|391904.5.peg.697	ATPase involved in DNA repair
+fig|391904.5.peg.698	Histidyl-tRNA synthetase (EC 6.1.1.21)
+fig|391904.5.peg.699	Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)
+fig|391904.5.peg.700	narrowly conserved hypothetical protein
+fig|391904.5.peg.701	hypothetical protein
+fig|391904.5.peg.702	"ABC-type polar amino acid transport system, ATPase component"
+fig|391904.5.peg.703	glutamate-binding protein of ABC transporter system
+fig|391904.5.peg.704	"ABC-type amino acid transport system, permease component"
+fig|391904.5.peg.705	"ABC-type amino acid transport system, permease component"
+fig|391904.5.peg.706	Membrane-associated phospholipid phosphatase
+fig|391904.5.peg.707	UDP-galactose-lipid carrier transferase (EC 2.-.-.-)
+fig|391904.5.peg.708	"Helicase, C-terminal:DEAD/DEAH box helicase, N-terminal"
+fig|391904.5.peg.709	"ATPase, AAA family"
+fig|391904.5.peg.710	Transport protein
+fig|391904.5.peg.711	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+fig|391904.5.peg.712	hypothetical protein
+fig|391904.5.peg.713	hypothetical protein
+fig|391904.5.peg.714	FIG004454: RNA binding protein
+fig|391904.5.peg.715	Duplicated ATPase component of energizing module of riboflavin ECF transporter / Transmembrane component of energizing module of riboflavin ECF transporter
+fig|391904.5.peg.716	Substrate-specific component RibU of riboflavin ECF transporter
+fig|391904.5.peg.717	Putative glycosyltransferase
+fig|391904.5.peg.718	Polyphosphate glucokinase (EC 2.7.1.63)
+fig|391904.5.peg.719	Putative aminotransferase
+fig|391904.5.peg.720	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.721	hypothetical protein
+fig|391904.5.peg.722	hypothetical protein
+fig|391904.5.peg.723	DNA ligase (NAD(+)) (EC 6.5.1.2)
+fig|391904.5.peg.724	Septum site-determining protein MinD
+fig|391904.5.peg.725	"Exo-beta-(1-3/1-4/1-6)-N-acetylglucosaminidase, GH20"
+fig|391904.5.peg.726	YbbM seven transmembrane helix protein
+fig|391904.5.peg.727	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.728	Translation elongation factor P
+fig|391904.5.peg.729	Transcription termination protein NusB
+fig|391904.5.peg.730	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)
+fig|391904.5.peg.731	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)
+fig|391904.5.peg.732	Orotidine 5&#39;-phosphate decarboxylase (EC 4.1.1.23)
+fig|391904.5.peg.733	Guanylate kinase (EC 2.7.4.8)
+fig|391904.5.peg.734	DNA polymerase III epsilon subunit (EC 2.7.7.7)
+fig|391904.5.peg.735	"Ribosome protection-type tetracycline resistance related proteins, group 2"
+fig|391904.5.peg.736	possible phospholipase/carboxylesterase
+fig|391904.5.peg.737	permease protein of ABC transporter system
+fig|391904.5.peg.738	"Amino acid ABC transporter, permease protein"
+fig|391904.5.peg.739	"ABC transporter, ATP-binding protein 1 (cluster 4, leucine/isoleucine/valine/benzoate) / ABC transporter, ATP-binding protein 2 (cluster 4, leucine/isoleucine/valine/benzoate)"
+fig|391904.5.peg.740	"ABC-type amino acid transport/signal transduction systems, periplasmic component/domain"
+fig|391904.5.peg.741	hypothetical protein
+fig|391904.5.peg.742	Cystathionine gamma-lyase (EC 4.4.1.1)
+fig|391904.5.peg.743	Glutaredoxin-like protein GlrX
+fig|391904.5.peg.744	hypothetical protein
+fig|391904.5.peg.745	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)
+fig|391904.5.peg.746	hypothetical protein
+fig|391904.5.peg.747	Uroporphyrinogen decarboxylase (URO-D)
+fig|391904.5.peg.748	"ABC transporter, substrate-binding protein (cluster 4, leucine/isoleucine/valine/benzoate)"
+fig|391904.5.peg.749	"ABC transporter, permease protein 1 (cluster 4, leucine/isoleucine/valine/benzoate) / ABC transporter, permease protein 2 (cluster 4, leucine/isoleucine/valine/benzoate)"
+fig|391904.5.peg.750	"ABC transporter, permease protein 1 (cluster 4, leucine/isoleucine/valine/benzoate) / ABC transporter, permease protein 2 (cluster 4, leucine/isoleucine/valine/benzoate)"
+fig|391904.5.peg.751	"N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)"
+fig|391904.5.peg.752	hypothetical protein
+fig|391904.5.peg.753	O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+fig|391904.5.peg.754	Glutaredoxin-like protein GlrX
+fig|391904.5.peg.755	ATP binding protein of ABC transporter for glutamate/aspartate
+fig|391904.5.peg.756	"ABC-type amino acid transport/signal transduction systems, periplasmic component/domain"
+fig|391904.5.peg.757	"ABC-type amino acid transport/signal transduction systems, periplasmic component/domain"
+fig|391904.5.peg.758	Putative stomatin/prohibitin-family membrane protease subunit YbbK
+fig|391904.5.peg.759	"Integrase, catalytic region"
+fig|391904.5.peg.760	hypothetical protein
+fig|391904.5.peg.761	ATP binding protein of ABC transporter for glutamate/aspartate
+fig|391904.5.peg.762	hypothetical protein
+fig|391904.5.peg.763	hypothetical protein
+fig|391904.5.peg.764	hypothetical protein
+fig|391904.5.peg.765	Predicted esterase of the alpha-beta hydrolase superfamily
+fig|391904.5.peg.766	Glutamate racemase (EC 5.1.1.3)
+fig|391904.5.peg.767	Diaminopimelate epimerase (EC 5.1.1.7)
+fig|391904.5.peg.768	putative integral membrane protein
+fig|391904.5.peg.769	hypothetical protein
+fig|391904.5.peg.770	FIG00031715: Predicted metal-dependent phosphoesterases (PHP family)
+fig|391904.5.peg.771	Putative ATP-binding protein
+fig|391904.5.peg.772	Macrolide 2&#39;-phosphotransferase
+fig|391904.5.peg.773	"ATP-dependent DNA helicase UvrD/PcrA, actinomycete paralog"
+fig|391904.5.peg.774	Uncharacterized protein SCO5199
+fig|391904.5.peg.775	hypothetical protein
+fig|391904.5.peg.776	narrowly conserved hypothetical protein
+fig|391904.5.peg.777	hypothetical protein
+fig|391904.5.peg.778	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
+fig|391904.5.peg.779	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase (EC 1.17.7.1)
+fig|391904.5.peg.780	hypothetical protein
+fig|391904.5.peg.781	DNA recombination and repair protein RecO
+fig|391904.5.peg.782	Undecaprenyl diphosphate synthase (EC 2.5.1.31)
+fig|391904.5.peg.783	Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)
+fig|391904.5.peg.784	"COG0715: ABC-type nitrate/sulfonate/bicarbonate transport systems, periplasmic components"
+fig|391904.5.peg.785	FIG00423908: hypothetical protein
+fig|391904.5.peg.786	"ABC-type nitrate/sulfonate/bicarbonate transport system, permease component"
+fig|391904.5.peg.787	"Exo-beta-(2-1/2-6)-fructofuranosidase 2, GH32"
+fig|391904.5.peg.788	"Sucrose permease, major facilitator superfamily"
+fig|391904.5.peg.789	"Sucrose specific transcriptional regulator CscR, LacI family"
+fig|391904.5.peg.790	Serine protease inhibitor (serpin family)
+fig|391904.5.peg.791	"Cytoplasmic thiamin-binding component of thiamin ABC transporter, COG0011 family"
+fig|391904.5.peg.792	Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)
+fig|391904.5.peg.793	Cell division protein FtsH (EC 3.4.24.-)
+fig|391904.5.peg.794	Phosphomethylpyrimidine synthase ThiC (EC 4.1.99.17) / Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)
+fig|391904.5.peg.795	Hydroxyethylthiazole kinase (EC 2.7.1.50)
+fig|391904.5.peg.796	hypothetical protein
+fig|391904.5.peg.797	Glycyl-tRNA synthetase (EC 6.1.1.14)
+fig|391904.5.peg.798	tRNA dihydrouridine synthase B (EC 1.-.-.-)
+fig|391904.5.peg.799	Cell division protein FtsZ (EC 3.4.24.-)
+fig|391904.5.peg.800	FIG001960: FtsZ-interacting protein related to cell division
+fig|391904.5.peg.801	"Cell division integral membrane protein, YGGT family"
+fig|391904.5.peg.802	hypothetical protein
+fig|391904.5.peg.803	Cell division initiation protein DivIVA
+fig|391904.5.peg.804	Lipoprotein signal peptidase (EC 3.4.23.36)
+fig|391904.5.peg.805	Ribosomal large subunit pseudouridine synthase D (EC 5.4.99.23)
+fig|391904.5.peg.806	putative integral membrane protein
+fig|391904.5.peg.807	hypothetical protein
+fig|391904.5.peg.808	DNA polymerase III alpha subunit (EC 2.7.7.7)
+fig|391904.5.peg.809	"ATP-dependent nuclease, subunit B"
+fig|391904.5.peg.810	"ATP-dependent nuclease, subunit A"
+fig|391904.5.peg.811	hypothetical protein
+fig|391904.5.peg.812	hypothetical protein
+fig|391904.5.peg.813	hypothetical protein
+fig|391904.5.peg.814	Putative transposase
+fig|391904.5.peg.815	hypothetical protein
+fig|391904.5.peg.816	DNA polymerase III alpha subunit (EC 2.7.7.7)
+fig|391904.5.peg.817	Uncharacterized protein YneG
+fig|391904.5.peg.818	67 kDa Myosin-crossreactive streptococcal antigen
+fig|391904.5.peg.819	"oxidoreductase of aldo/keto reductase family, subgroup 1"
+fig|391904.5.peg.820	Putative xylulose kinase (EC 2.7.1.17)
+fig|391904.5.peg.821	"Acylphosphate phosphohydrolase (EC 3.6.1.7), putative"
+fig|391904.5.peg.822	hypothetical protein
+fig|391904.5.peg.823	Histidinol dehydrogenase (EC 1.1.1.23)
+fig|391904.5.peg.824	Histidinol-phosphate aminotransferase (EC 2.6.1.9)
+fig|391904.5.peg.825	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)
+fig|391904.5.peg.826	Hypothetical protein BAD_1126
+fig|391904.5.peg.827	Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)
+fig|391904.5.peg.828	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16) / Acting phosphoribosylanthranilate isomerase (EC 5.3.1.24)
+fig|391904.5.peg.829	narrowly conserved hypothetical protein
+fig|391904.5.peg.830	Glutamine synthetase type I (EC 6.3.1.2)
+fig|391904.5.peg.831	arabinose efflux permease
+fig|391904.5.peg.832	"Oligopeptide ABC transporter, permease protein"
+fig|391904.5.peg.833	"ABC transporter, permease protein"
+fig|391904.5.peg.834	"ABC transporter, substrate-binding protein"
+fig|391904.5.peg.835	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.836	hypothetical protein
+fig|391904.5.peg.837	ATP-dependent helicase
+fig|391904.5.peg.838	hypothetical protein
+fig|391904.5.peg.839	FIG00424211: hypothetical protein
+fig|391904.5.peg.840	GTP-binding protein HflX
+fig|391904.5.peg.841	L-lactate dehydrogenase (EC 1.1.1.27)
+fig|391904.5.peg.842	Cobalt-zinc-cadmium resistance protein CzcD
+fig|391904.5.peg.843	SOS-response repressor and protease LexA (EC 3.4.21.88)
+fig|391904.5.peg.844	hypothetical protein
+fig|391904.5.peg.845	Ribonucleotide reductase transcriptional regulator NrdR
+fig|391904.5.peg.846	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+fig|391904.5.peg.847	Superfamily I DNA and RNA helicases
+fig|391904.5.peg.848	Cell division protein MraZ
+fig|391904.5.peg.849	16S rRNA (cytosine(1402)-N(4))-methyltransferase EC 2.1.1.199)
+fig|391904.5.peg.850	Cell division protein FtsL
+fig|391904.5.peg.851	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+fig|391904.5.peg.852	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase (EC 6.3.2.7)
+fig|391904.5.peg.853	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC 6.3.2.10)
+fig|391904.5.peg.854	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)
+fig|391904.5.peg.855	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9)
+fig|391904.5.peg.856	Cell division protein FtsW
+fig|391904.5.peg.857	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227)
+fig|391904.5.peg.858	UDP-N-acetylmuramate--alanine ligase (EC 6.3.2.8)
+fig|391904.5.peg.859	Cell division protein FtsQ
+fig|391904.5.peg.860	hypothetical protein
+fig|391904.5.peg.861	ABC transporter related
+fig|391904.5.peg.862	hypothetical protein
+fig|391904.5.peg.863	ABC-2 type transporter
+fig|391904.5.peg.864	Mobile element protein
+fig|391904.5.peg.865	FIG045511: hypothetical antitoxin (to FIG022160: hypothetical toxin)
+fig|391904.5.peg.866	hypothetical protein
+fig|391904.5.peg.867	hypothetical protein
+fig|391904.5.peg.868	D-tyrosyl-tRNA(Tyr) deacylase (EC 3.6.1.n1)
+fig|391904.5.peg.869	hypothetical protein
+fig|391904.5.peg.870	"Exo-alpha-mannosidase, GH38"
+fig|391904.5.peg.871	"Exo-alpha-mannosidase, GH38"
+fig|391904.5.peg.872	hypothetical protein
+fig|391904.5.peg.873	"Predicted N-acetylglucosamine ABC transporter, substrate-binding protein"
+fig|391904.5.peg.874	"Predicted N-acetylglucosamine ABC transporter, permease protein 1"
+fig|391904.5.peg.875	"Predicted N-acetylglucosamine ABC transporter, permease protein 2"
+fig|391904.5.peg.876	"ATPase components of various ABC-type transport systems, contain duplicated ATPase"
+fig|391904.5.peg.877	"Predicted transcriptional regulator of N-glycan utilization, LacI family"
+fig|391904.5.peg.878	D-mannose isomerase (EC 5.3.1.7)
+fig|391904.5.peg.879	"exo-alpha-1,6-mannosidase (EC 3.2.1.-), GH125 family"
+fig|391904.5.peg.880	Fructokinase (EC 2.7.1.4)
+fig|391904.5.peg.881	"Transcriptional regulator of fructose utilization, ROK family"
+fig|391904.5.peg.882	"Predicted N-acetyl-glucosamine kinase 2, ROK family (EC 2.7.1.59)"
+fig|391904.5.peg.883	"Transciptional regulator of lacto-N-biose and galacto-N-biose utilization, ROK family"
+fig|391904.5.peg.884	Glucosamine-6-phosphate deaminase (EC 3.5.99.6)
+fig|391904.5.peg.885	N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)
+fig|391904.5.peg.886	"Lacto-N-biose and Galacto-N-biose ABC transporter 2, periplasmic substrate-binding protein"
+fig|391904.5.peg.887	"Lacto-N-biose and Galacto-N-biose ABC transporter 2, permease component 1"
+fig|391904.5.peg.888	"Lacto-N-biose and Galacto-N-biose ABC transporter 2, permease component 2"
+fig|391904.5.peg.889	hypothetical protein
+fig|391904.5.peg.890	MutT/Nudix family protein
+fig|391904.5.peg.891	Xaa-Pro aminopeptidase (EC 3.4.11.9)
+fig|391904.5.peg.892	hypothetical protein
+fig|391904.5.peg.893	Dihydrofolate synthase (EC 6.3.2.12)
+fig|391904.5.peg.894	Chromosome partition protein smc
+fig|391904.5.peg.895	hypothetical protein
+fig|391904.5.peg.896	UDP-N-acetylmuramoylalanyl-D-glutamate--L-ornithine ligase
+fig|391904.5.peg.897	RNA polymerase sigma-70 factor
+fig|391904.5.peg.898	hypothetical protein
+fig|391904.5.peg.899	hypothetical protein
+fig|391904.5.peg.900	hypothetical protein
+fig|391904.5.peg.901	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)
+fig|391904.5.peg.902	Cys-tRNA(Pro) deacylase YbaK
+fig|391904.5.peg.903	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)
+fig|391904.5.peg.904	FIG00425997: hypothetical protein
+fig|391904.5.peg.905	Thiamin pyrophosphokinase (EC 2.7.6.2)
+fig|391904.5.peg.906	Translation initiation factor 3
+fig|391904.5.peg.907	LSU ribosomal protein L35p
+fig|391904.5.peg.908	LSU ribosomal protein L20p
+fig|391904.5.peg.909	Site-specific tyrosine recombinase XerD
+fig|391904.5.peg.910	ParA-like membrane-associated ATPase
+fig|391904.5.peg.911	Segregation and condensation protein A
+fig|391904.5.peg.912	Segregation and condensation protein B
+fig|391904.5.peg.913	Nudix-related transcriptional regulator NrtR
+fig|391904.5.peg.914	Quinolinate synthetase (EC 2.5.1.72)
+fig|391904.5.peg.915	L-aspartate oxidase (EC 1.4.3.16)
+fig|391904.5.peg.916	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)
+fig|391904.5.peg.917	Cysteine desulfurase (EC 2.8.1.7)
+fig|391904.5.peg.918	GTP-binding protein TypA/BipA
+fig|391904.5.peg.919	hypothetical protein
+fig|391904.5.peg.920	Transposase
+fig|391904.5.peg.921	hypothetical protein
+fig|391904.5.peg.922	Prephenate dehydratase (EC 4.2.1.51)
+fig|391904.5.peg.923	Arogenate dehydrogenase (EC 1.3.1.43)
+fig|391904.5.peg.924	hypothetical protein
+fig|391904.5.peg.925	Site-specific tyrosine recombinase XerC
+fig|391904.5.peg.926	"Dipeptide-binding ABC transporter, periplasmic substrate-binding component (TC 3.A.1.5.2)"
+fig|391904.5.peg.927	Dipeptide transport system permease protein DppB (TC 3.A.1.5.2)
+fig|391904.5.peg.928	Dipeptide transport system permease protein DppC (TC 3.A.1.5.2)
+fig|391904.5.peg.929	Dipeptide transport ATP-binding protein DppD (TC 3.A.1.5.2)
+fig|391904.5.peg.930	Exodeoxyribonuclease III (EC 3.1.11.2)
+fig|391904.5.peg.931	hypothetical protein
+fig|391904.5.peg.932	"ABC-type Mn2+/Zn2+ transport systems, permease components"
+fig|391904.5.peg.933	23S rRNA (uracil(1939)-C(5))-methyltransferase (EC 2.1.1.190)
+fig|391904.5.peg.934	hypothetical protein
+fig|391904.5.peg.935	"Cation-transporting ATPase, E1-E2 family"
+fig|391904.5.peg.936	Aconitate hydratase (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99)
+fig|391904.5.peg.937	Antitoxin DinJ (binds YafQ toxin)
+fig|391904.5.peg.938	hypothetical protein
+fig|391904.5.peg.939	hypothetical protein
+fig|391904.5.peg.940	hypothetical protein
+fig|391904.5.peg.941	response regulator of two-component system
+fig|391904.5.peg.942	hypothetical protein
+fig|391904.5.peg.943	Permease of the drug/metabolite transporter (DMT) superfamily
+fig|391904.5.peg.944	GTP pyrophosphokinase (EC 2.7.6.5)
+fig|391904.5.peg.945	tRNA-i(6)A37 methylthiotransferase (EC 2.8.4.3)
+fig|391904.5.peg.946	tRNA dimethylallyltransferase (EC 2.5.1.75)
+fig|391904.5.peg.947	Cell filamentation protein fic
+fig|391904.5.peg.948	DNA translocase FtsK
+fig|391904.5.peg.949	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+fig|391904.5.peg.950	Nicotinamide-nucleotide amidase (EC 3.5.1.42)
+fig|391904.5.peg.951	"Transcriptional regulator, Xre family"
+fig|391904.5.peg.952	FIG00735507: hypothetical protein
+fig|391904.5.peg.953	RecA protein
+fig|391904.5.peg.954	Regulatory protein RecX
+fig|391904.5.peg.955	Ribosome hibernation protein YhbH
+fig|391904.5.peg.956	Protein translocase subunit SecA
+fig|391904.5.peg.957	hypothetical protein
+fig|391904.5.peg.958	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)
+fig|391904.5.peg.959	hypothetical protein
+fig|391904.5.peg.960	Acyl-CoA:1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)
+fig|391904.5.peg.961	Serine/threonine protein kinase
+fig|391904.5.peg.962	"Dimethylallyltransferase (EC 2.5.1.1) / (2E,6E)-farnesyl diphosphate synthase (EC 2.5.1.10)"
+fig|391904.5.peg.963	hypothetical protein
+fig|391904.5.peg.964	RNA polymerase sigma factor RpoD
+fig|391904.5.peg.965	Topoisomerase IV subunit B (EC 5.99.1.-)
+fig|391904.5.peg.966	Permeases of the major facilitator superfamily
+fig|391904.5.peg.967	Ribokinase (EC 2.7.1.15)
+fig|391904.5.peg.968	ATP-dependent helicase II
+fig|391904.5.peg.969	hypothetical protein
+fig|391904.5.peg.970	Topoisomerase IV subunit A (EC 5.99.1.-)
+fig|391904.5.peg.971	hypothetical protein
+fig|391904.5.peg.972	hypothetical protein
+fig|391904.5.peg.973	hypothetical protein
+fig|391904.5.peg.974	Deoxyuridine 5&#39;-triphosphate nucleotidohydrolase (EC 3.6.1.23)
+fig|391904.5.peg.975	"Guanosine-3&#39;,5&#39;-bis(diphosphate) 3&#39;-pyrophosphohydrolase (EC 3.1.7.2) / GTP pyrophosphokinase (EC 2.7.6.5), (p)ppGpp synthetase II"
+fig|391904.5.peg.976	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)
+fig|391904.5.peg.977	hypothetical protein
+fig|391904.5.peg.978	hypothetical protein
+fig|391904.5.peg.979	hypothetical protein
+fig|391904.5.peg.980	Transposase
+fig|391904.5.peg.981	hypothetical protein
+fig|391904.5.peg.982	hypothetical protein
+fig|391904.5.peg.983	hypothetical protein
+fig|391904.5.peg.984	Mobile element protein
+fig|391904.5.peg.985	hypothetical protein
+fig|391904.5.peg.986	hypothetical protein
+fig|391904.5.peg.987	hypothetical protein
+fig|391904.5.peg.988	hypothetical protein
+fig|391904.5.peg.989	Integrase
+fig|391904.5.peg.990	hypothetical protein
+fig|391904.5.peg.991	hypothetical protein
+fig|391904.5.peg.992	hypothetical protein
+fig|391904.5.peg.993	hypothetical protein
+fig|391904.5.peg.994	Transposase and inactivated derivatives
+fig|391904.5.peg.995	hypothetical protein
+fig|391904.5.peg.996	Mobile element protein
+fig|391904.5.peg.997	hypothetical protein
+fig|391904.5.peg.998	"Amino acid ABC transporter, ATP-binding protein"
+fig|391904.5.peg.999	hypothetical protein
+fig|391904.5.peg.1000	hypothetical protein
+fig|391904.5.peg.1001	hypothetical protein
+fig|391904.5.peg.1002	Mobile element protein
+fig|391904.5.peg.1003	"antibiotic ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1004	hypothetical protein
+fig|391904.5.peg.1005	DNA-binding response regulator mtrA
+fig|391904.5.peg.1006	hypothetical protein
+fig|391904.5.peg.1007	hypothetical protein
+fig|391904.5.peg.1008	Permease of the drug/metabolite transporter (DMT) superfamily
+fig|391904.5.peg.1009	hypothetical protein
+fig|391904.5.peg.1010	hypothetical protein
+fig|391904.5.peg.1011	hypothetical protein
+fig|391904.5.peg.1012	Magnesium and cobalt transport protein CorA
+fig|391904.5.peg.1013	hypothetical protein
+fig|391904.5.peg.1014	Leucyl-tRNA synthetase (EC 6.1.1.4)
+fig|391904.5.peg.1015	DNA uptake protein and related DNA-binding proteins
+fig|391904.5.peg.1016	conserved hypothetical transmembrane protein related to ComA
+fig|391904.5.peg.1017	DNA polymerase III delta subunit (EC 2.7.7.7)
+fig|391904.5.peg.1018	"TsaE protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA"
+fig|391904.5.peg.1019	"TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA"
+fig|391904.5.peg.1020	Ribosomal-protein-S18p-alanine acetyltransferase (EC 2.3.1.128)
+fig|391904.5.peg.1021	N(6)-L-threonylcarbamoyladenine synthase (EC 2.3.1.234)
+fig|391904.5.peg.1022	COG0443: Molecular chaperone
+fig|391904.5.peg.1023	hypothetical protein
+fig|391904.5.peg.1024	Putative transposase
+fig|391904.5.peg.1025	Putative transposase
+fig|391904.5.peg.1026	methyltransferase small
+fig|391904.5.peg.1027	ABC transporter related
+fig|391904.5.peg.1028	hypothetical protein
+fig|391904.5.peg.1029	Integrase
+fig|391904.5.peg.1030	hypothetical protein
+fig|391904.5.peg.1031	hypothetical protein
+fig|391904.5.peg.1032	hypothetical protein
+fig|391904.5.peg.1033	hypothetical protein
+fig|391904.5.peg.1034	hypothetical protein
+fig|391904.5.peg.1035	"Integrase, catalytic region"
+fig|391904.5.peg.1036	hypothetical protein
+fig|391904.5.peg.1037	hypothetical protein
+fig|391904.5.peg.1038	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1039	hypothetical protein
+fig|391904.5.peg.1040	hypothetical protein
+fig|391904.5.peg.1041	hypothetical protein
+fig|391904.5.peg.1042	hypothetical protein
+fig|391904.5.peg.1043	Two-component system sensor kinase
+fig|391904.5.peg.1044	hypothetical protein
+fig|391904.5.peg.1045	hypothetical protein
+fig|391904.5.peg.1046	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)
+fig|391904.5.peg.1047	"Inosine-5&#39;-monophosphate dehydrogenase, catalytic domain (EC 1.1.1.205)"
+fig|391904.5.peg.1048	hypothetical protein
+fig|391904.5.peg.1049	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+fig|391904.5.peg.1050	Peptide deformylase (EC 3.5.1.88)
+fig|391904.5.peg.1051	SSU ribosomal protein S2p (SAe)
+fig|391904.5.peg.1052	Translation elongation factor Ts
+fig|391904.5.peg.1053	Uridine monophosphate kinase (EC 2.7.4.22)
+fig|391904.5.peg.1054	Ribosome recycling factor
+fig|391904.5.peg.1055	Phosphatidate cytidylyltransferase (EC 2.7.7.41)
+fig|391904.5.peg.1056	23S rRNA (adenine(2503)-C(2))-methyltransferase & tRNA (adenine(37)-C(2))-methyltransferase (EC 2.1.1.192)
+fig|391904.5.peg.1057	ThiJ/PfpI family protein
+fig|391904.5.peg.1058	Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)
+fig|391904.5.peg.1059	Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)
+fig|391904.5.peg.1060	"Anthranilate synthase, aminase component (EC 4.1.3.27)"
+fig|391904.5.peg.1061	Pyrrolidone-carboxylate peptidase (EC 3.4.19.3)
+fig|391904.5.peg.1062	hypothetical protein
+fig|391904.5.peg.1063	hypothetical protein
+fig|391904.5.peg.1064	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1065	Putative short-chain dehydrogenase
+fig|391904.5.peg.1066	hypothetical protein
+fig|391904.5.peg.1067	hypothetical protein
+fig|391904.5.peg.1068	Transmembrane component of energizing module of heme-specific ECF transporter
+fig|391904.5.peg.1069	hypothetical protein
+fig|391904.5.peg.1070	hypothetical protein
+fig|391904.5.peg.1071	hypothetical protein
+fig|391904.5.peg.1072	hypothetical protein
+fig|391904.5.peg.1073	ABC transporter
+fig|391904.5.peg.1074	FIG149030: hypothetical protein
+fig|391904.5.peg.1075	FIG039767: hypothetical protein
+fig|391904.5.peg.1076	FIG007317: Chromosome segregation protein SMC-like
+fig|391904.5.peg.1077	Excinuclease ABC subunit A
+fig|391904.5.peg.1078	Excinuclease ABC subunit C
+fig|391904.5.peg.1079	Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)
+fig|391904.5.peg.1080	RNase adapter protein RapZ
+fig|391904.5.peg.1081	FIG001886: Cytoplasmic hypothetical protein
+fig|391904.5.peg.1082	Phosphoglycerate kinase (EC 2.7.2.3)
+fig|391904.5.peg.1083	Triosephosphate isomerase (EC 5.3.1.1)
+fig|391904.5.peg.1084	Protein-export membrane protein SecG
+fig|391904.5.peg.1085	Bifidobacterial aromatic lactate dehydrogenase
+fig|391904.5.peg.1086	HAD family enzyme co-localized with predicted aromatic amino acids transaminase
+fig|391904.5.peg.1087	Predicted aromatic amino acids transaminase @ Alanine transaminase (EC 2.6.1.2) @ Alanine transaminase (EC 2.6.1.2)
+fig|391904.5.peg.1088	Predicted aromatic amino acids efflux pump
+fig|391904.5.peg.1089	Branched-chain amino acid transport system carrier protein
+fig|391904.5.peg.1090	Transaldolase (EC 2.2.1.2)
+fig|391904.5.peg.1091	Transketolase (EC 2.2.1.1)
+fig|391904.5.peg.1092	Heat-inducible transcription repressor HrcA
+fig|391904.5.peg.1093	Chaperone protein DnaJ
+fig|391904.5.peg.1094	hypothetical protein
+fig|391904.5.peg.1095	hypothetical protein
+fig|391904.5.peg.1096	hypothetical protein
+fig|391904.5.peg.1097	hypothetical protein
+fig|391904.5.peg.1098	hypothetical protein
+fig|391904.5.peg.1099	Haemagluttinin domain protein
+fig|391904.5.peg.1100	hypothetical protein
+fig|391904.5.peg.1101	hypothetical protein
+fig|391904.5.peg.1102	hypothetical protein
+fig|391904.5.peg.1103	hypothetical protein
+fig|391904.5.peg.1104	hypothetical protein
+fig|391904.5.peg.1105	hypothetical protein
+fig|391904.5.peg.1106	hypothetical protein
+fig|391904.5.peg.1107	hypothetical protein
+fig|391904.5.peg.1108	hypothetical protein
+fig|391904.5.peg.1109	hypothetical protein
+fig|391904.5.peg.1110	hypothetical protein
+fig|391904.5.peg.1111	hypothetical protein
+fig|391904.5.peg.1112	hypothetical protein
+fig|391904.5.peg.1113	hypothetical protein
+fig|391904.5.peg.1114	hypothetical protein
+fig|391904.5.peg.1115	hypothetical protein
+fig|391904.5.peg.1116	hypothetical protein
+fig|391904.5.peg.1117	hypothetical protein
+fig|391904.5.peg.1118	hypothetical protein
+fig|391904.5.peg.1119	hypothetical protein
+fig|391904.5.peg.1120	hypothetical protein
+fig|391904.5.peg.1121	hypothetical protein
+fig|391904.5.peg.1122	hypothetical protein
+fig|391904.5.peg.1123	hypothetical protein
+fig|391904.5.peg.1124	hypothetical protein
+fig|391904.5.peg.1125	hypothetical protein
+fig|391904.5.peg.1126	hypothetical protein
+fig|391904.5.peg.1127	hypothetical protein
+fig|391904.5.peg.1128	hypothetical protein
+fig|391904.5.peg.1129	hypothetical protein
+fig|391904.5.peg.1130	hypothetical protein
+fig|391904.5.peg.1131	hypothetical protein
+fig|391904.5.peg.1132	hypothetical protein
+fig|391904.5.peg.1133	hypothetical protein
+fig|391904.5.peg.1134	hypothetical protein
+fig|391904.5.peg.1135	hypothetical protein
+fig|391904.5.peg.1136	hypothetical protein
+fig|391904.5.peg.1137	putative antirepressor protein
+fig|391904.5.peg.1138	hypothetical protein
+fig|391904.5.peg.1139	hypothetical protein
+fig|391904.5.peg.1140	hypothetical protein
+fig|391904.5.peg.1141	DNA-cytosine methyltransferase (EC 2.1.1.37)
+fig|391904.5.peg.1142	hypothetical protein
+fig|391904.5.peg.1143	hypothetical protein
+fig|391904.5.peg.1144	hypothetical protein
+fig|391904.5.peg.1145	Phage integrase
+fig|391904.5.peg.1146	Fructosamine-3-kinase
+fig|391904.5.peg.1147	Undecaprenyl-diphosphatase (EC 3.6.1.27)
+fig|391904.5.peg.1148	hypothetical protein
+fig|391904.5.peg.1149	Threonyl-tRNA synthetase (EC 6.1.1.3)
+fig|391904.5.peg.1150	FIG049476: HIT family protein
+fig|391904.5.peg.1151	FIG000859: hypothetical protein YebC
+fig|391904.5.peg.1152	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)
+fig|391904.5.peg.1153	Holliday junction DNA helicase RuvA
+fig|391904.5.peg.1154	Holliday junction DNA helicase RuvB
+fig|391904.5.peg.1155	Protein translocase subunit YajC
+fig|391904.5.peg.1156	Adenine phosphoribosyltransferase (EC 2.4.2.7)
+fig|391904.5.peg.1157	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)
+fig|391904.5.peg.1158	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)
+fig|391904.5.peg.1159	hypothetical protein
+fig|391904.5.peg.1160	IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)
+fig|391904.5.peg.1161	Aquaporin Z
+fig|391904.5.peg.1162	Ribosomal large subunit pseudouridine synthase B (EC 5.4.99.22)
+fig|391904.5.peg.1163	Cytidylate kinase (EC 2.7.4.25) / GTP-binding protein EngA
+fig|391904.5.peg.1164	hypothetical protein
+fig|391904.5.peg.1165	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)
+fig|391904.5.peg.1166	hypothetical protein
+fig|391904.5.peg.1167	hypothetical protein
+fig|391904.5.peg.1168	FIG005666: putative helicase
+fig|391904.5.peg.1169	FIG00820327: hypothetical protein
+fig|391904.5.peg.1170	Phosphoglycolate phosphatase (EC 3.1.3.18)
+fig|391904.5.peg.1171	hypothetical protein
+fig|391904.5.peg.1172	hypothetical protein
+fig|391904.5.peg.1173	hypothetical protein
+fig|391904.5.peg.1174	hypothetical protein
+fig|391904.5.peg.1175	"putative transposase, IS891/IS1136/IS1341"
+fig|391904.5.peg.1176	hypothetical protein
+fig|391904.5.peg.1177	hypothetical protein
+fig|391904.5.peg.1178	hypothetical protein
+fig|391904.5.peg.1179	hypothetical protein
+fig|391904.5.peg.1180	hypothetical protein
+fig|391904.5.peg.1181	hypothetical protein
+fig|391904.5.peg.1182	hypothetical protein
+fig|391904.5.peg.1183	hypothetical protein
+fig|391904.5.peg.1184	hypothetical protein
+fig|391904.5.peg.1185	hypothetical protein
+fig|391904.5.peg.1186	LigA
+fig|391904.5.peg.1187	hypothetical protein
+fig|391904.5.peg.1188	hypothetical protein
+fig|391904.5.peg.1189	hypothetical protein
+fig|391904.5.peg.1190	cell divisionFtsK/SpoIIIE
+fig|391904.5.peg.1191	hypothetical protein
+fig|391904.5.peg.1192	hypothetical protein
+fig|391904.5.peg.1193	hypothetical protein
+fig|391904.5.peg.1194	putative virulence protein
+fig|391904.5.peg.1195	hypothetical protein
+fig|391904.5.peg.1196	hypothetical protein
+fig|391904.5.peg.1197	adenine-specific methyltransferase EcoRI
+fig|391904.5.peg.1198	hypothetical protein
+fig|391904.5.peg.1199	hypothetical protein
+fig|391904.5.peg.1200	hypothetical protein
+fig|391904.5.peg.1201	N-formylglutamate deformylase (EC 3.5.1.68)
+fig|391904.5.peg.1202	hypothetical protein
+fig|391904.5.peg.1203	hypothetical protein
+fig|391904.5.peg.1204	hypothetical protein
+fig|391904.5.peg.1205	hypothetical protein
+fig|391904.5.peg.1206	hypothetical protein
+fig|391904.5.peg.1207	hypothetical protein
+fig|391904.5.peg.1208	hypothetical protein
+fig|391904.5.peg.1209	hypothetical protein
+fig|391904.5.peg.1210	hypothetical protein
+fig|391904.5.peg.1211	hypothetical protein
+fig|391904.5.peg.1212	hypothetical protein
+fig|391904.5.peg.1213	hypothetical protein
+fig|391904.5.peg.1214	hypothetical protein
+fig|391904.5.peg.1215	hypothetical protein
+fig|391904.5.peg.1216	hypothetical protein
+fig|391904.5.peg.1217	hypothetical protein
+fig|391904.5.peg.1218	DNA methylase
+fig|391904.5.peg.1219	hypothetical protein
+fig|391904.5.peg.1220	hypothetical protein
+fig|391904.5.peg.1221	hypothetical protein
+fig|391904.5.peg.1222	hypothetical protein
+fig|391904.5.peg.1223	hypothetical protein
+fig|391904.5.peg.1224	DNA-cytosine methyltransferase (EC 2.1.1.37)
+fig|391904.5.peg.1225	hypothetical protein
+fig|391904.5.peg.1226	hypothetical protein
+fig|391904.5.peg.1227	hypothetical protein
+fig|391904.5.peg.1228	hypothetical protein
+fig|391904.5.peg.1229	POSSIBLE RESOLVASE
+fig|391904.5.peg.1230	"transposase, IS605 OrfB family( EC:2.1.1.37 )"
+fig|391904.5.peg.1231	hypothetical protein
+fig|391904.5.peg.1232	hypothetical protein
+fig|391904.5.peg.1233	Rossmann fold nucleotide-binding protein Smf possibly involved in DNA uptake
+fig|391904.5.peg.1234	hypothetical protein
+fig|391904.5.peg.1235	hypothetical protein
+fig|391904.5.peg.1236	hypothetical protein
+fig|391904.5.peg.1237	hypothetical protein
+fig|391904.5.peg.1238	hypothetical protein
+fig|391904.5.peg.1239	hypothetical protein
+fig|391904.5.peg.1240	hypothetical protein
+fig|391904.5.peg.1241	hypothetical protein
+fig|391904.5.peg.1242	3&#39;-to-5&#39; oligoribonuclease (orn)
+fig|391904.5.peg.1243	hypothetical protein
+fig|391904.5.peg.1244	hypothetical protein
+fig|391904.5.peg.1245	AAA ATPase
+fig|391904.5.peg.1246	hypothetical protein
+fig|391904.5.peg.1247	hypothetical protein
+fig|391904.5.peg.1248	Mobile element protein
+fig|391904.5.peg.1249	hypothetical protein
+fig|391904.5.peg.1250	hypothetical protein
+fig|391904.5.peg.1251	hypothetical protein
+fig|391904.5.peg.1252	hypothetical protein
+fig|391904.5.peg.1253	hypothetical protein
+fig|391904.5.peg.1254	hypothetical protein
+fig|391904.5.peg.1255	hypothetical protein
+fig|391904.5.peg.1256	hypothetical protein
+fig|391904.5.peg.1257	DNA polymerase III beta subunit (EC 2.7.7.7)
+fig|391904.5.peg.1258	hypothetical protein
+fig|391904.5.peg.1259	hypothetical protein
+fig|391904.5.peg.1260	hypothetical protein
+fig|391904.5.peg.1261	hypothetical protein
+fig|391904.5.peg.1262	hypothetical protein
+fig|391904.5.peg.1263	hypothetical protein
+fig|391904.5.peg.1264	hypothetical protein
+fig|391904.5.peg.1265	hypothetical protein
+fig|391904.5.peg.1266	hypothetical protein
+fig|391904.5.peg.1267	hypothetical protein
+fig|391904.5.peg.1268	cell divisionFtsK/SpoIIIE
+fig|391904.5.peg.1269	hypothetical protein
+fig|391904.5.peg.1270	hypothetical protein
+fig|391904.5.peg.1271	hypothetical protein
+fig|391904.5.peg.1272	hypothetical protein
+fig|391904.5.peg.1273	hypothetical protein
+fig|391904.5.peg.1274	hypothetical protein
+fig|391904.5.peg.1275	Protein translocase subunit SecE
+fig|391904.5.peg.1276	hypothetical protein
+fig|391904.5.peg.1277	Protein-export membrane protein SecG
+fig|391904.5.peg.1278	hypothetical protein
+fig|391904.5.peg.1279	hypothetical protein
+fig|391904.5.peg.1280	hypothetical protein
+fig|391904.5.peg.1281	WhiB-type transcription regulator
+fig|391904.5.peg.1282	hypothetical protein
+fig|391904.5.peg.1283	hypothetical protein
+fig|391904.5.peg.1284	hypothetical protein
+fig|391904.5.peg.1285	hypothetical protein
+fig|391904.5.peg.1286	hypothetical protein
+fig|391904.5.peg.1287	hypothetical protein
+fig|391904.5.peg.1288	hypothetical protein
+fig|391904.5.peg.1289	hypothetical protein
+fig|391904.5.peg.1290	hypothetical protein
+fig|391904.5.peg.1291	hypothetical protein
+fig|391904.5.peg.1292	LigA
+fig|391904.5.peg.1293	hypothetical protein
+fig|391904.5.peg.1294	hypothetical protein
+fig|391904.5.peg.1295	hypothetical protein
+fig|391904.5.peg.1296	hypothetical protein
+fig|391904.5.peg.1297	hypothetical protein
+fig|391904.5.peg.1298	hypothetical protein
+fig|391904.5.peg.1299	hypothetical protein
+fig|391904.5.peg.1300	hypothetical protein
+fig|391904.5.peg.1301	hypothetical protein
+fig|391904.5.peg.1302	hypothetical protein
+fig|391904.5.peg.1303	hypothetical protein
+fig|391904.5.peg.1304	hypothetical protein
+fig|391904.5.peg.1305	hypothetical protein
+fig|391904.5.peg.1306	hypothetical protein
+fig|391904.5.peg.1307	hypothetical protein
+fig|391904.5.peg.1308	hypothetical protein
+fig|391904.5.peg.1309	hypothetical protein
+fig|391904.5.peg.1310	hypothetical protein
+fig|391904.5.peg.1311	hypothetical protein
+fig|391904.5.peg.1312	hypothetical protein
+fig|391904.5.peg.1313	hypothetical protein
+fig|391904.5.peg.1314	hypothetical protein
+fig|391904.5.peg.1315	hypothetical protein
+fig|391904.5.peg.1316	hypothetical protein
+fig|391904.5.peg.1317	hypothetical protein
+fig|391904.5.peg.1318	transposase IS200-family protein
+fig|391904.5.peg.1319	"transposase, IS605 OrfB family( EC:2.1.1.37 )"
+fig|391904.5.peg.1320	hypothetical protein
+fig|391904.5.peg.1321	hypothetical protein
+fig|391904.5.peg.1322	hypothetical protein
+fig|391904.5.peg.1323	hypothetical protein
+fig|391904.5.peg.1324	Transposase
+fig|391904.5.peg.1325	hypothetical protein
+fig|391904.5.peg.1326	hypothetical protein
+fig|391904.5.peg.1327	hypothetical protein
+fig|391904.5.peg.1328	hypothetical protein
+fig|391904.5.peg.1329	hypothetical protein
+fig|391904.5.peg.1330	hypothetical protein
+fig|391904.5.peg.1331	hypothetical protein
+fig|391904.5.peg.1332	hypothetical protein
+fig|391904.5.peg.1333	hypothetical protein
+fig|391904.5.peg.1334	hypothetical protein
+fig|391904.5.peg.1335	hypothetical protein
+fig|391904.5.peg.1336	hypothetical protein
+fig|391904.5.peg.1337	hypothetical protein
+fig|391904.5.peg.1338	hypothetical protein
+fig|391904.5.peg.1339	hypothetical protein
+fig|391904.5.peg.1340	hypothetical protein
+fig|391904.5.peg.1341	hypothetical protein
+fig|391904.5.peg.1342	hypothetical protein
+fig|391904.5.peg.1343	hypothetical protein
+fig|391904.5.peg.1344	hypothetical protein
+fig|391904.5.peg.1345	hypothetical protein
+fig|391904.5.peg.1346	hypothetical protein
+fig|391904.5.peg.1347	Antitoxin HigA
+fig|391904.5.peg.1348	Toxin HigB
+fig|391904.5.peg.1349	hypothetical protein
+fig|391904.5.peg.1350	hypothetical protein
+fig|391904.5.peg.1351	hypothetical protein
+fig|391904.5.peg.1352	hypothetical protein
+fig|391904.5.peg.1353	hypothetical protein
+fig|391904.5.peg.1354	hypothetical protein
+fig|391904.5.peg.1355	hypothetical protein
+fig|391904.5.peg.1356	DNA methylase
+fig|391904.5.peg.1357	hypothetical protein
+fig|391904.5.peg.1358	Phage integrase
+fig|391904.5.peg.1359	hypothetical protein
+fig|391904.5.peg.1360	DNA modification methylase
+fig|391904.5.peg.1361	"Transposase, IS605 OrfB"
+fig|391904.5.peg.1362	hypothetical protein
+fig|391904.5.peg.1363	hypothetical protein
+fig|391904.5.peg.1364	Toxin HigB / Protein kinase domain of HipA
+fig|391904.5.peg.1365	hypothetical protein
+fig|391904.5.peg.1366	hypothetical protein
+fig|391904.5.peg.1367	Mobile element protein
+fig|391904.5.peg.1368	hypothetical protein
+fig|391904.5.peg.1369	hypothetical protein
+fig|391904.5.peg.1370	hypothetical protein
+fig|391904.5.peg.1371	hypothetical protein
+fig|391904.5.peg.1372	FIG00672531: hypothetical protein
+fig|391904.5.peg.1373	Division initiation protein
+fig|391904.5.peg.1374	FIG025307: hypothetical protein
+fig|391904.5.peg.1375	hypothetical protein
+fig|391904.5.peg.1376	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+fig|391904.5.peg.1377	ATP phosphoribosyltransferase (EC 2.4.2.17)
+fig|391904.5.peg.1378	Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)
+fig|391904.5.peg.1379	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)
+fig|391904.5.peg.1380	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)
+fig|391904.5.peg.1381	Tryptophan synthase alpha chain (EC 4.2.1.20)
+fig|391904.5.peg.1382	Tryptophan synthase beta chain (EC 4.2.1.20) / Indole-3-glycerol phosphate synthase (EC 4.1.1.48)
+fig|391904.5.peg.1383	protein of unknown function DUF159
+fig|391904.5.peg.1384	Endonuclease IV (EC 3.1.21.2)
+fig|391904.5.peg.1385	Amino acid permease
+fig|391904.5.peg.1386	hypothetical protein
+fig|391904.5.peg.1387	hypothetical protein
+fig|391904.5.peg.1388	isopenicillin N epimerase
+fig|391904.5.peg.1389	hypothetical protein
+fig|391904.5.peg.1390	COG0454: Histone acetyltransferase HPA2 and related acetyltransferases
+fig|391904.5.peg.1391	hypothetical protein
+fig|391904.5.peg.1392	"N-acetyltransferase, GCN5-family"
+fig|391904.5.peg.1393	Mobile element protein
+fig|391904.5.peg.1394	Predicted sodium-dependent galactose transporter
+fig|391904.5.peg.1395	FIG00547529: putative membrane protein
+fig|391904.5.peg.1396	hypothetical protein
+fig|391904.5.peg.1397	hypothetical protein
+fig|391904.5.peg.1398	hypothetical protein
+fig|391904.5.peg.1399	Mobile element protein
+fig|391904.5.peg.1400	hypothetical protein
+fig|391904.5.peg.1401	hypothetical protein
+fig|391904.5.peg.1402	"ATPases with chaperone activity, ATP-binding subunit"
+fig|391904.5.peg.1403	hypothetical protein
+fig|391904.5.peg.1404	hypothetical protein
+fig|391904.5.peg.1405	response regulator of two-component system
+fig|391904.5.peg.1406	putative secreted protein
+fig|391904.5.peg.1407	hypothetical protein
+fig|391904.5.peg.1408	ATP-binding protein of ABC transporter system
+fig|391904.5.peg.1409	Protein of unknown function DUF214
+fig|391904.5.peg.1410	hypothetical protein
+fig|391904.5.peg.1411	hypothetical protein
+fig|391904.5.peg.1412	hypothetical protein
+fig|391904.5.peg.1413	"RNA polymerase ECF-type sigma factor, putative"
+fig|391904.5.peg.1414	putative transmembrane anti-sigma factor
+fig|391904.5.peg.1415	hypothetical protein
+fig|391904.5.peg.1416	hypothetical protein
+fig|391904.5.peg.1417	hypothetical protein
+fig|391904.5.peg.1418	ABC transporter related
+fig|391904.5.peg.1419	hypothetical protein
+fig|391904.5.peg.1420	hypothetical protein
+fig|391904.5.peg.1421	putative integral membrane protein
+fig|391904.5.peg.1422	hypothetical protein
+fig|391904.5.peg.1423	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1424	Mobile element protein
+fig|391904.5.peg.1425	IS30 family transposase
+fig|391904.5.peg.1426	hypothetical protein
+fig|391904.5.peg.1427	Mobile element protein
+fig|391904.5.peg.1428	Two-component system response regulator
+fig|391904.5.peg.1429	"two-component system, sensor protein"
+fig|391904.5.peg.1430	"ABC transporter, permease protein"
+fig|391904.5.peg.1431	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1432	Putative membrane-spanning protein
+fig|391904.5.peg.1433	hypothetical protein
+fig|391904.5.peg.1434	hypothetical protein
+fig|391904.5.peg.1435	"Transcriptional regulator, MerR family"
+fig|391904.5.peg.1436	hypothetical protein
+fig|391904.5.peg.1437	hypothetical protein
+fig|391904.5.peg.1438	ADP-ribose pyrophosphatase
+fig|391904.5.peg.1439	"Inner membrane protein translocase component YidC, short form OxaI-like"
+fig|391904.5.peg.1440	hypothetical protein
+fig|391904.5.peg.1441	hypothetical protein
+fig|391904.5.peg.1442	Amino acid permease
+fig|391904.5.peg.1443	hypothetical protein
+fig|391904.5.peg.1444	DUF488 family protein SAV0238
+fig|391904.5.peg.1445	hypothetical protein
+fig|391904.5.peg.1446	hypothetical protein
+fig|391904.5.peg.1447	hypothetical protein
+fig|391904.5.peg.1448	death-on-curing family protein
+fig|391904.5.peg.1449	hypothetical protein
+fig|391904.5.peg.1450	DUF488 family protein SAV0238
+fig|391904.5.peg.1451	Putative helicase
+fig|391904.5.peg.1452	Aspartate aminotransferase (EC 2.6.1.1) / Biosynthetic Aromatic amino acid aminotransferase alpha (EC 2.6.1.57)
+fig|391904.5.peg.1453	NAD(P)H-hydrate epimerase (EC 5.1.99.6) / ADP-dependent (S)-NAD(P)H-hydrate dehydratase (EC 4.2.1.136)
+fig|391904.5.peg.1454	possible alpha beta hydrolase
+fig|391904.5.peg.1455	hypothetical protein
+fig|391904.5.peg.1456	"Methionine biosynthesis and transport regulator MtaR, LysR family"
+fig|391904.5.peg.1457	hypothetical protein
+fig|391904.5.peg.1458	hypothetical protein
+fig|391904.5.peg.1459	Orotate phosphoribosyltransferase (EC 2.4.2.10)
+fig|391904.5.peg.1460	"Dihydroorotate dehydrogenase (NAD(+)), catalytic subunit (EC 1.3.1.14)"
+fig|391904.5.peg.1461	"Dihydroorotate dehydrogenase (NAD(+)), electron transfer subunit (EC 1.3.1.14)"
+fig|391904.5.peg.1462	Orotidine 5&#39;-phosphate decarboxylase (EC 4.1.1.23)
+fig|391904.5.peg.1463	Dihydroorotase (EC 3.5.2.3)
+fig|391904.5.peg.1464	Aspartate carbamoyltransferase regulatory chain (PyrI)
+fig|391904.5.peg.1465	Aspartate carbamoyltransferase (EC 2.1.3.2)
+fig|391904.5.peg.1466	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)
+fig|391904.5.peg.1467	Choloylglycine hydrolase (EC 3.5.1.24)
+fig|391904.5.peg.1468	"5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)"
+fig|391904.5.peg.1469	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)
+fig|391904.5.peg.1470	Phosphohistidine phosphatase SixA
+fig|391904.5.peg.1471	tRNA (adenine(58)-N(1))-methyltransferase (EC 2.1.1.220)
+fig|391904.5.peg.1472	hypothetical protein
+fig|391904.5.peg.1473	Thiaminase II (EC 3.5.99.2) involved in salvage of thiamin pyrimidine moiety
+fig|391904.5.peg.1474	hypothetical protein
+fig|391904.5.peg.1475	Putative oxidoreductase
+fig|391904.5.peg.1476	Putative oxidoreductase
+fig|391904.5.peg.1477	Esterase/lipase
+fig|391904.5.peg.1478	hypothetical protein
+fig|391904.5.peg.1479	hypothetical protein
+fig|391904.5.peg.1480	"RarD protein, DMT superfamily transporter"
+fig|391904.5.peg.1481	hypothetical protein
+fig|391904.5.peg.1482	hypothetical protein
+fig|391904.5.peg.1483	COG1694: Predicted pyrophosphatase
+fig|391904.5.peg.1484	hypothetical protein
+fig|391904.5.peg.1485	hypothetical protein
+fig|391904.5.peg.1486	"Thiol peroxidase, Bcp-type (EC 1.11.1.15)"
+fig|391904.5.peg.1487	hypothetical protein
+fig|391904.5.peg.1488	hypothetical protein
+fig|391904.5.peg.1489	hypothetical protein
+fig|391904.5.peg.1490	Cof-like hydrolase
+fig|391904.5.peg.1491	probable ATP binding protein of ABC transporter
+fig|391904.5.peg.1492	"Predicted glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21), Actinobacterial type"
+fig|391904.5.peg.1493	hypothetical protein
+fig|391904.5.peg.1494	hypothetical protein
+fig|391904.5.peg.1495	"ABC transporter, substrate-binding protein"
+fig|391904.5.peg.1496	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)
+fig|391904.5.peg.1497	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)
+fig|391904.5.peg.1498	COG1609: Transcriptional regulators
+fig|391904.5.peg.1499	hypothetical protein
+fig|391904.5.peg.1500	hypothetical protein
+fig|391904.5.peg.1501	Glycerate kinase (EC 2.7.1.31)
+fig|391904.5.peg.1502	"Hypothetical radical SAM family enzyme in heat shock gene cluster, similarity with CPO of BS HemN-type"
+fig|391904.5.peg.1503	Translation elongation factor LepA
+fig|391904.5.peg.1504	SSU ribosomal protein S20p
+fig|391904.5.peg.1505	hypothetical protein
+fig|391904.5.peg.1506	Nucleoside triphosphate pyrophosphohydrolase MazG (EC 3.6.1.8)
+fig|391904.5.peg.1507	hypothetical protein
+fig|391904.5.peg.1508	Phage integrase
+fig|391904.5.peg.1509	hypothetical protein
+fig|391904.5.peg.1510	hypothetical protein
+fig|391904.5.peg.1511	hypothetical protein
+fig|391904.5.peg.1512	hypothetical protein
+fig|391904.5.peg.1513	hypothetical protein
+fig|391904.5.peg.1514	hypothetical protein
+fig|391904.5.peg.1515	hypothetical protein
+fig|391904.5.peg.1516	hypothetical protein
+fig|391904.5.peg.1517	hypothetical protein
+fig|391904.5.peg.1518	hypothetical protein
+fig|391904.5.peg.1519	hypothetical protein
+fig|391904.5.peg.1520	hypothetical protein
+fig|391904.5.peg.1521	hypothetical protein
+fig|391904.5.peg.1522	hypothetical protein
+fig|391904.5.peg.1523	hypothetical protein
+fig|391904.5.peg.1524	hypothetical protein
+fig|391904.5.peg.1525	hypothetical protein
+fig|391904.5.peg.1526	hypothetical protein
+fig|391904.5.peg.1527	hypothetical protein
+fig|391904.5.peg.1528	hypothetical protein
+fig|391904.5.peg.1529	hypothetical protein
+fig|391904.5.peg.1530	hypothetical protein
+fig|391904.5.peg.1531	hypothetical protein
+fig|391904.5.peg.1532	hypothetical protein
+fig|391904.5.peg.1533	hypothetical protein
+fig|391904.5.peg.1534	hypothetical protein
+fig|391904.5.peg.1535	hypothetical protein
+fig|391904.5.peg.1536	hypothetical protein
+fig|391904.5.peg.1537	hypothetical protein
+fig|391904.5.peg.1538	hypothetical protein
+fig|391904.5.peg.1539	hypothetical protein
+fig|391904.5.peg.1540	hypothetical protein
+fig|391904.5.peg.1541	hypothetical protein
+fig|391904.5.peg.1542	DNA methyltransferase
+fig|391904.5.peg.1543	Phage antirepressor protein
+fig|391904.5.peg.1544	hypothetical protein
+fig|391904.5.peg.1545	hypothetical protein
+fig|391904.5.peg.1546	hypothetical protein
+fig|391904.5.peg.1547	hypothetical protein
+fig|391904.5.peg.1548	hypothetical protein
+fig|391904.5.peg.1549	hypothetical protein
+fig|391904.5.peg.1550	hypothetical protein
+fig|391904.5.peg.1551	hypothetical protein
+fig|391904.5.peg.1552	"transcriptional modulator of MazE/toxin, MazF"
+fig|391904.5.peg.1553	hypothetical protein
+fig|391904.5.peg.1554	hypothetical protein
+fig|391904.5.peg.1555	hypothetical protein
+fig|391904.5.peg.1556	hypothetical protein
+fig|391904.5.peg.1557	hypothetical protein
+fig|391904.5.peg.1558	hypothetical protein
+fig|391904.5.peg.1559	hypothetical protein
+fig|391904.5.peg.1560	hypothetical protein
+fig|391904.5.peg.1561	hypothetical protein
+fig|391904.5.peg.1562	hypothetical protein
+fig|391904.5.peg.1563	hypothetical protein
+fig|391904.5.peg.1564	hypothetical protein
+fig|391904.5.peg.1565	hypothetical protein
+fig|391904.5.peg.1566	hypothetical protein
+fig|391904.5.peg.1567	hypothetical protein
+fig|391904.5.peg.1568	hypothetical protein
+fig|391904.5.peg.1569	hypothetical protein
+fig|391904.5.peg.1570	hypothetical protein
+fig|391904.5.peg.1571	hypothetical protein
+fig|391904.5.peg.1572	hypothetical protein
+fig|391904.5.peg.1573	hypothetical protein
+fig|391904.5.peg.1574	hypothetical protein
+fig|391904.5.peg.1575	hypothetical protein
+fig|391904.5.peg.1576	Cell wall surface anchor family protein
+fig|391904.5.peg.1577	hypothetical protein
+fig|391904.5.peg.1578	hypothetical protein
+fig|391904.5.peg.1579	COG0583: Transcriptional regulator
+fig|391904.5.peg.1580	hypothetical protein
+fig|391904.5.peg.1581	hypothetical protein
+fig|391904.5.peg.1582	Mobile element protein
+fig|391904.5.peg.1583	hypothetical protein
+fig|391904.5.peg.1584	hypothetical protein
+fig|391904.5.peg.1585	hypothetical protein
+fig|391904.5.peg.1586	putative lysin
+fig|391904.5.peg.1587	hypothetical protein
+fig|391904.5.peg.1588	Branched-chain amino acid aminotransferase (EC 2.6.1.42)
+fig|391904.5.peg.1589	LSU ribosomal protein L25p
+fig|391904.5.peg.1590	alpha/beta hydrolase
+fig|391904.5.peg.1591	NAD(P) transhydrogenase subunit beta (EC 1.6.1.2)
+fig|391904.5.peg.1592	NAD(P) transhydrogenase alpha subunit (EC 1.6.1.2)
+fig|391904.5.peg.1593	NAD(P) transhydrogenase alpha subunit (EC 1.6.1.2)
+fig|391904.5.peg.1594	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+fig|391904.5.peg.1595	GTP-binding protein Era
+fig|391904.5.peg.1596	Magnesium and cobalt efflux protein CorC
+fig|391904.5.peg.1597	"Metal-dependent hydrolase YbeY, involved in rRNA and/or ribosome maturation and assembly"
+fig|391904.5.peg.1598	"Phosphate starvation-inducible protein PhoH, predicted ATPase"
+fig|391904.5.peg.1599	Bis(5&#39;-nucleosyl)-tetraphosphatase (asymmetrical) (EC 3.6.1.17)
+fig|391904.5.peg.1600	16S rRNA (uracil(1498)-N(3))-methyltransferase (EC 2.1.1.193)
+fig|391904.5.peg.1601	rRNA methylases
+fig|391904.5.peg.1602	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
+fig|391904.5.peg.1603	PaaD-like protein (DUF59) involved in Fe-S cluster assembly
+fig|391904.5.peg.1604	"Putative iron-sulfur cluster assembly scaffold protein for SUF system, SufE2"
+fig|391904.5.peg.1605	"Cysteine desulfurase (EC 2.8.1.7), SufS subfamily"
+fig|391904.5.peg.1606	Iron-sulfur cluster assembly ATPase protein SufC
+fig|391904.5.peg.1607	Iron-sulfur cluster assembly protein SufD
+fig|391904.5.peg.1608	Iron-sulfur cluster assembly protein SufB
+fig|391904.5.peg.1609	CTP synthase (EC 6.3.4.2)
+fig|391904.5.peg.1610	3-dehydroquinate dehydratase II (EC 4.2.1.10)
+fig|391904.5.peg.1611	Shikimate kinase I (EC 2.7.1.71) / 3-dehydroquinate synthase (EC 4.2.3.4)
+fig|391904.5.peg.1612	Chorismate synthase (EC 4.2.3.5)
+fig|391904.5.peg.1613	Permeases of the major facilitator superfamily
+fig|391904.5.peg.1614	FIG004453: protein YceG like
+fig|391904.5.peg.1615	Putative pre-16S rRNA nuclease
+fig|391904.5.peg.1616	Alanyl-tRNA synthetase (EC 6.1.1.7)
+fig|391904.5.peg.1617	hypothetical protein
+fig|391904.5.peg.1618	Uncharacterized protein containing a divergent version of the methyl-accepting chemotaxis-like domain
+fig|391904.5.peg.1619	Phosphoglycerate mutase family protein
+fig|391904.5.peg.1620	hypothetical protein
+fig|391904.5.peg.1621	hypothetical protein
+fig|391904.5.peg.1622	hypothetical protein
+fig|391904.5.peg.1623	cytidine deaminase
+fig|391904.5.peg.1624	"Glutamine amidotransferase, class I"
+fig|391904.5.peg.1625	"SSU ribosomal protein S4p (S9e) @ SSU ribosomal protein S4p (S9e), zinc-independent"
+fig|391904.5.peg.1626	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1627	"ABC transporter, permease protein"
+fig|391904.5.peg.1628	hypothetical protein
+fig|391904.5.peg.1629	ATP-dependent DNA helicase UvrD/PcrA
+fig|391904.5.peg.1630	Xanthine phosphoribosyltransferase (EC 2.4.2.22)
+fig|391904.5.peg.1631	Xanthine permease
+fig|391904.5.peg.1632	"Transcriptional regulator, Cro/CI family"
+fig|391904.5.peg.1633	hypothetical protein
+fig|391904.5.peg.1634	hypothetical protein
+fig|391904.5.peg.1635	Lactoylglutathione lyase and related lyases
+fig|391904.5.peg.1636	Nicotinamidase (EC 3.5.1.19)
+fig|391904.5.peg.1637	Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21)
+fig|391904.5.peg.1638	hypothetical protein
+fig|391904.5.peg.1639	hypothetical protein
+fig|391904.5.peg.1640	hypothetical protein
+fig|391904.5.peg.1641	COG2865: Predicted transcriptional regulator containing an HTH domain and an uncharacterized domain shared with the mammalian protein Schlafen
+fig|391904.5.peg.1642	hypothetical protein
+fig|391904.5.peg.1643	hypothetical protein
+fig|391904.5.peg.1644	Teichoic acid export ATP-binding protein TagH (EC 3.6.3.40)
+fig|391904.5.peg.1645	hypothetical protein
+fig|391904.5.peg.1646	hypothetical protein
+fig|391904.5.peg.1647	hypothetical protein
+fig|391904.5.peg.1648	hypothetical protein
+fig|391904.5.peg.1649	Phosphate transport regulator (distant homolog of PhoU)
+fig|391904.5.peg.1650	Probable low-affinity inorganic phosphate transporter
+fig|391904.5.peg.1651	Cytoplasmic alpha-amylase (EC 3.2.1.1)
+fig|391904.5.peg.1652	possible antibiotic efflux protein
+fig|391904.5.peg.1653	hypothetical protein
+fig|391904.5.peg.1654	ATP-dependent RNA helicase
+fig|391904.5.peg.1655	Xanthine/uracil permease family
+fig|391904.5.peg.1656	"Fructose-2,6-bisphosphatase"
+fig|391904.5.peg.1657	hypothetical protein
+fig|391904.5.peg.1658	Macrolide-efflux protein
+fig|391904.5.peg.1659	Lactoylglutathione lyase
+fig|391904.5.peg.1660	hypothetical protein
+fig|391904.5.peg.1661	hypothetical protein
+fig|391904.5.peg.1662	Ferrous iron transport protein B
+fig|391904.5.peg.1663	Permeases of the major facilitator superfamily
+fig|391904.5.peg.1664	putative integral membrane protein
+fig|391904.5.peg.1665	hypothetical protein
+fig|391904.5.peg.1666	"Lyzozyme M1 (1,4-beta-N-acetylmuramidase)"
+fig|391904.5.peg.1667	hypothetical protein
+fig|391904.5.peg.1668	hypothetical protein
+fig|391904.5.peg.1669	hypothetical protein
+fig|391904.5.peg.1670	hypothetical protein
+fig|391904.5.peg.1671	hypothetical protein
+fig|391904.5.peg.1672	hypothetical protein
+fig|391904.5.peg.1673	hypothetical protein
+fig|391904.5.peg.1674	hypothetical protein
+fig|391904.5.peg.1675	IS30 family transposase
+fig|391904.5.peg.1676	ABC transporter related
+fig|391904.5.peg.1677	"Acetyltransferase, GNAT family"
+fig|391904.5.peg.1678	hypothetical protein
+fig|391904.5.peg.1679	Permeases of the major facilitator superfamily
+fig|391904.5.peg.1680	"Tn5252, Orf23"
+fig|391904.5.peg.1681	Mobile element protein
+fig|391904.5.peg.1682	"prophage LambdaBa04, site-specific recombinase, phage integrase family"
+fig|391904.5.peg.1683	hypothetical protein
+fig|391904.5.peg.1684	"Transcriptional regulator, AcrR family"
+fig|391904.5.peg.1685	hypothetical protein
+fig|391904.5.peg.1686	hypothetical protein
+fig|391904.5.peg.1687	hypothetical protein
+fig|391904.5.peg.1688	"transcriptional modulator of MazE/toxin, MazF"
+fig|391904.5.peg.1689	hypothetical protein
+fig|391904.5.peg.1690	Methyltransferase
+fig|391904.5.peg.1691	putative integral membrane protein
+fig|391904.5.peg.1692	hypothetical protein
+fig|391904.5.peg.1693	Excinuclease ABC subunit A paralog of unknown function
+fig|391904.5.peg.1694	"Multi antimicrobial extrusion protein (Na(+)/drug antiporter), MATE family of MDR efflux pumps"
+fig|391904.5.peg.1695	hypothetical protein
+fig|391904.5.peg.1696	GTP-binding and nucleic acid-binding protein YchF
+fig|391904.5.peg.1697	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)
+fig|391904.5.peg.1698	proline iminopeptidase
+fig|391904.5.peg.1699	histidine kinase sensor of two-component system
+fig|391904.5.peg.1700	Two-component system response regulator
+fig|391904.5.peg.1701	"ABC transporter, permease protein"
+fig|391904.5.peg.1702	possible ATP binding protein of ABC transporter
+fig|391904.5.peg.1703	O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+fig|391904.5.peg.1704	hypothetical protein
+fig|391904.5.peg.1705	Pyridoxal kinase (EC 2.7.1.35)
+fig|391904.5.peg.1706	hypothetical protein
+fig|391904.5.peg.1707	MG(2+) CHELATASE FAMILY PROTEIN / ComM-related protein
+fig|391904.5.peg.1708	hypothetical protein
+fig|391904.5.peg.1709	Succinate dehydrogenase flavoprotein subunit (EC 1.3.5.1)
+fig|391904.5.peg.1710	Succinate dehydrogenase iron-sulfur protein (EC 1.3.5.1)
+fig|391904.5.peg.1711	"O-methyltransferase, family 3"
+fig|391904.5.peg.1712	LOG family protein
+fig|391904.5.peg.1713	Na+/H+ antiporter NhaA type
+fig|391904.5.peg.1714	ATP-dependent Clp protease ATP-binding subunit ClpX
+fig|391904.5.peg.1715	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+fig|391904.5.peg.1716	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+fig|391904.5.peg.1717	hypothetical protein
+fig|391904.5.peg.1718	Chloride channel protein
+fig|391904.5.peg.1719	Cell division trigger factor (EC 5.2.1.8)
+fig|391904.5.peg.1720	Ribonuclease D (EC 3.1.26.3)
+fig|391904.5.peg.1721	Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)
+fig|391904.5.peg.1722	Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)
+fig|391904.5.peg.1723	Pyruvate formate-lyase (EC 2.3.1.54)
+fig|391904.5.peg.1724	hypothetical protein
+fig|391904.5.peg.1725	NAD synthetase (EC 6.3.1.5)
+fig|391904.5.peg.1726	"N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)"
+fig|391904.5.peg.1727	Methionine ABC transporter permease protein
+fig|391904.5.peg.1728	Methionine ABC transporter ATP-binding protein
+fig|391904.5.peg.1729	Methionine ABC transporter substrate-binding protein
+fig|391904.5.peg.1730	Fructose-6-phosphate phosphoketolase (EC 4.1.2.22) / Xylulose-5-phosphate phosphoketolase (EC 4.1.2.9)
+fig|391904.5.peg.1731	hypothetical protein
+fig|391904.5.peg.1732	"GMP synthase [glutamine-hydrolyzing], amidotransferase subunit (EC 6.3.5.2) / GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit (EC 6.3.5.2)"
+fig|391904.5.peg.1733	hypothetical protein
+fig|391904.5.peg.1734	hypothetical protein
+fig|391904.5.peg.1735	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)
+fig|391904.5.peg.1736	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)
+fig|391904.5.peg.1737	Ribosomal silencing factor RsfA
+fig|391904.5.peg.1738	Phosphoglycerate mutase (EC 5.4.2.1)
+fig|391904.5.peg.1739	Phosphate acetyltransferase (EC 2.3.1.8)
+fig|391904.5.peg.1740	Acetate kinase (EC 2.7.2.1)
+fig|391904.5.peg.1741	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) ## AroF beta
+fig|391904.5.peg.1742	hypothetical protein
+fig|391904.5.peg.1743	hypothetical protein
+fig|391904.5.peg.1744	hypothetical protein
+fig|391904.5.peg.1745	Phage integrase family protein
+fig|391904.5.peg.1746	"Limit dextrin alpha-1,6-maltotetraose-hydrolase (EC 3.2.1.196)"
+fig|391904.5.peg.1747	ADP-ribose pyrophosphatase (EC 3.6.1.13)
+fig|391904.5.peg.1748	FIG137478: Hypothetical protein YbgI
+fig|391904.5.peg.1749	DNA polymerase I (EC 2.7.7.7)
+fig|391904.5.peg.1750	hypothetical protein
+fig|391904.5.peg.1751	Pyruvate kinase (EC 2.7.1.40)
+fig|391904.5.peg.1752	Integral membrane protein TerC
+fig|391904.5.peg.1753	Excinuclease ABC subunit B
+fig|391904.5.peg.1754	hypothetical protein
+fig|391904.5.peg.1755	hypothetical protein
+fig|391904.5.peg.1756	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1757	Dephospho-CoA kinase (EC 2.7.1.24)
+fig|391904.5.peg.1758	SSU ribosomal protein S1p
+fig|391904.5.peg.1759	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)
+fig|391904.5.peg.1760	"Zinc ABC transporter, substrate-binding protein ZnuA"
+fig|391904.5.peg.1761	"Zinc ABC transporter, ATP-binding protein ZnuC"
+fig|391904.5.peg.1762	"Zinc ABC transporter, permease protein ZnuB"
+fig|391904.5.peg.1763	"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)"
+fig|391904.5.peg.1764	CarD-like transcriptional regulator
+fig|391904.5.peg.1765	FIG00425531: hypothetical protein
+fig|391904.5.peg.1766	"1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)"
+fig|391904.5.peg.1767	"Response regulator receiver:Transcriptional regulatory protein, C-terminal"
+fig|391904.5.peg.1768	histidine kinase sensor of two-component system
+fig|391904.5.peg.1769	hypothetical protein
+fig|391904.5.peg.1770	Phosphoglucomutase (EC 5.4.2.2)
+fig|391904.5.peg.1771	hypothetical protein
+fig|391904.5.peg.1772	hypothetical protein
+fig|391904.5.peg.1773	putative glycosyl transferase domain protein
+fig|391904.5.peg.1774	Sporulation regulatory protein WhiB
+fig|391904.5.peg.1775	hypothetical protein
+fig|391904.5.peg.1776	DNA translocase FtsK
+fig|391904.5.peg.1777	WhiB-like transcription regulator
+fig|391904.5.peg.1778	Signal transduction histidine kinase
+fig|391904.5.peg.1779	"FIG01964566: Predicted membrane protein, hemolysin III homolog"
+fig|391904.5.peg.1780	Transcription elongation factor GreA
+fig|391904.5.peg.1781	"FK506-binding protein, peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)"
+fig|391904.5.peg.1782	"L-serine dehydratase, beta subunit (EC 4.3.1.17) / L-serine dehydratase, alpha subunit (EC 4.3.1.17)"
+fig|391904.5.peg.1783	4-hydroxybenzoate polyprenyltransferase and related prenyltransferases
+fig|391904.5.peg.1784	Phage integrase
+fig|391904.5.peg.1785	hypothetical protein
+fig|391904.5.peg.1786	hypothetical protein
+fig|391904.5.peg.1787	hypothetical protein
+fig|391904.5.peg.1788	hypothetical protein
+fig|391904.5.peg.1789	hypothetical protein
+fig|391904.5.peg.1790	hypothetical protein
+fig|391904.5.peg.1791	hypothetical protein
+fig|391904.5.peg.1792	hypothetical protein
+fig|391904.5.peg.1793	hypothetical protein
+fig|391904.5.peg.1794	Single-stranded DNA-binding protein
+fig|391904.5.peg.1795	ParB domain-containing protein nuclease
+fig|391904.5.peg.1796	hypothetical protein
+fig|391904.5.peg.1797	hypothetical protein
+fig|391904.5.peg.1798	hypothetical protein
+fig|391904.5.peg.1799	COG1949: Oligoribonuclease (3&#39;->5&#39; exoribonuclease)
+fig|391904.5.peg.1800	hypothetical protein
+fig|391904.5.peg.1801	hypothetical protein
+fig|391904.5.peg.1802	hypothetical protein
+fig|391904.5.peg.1803	hypothetical protein
+fig|391904.5.peg.1804	hypothetical protein
+fig|391904.5.peg.1805	hypothetical protein
+fig|391904.5.peg.1806	hypothetical protein
+fig|391904.5.peg.1807	hypothetical protein
+fig|391904.5.peg.1808	hypothetical protein
+fig|391904.5.peg.1809	hypothetical protein
+fig|391904.5.peg.1810	hypothetical protein
+fig|391904.5.peg.1811	hypothetical protein
+fig|391904.5.peg.1812	hypothetical protein
+fig|391904.5.peg.1813	hypothetical protein
+fig|391904.5.peg.1814	hypothetical protein
+fig|391904.5.peg.1815	hypothetical protein
+fig|391904.5.peg.1816	hypothetical protein
+fig|391904.5.peg.1817	hypothetical protein
+fig|391904.5.peg.1818	hypothetical protein
+fig|391904.5.peg.1819	hypothetical protein
+fig|391904.5.peg.1820	hypothetical protein
+fig|391904.5.peg.1821	hypothetical protein
+fig|391904.5.peg.1822	hypothetical protein
+fig|391904.5.peg.1823	hypothetical protein
+fig|391904.5.peg.1824	hypothetical protein
+fig|391904.5.peg.1825	hypothetical protein
+fig|391904.5.peg.1826	Phage major tail protein
+fig|391904.5.peg.1827	hypothetical protein
+fig|391904.5.peg.1828	hypothetical protein
+fig|391904.5.peg.1829	hypothetical protein
+fig|391904.5.peg.1830	hypothetical protein
+fig|391904.5.peg.1831	hypothetical protein
+fig|391904.5.peg.1832	COG0583: Transcriptional regulator
+fig|391904.5.peg.1833	hypothetical protein
+fig|391904.5.peg.1834	hypothetical protein
+fig|391904.5.peg.1835	hypothetical protein
+fig|391904.5.peg.1836	hypothetical protein
+fig|391904.5.peg.1837	putative lysin
+fig|391904.5.peg.1838	hypothetical protein
+fig|391904.5.peg.1839	Exopolyphosphatase (EC 3.6.1.11)
+fig|391904.5.peg.1840	FIG004853: possible toxin to DivIC
+fig|391904.5.peg.1841	"Cell division protein DivIC (FtsB), stabilizes FtsL against RasP cleavage"
+fig|391904.5.peg.1842	Enolase (EC 4.2.1.11)
+fig|391904.5.peg.1843	possible oxidoreductase of the aldo/keto reductase family
+fig|391904.5.peg.1844	Transcription-repair coupling factor
+fig|391904.5.peg.1845	Peptidyl-tRNA hydrolase (EC 3.1.1.29)
+fig|391904.5.peg.1846	hypothetical protein
+fig|391904.5.peg.1847	Sortase and related acyltransferases
+fig|391904.5.peg.1848	UPF0182 protein AF1421
+fig|391904.5.peg.1849	beta-glycosyl hydrolase
+fig|391904.5.peg.1850	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)
+fig|391904.5.peg.1851	hypothetical protein
+fig|391904.5.peg.1852	Gamma-glutamyl phosphate reductase (EC 1.2.1.41)
+fig|391904.5.peg.1853	Serine hydroxymethyltransferase (EC 2.1.2.1)
+fig|391904.5.peg.1854	Threonine synthase (EC 4.2.3.1)
+fig|391904.5.peg.1855	hypothetical protein
+fig|391904.5.peg.1856	"Transcriptional regulator, GntR family"
+fig|391904.5.peg.1857	COG0474: Cation transport ATPase
+fig|391904.5.peg.1858	hypothetical protein
+fig|391904.5.peg.1859	Putative membrane-spanning protein
+fig|391904.5.peg.1860	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1861	"Transcriptional regulator, GntR family"
+fig|391904.5.peg.1862	hypothetical protein
+fig|391904.5.peg.1863	COG0477: Permeases of the major facilitator superfamily
+fig|391904.5.peg.1864	ThMPase type I predicted
+fig|391904.5.peg.1865	DNA repair protein RecN
+fig|391904.5.peg.1866	NAD kinase (EC 2.7.1.23)
+fig|391904.5.peg.1867	hypothetical protein
+fig|391904.5.peg.1868	23S rRNA (cytidine(1920)-2&#39;-O)-methyltransferase (EC 2.1.1.226) @ 16S rRNA (cytidine(1409)-2&#39;-O)-methyltransferase (EC 2.1.1.227)
+fig|391904.5.peg.1869	FIG00820006: hypothetical protein
+fig|391904.5.peg.1870	4-nitrophenylphosphatase (EC 3.1.3.41)
+fig|391904.5.peg.1871	TPR-repeat-containing protein
+fig|391904.5.peg.1872	Tyrosyl-tRNA synthetase (EC 6.1.1.1)
+fig|391904.5.peg.1873	Predicted membrane protein
+fig|391904.5.peg.1874	"HD family hydrolase, diverged"
+fig|391904.5.peg.1875	hypothetical protein
+fig|391904.5.peg.1876	Sulfur carrier protein ThiS adenylyltransferase (EC 2.7.7.73)
+fig|391904.5.peg.1877	Thiazole synthase (EC 2.8.1.10)
+fig|391904.5.peg.1878	Sulfur carrier protein ThiS
+fig|391904.5.peg.1879	Argininosuccinate lyase (EC 4.3.2.1)
+fig|391904.5.peg.1880	Argininosuccinate synthase (EC 6.3.4.5)
+fig|391904.5.peg.1881	"Arginine pathway regulatory protein ArgR, repressor of arg regulon"
+fig|391904.5.peg.1882	Ornithine carbamoyltransferase (EC 2.1.3.3)
+fig|391904.5.peg.1883	N-acetylornithine aminotransferase (EC 2.6.1.11)
+fig|391904.5.peg.1884	N-acetylglutamate kinase (EC 2.7.2.8)
+fig|391904.5.peg.1885	N-acetylglutamate synthase (EC 2.3.1.1) / Glutamate N-acetyltransferase (EC 2.3.1.35)
+fig|391904.5.peg.1886	N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)
+fig|391904.5.peg.1887	hypothetical protein
+fig|391904.5.peg.1888	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)
+fig|391904.5.peg.1889	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)
+fig|391904.5.peg.1890	possible rRNA methylase
+fig|391904.5.peg.1891	Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine
+fig|391904.5.peg.1892	Duplicated ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine
+fig|391904.5.peg.1893	Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine
+fig|391904.5.peg.1894	hypothetical protein
+fig|391904.5.peg.1895	"CblZ, a non-orthologous displasment for Alpha-ribazole-5&#39;-phosphate phosphatase"
+fig|391904.5.peg.1896	Dihydrolipoamide dehydrogenase (EC 1.8.1.4)
+fig|391904.5.peg.1897	"Transmembrane protein MT2276, clustered with lipoate gene"
+fig|391904.5.peg.1898	Glutamine synthetase type I (EC 6.3.1.2)
+fig|391904.5.peg.1899	Hypothetical protein
+fig|391904.5.peg.1900	hypothetical protein
+fig|391904.5.peg.1901	Galactoside O-acetyltransferase (EC 2.3.1.18)
+fig|391904.5.peg.1902	Galactoside O-acetyltransferase (EC 2.3.1.18)
+fig|391904.5.peg.1903	PadR-like family transcriptional regulator
+fig|391904.5.peg.1904	endonuclease III domain protein
+fig|391904.5.peg.1905	"Multi antimicrobial extrusion protein (Na(+)/drug antiporter), MATE family of MDR efflux pumps"
+fig|391904.5.peg.1906	Excinuclease ABC subunit A paralog of unknown function
+fig|391904.5.peg.1907	FIG00424884: hypothetical protein
+fig|391904.5.peg.1908	hypothetical protein
+fig|391904.5.peg.1909	hypothetical protein
+fig|391904.5.peg.1910	hypothetical protein
+fig|391904.5.peg.1911	hypothetical protein
+fig|391904.5.peg.1912	"Broad specificity beta-glucosidase, GH1"
+fig|391904.5.peg.1913	hypothetical protein
+fig|391904.5.peg.1914	Predicted mannan acetyl-esterase
+fig|391904.5.peg.1915	sialic acid-specific 9-O-acetylesterase
+fig|391904.5.peg.1916	hypothetical protein
+fig|391904.5.peg.1917	Mobile element protein
+fig|391904.5.peg.1918	hypothetical protein
+fig|391904.5.peg.1919	hypothetical protein
+fig|391904.5.peg.1920	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1921	"Transcriptional regulator, AcrR family"
+fig|391904.5.peg.1922	hypothetical protein
+fig|391904.5.peg.1923	Mobile element protein
+fig|391904.5.peg.1924	Dehydrogenase
+fig|391904.5.peg.1925	hypothetical protein
+fig|391904.5.peg.1926	"Transcriptional regulator, MerR family"
+fig|391904.5.peg.1927	CrcB protein
+fig|391904.5.peg.1928	CrcB protein
+fig|391904.5.peg.1929	putative membrane protein
+fig|391904.5.peg.1930	Putative membrane protein YeiH
+fig|391904.5.peg.1931	Transcriptional regulator
+fig|391904.5.peg.1932	Translation elongation factor Tu
+fig|391904.5.peg.1933	hypothetical protein
+fig|391904.5.peg.1934	Translation elongation factor G
+fig|391904.5.peg.1935	SSU ribosomal protein S7p (S5e)
+fig|391904.5.peg.1936	SSU ribosomal protein S12p (S23e)
+fig|391904.5.peg.1937	IS30 family transposase
+fig|391904.5.peg.1938	conserved hypothetical phage AbiD protein
+fig|391904.5.peg.1939	Mobile element protein
+fig|391904.5.peg.1940	hypothetical protein
+fig|391904.5.peg.1941	Mobile element protein
+fig|391904.5.peg.1942	hypothetical protein
+fig|391904.5.peg.1943	Mobile element protein
+fig|391904.5.peg.1944	ABC transporter related
+fig|391904.5.peg.1945	Probable Na+ dependent transporter possibly for ileal bile acids
+fig|391904.5.peg.1946	Low-specificity L-threonine aldolase (EC 4.1.2.48)
+fig|391904.5.peg.1947	Glycosyltransferase
+fig|391904.5.peg.1948	Aspartate aminotransferase (EC 2.6.1.1)
+fig|391904.5.peg.1949	Phosphoribosylglycinamide formyltransferase 2 (EC 2.1.2.-)
+fig|391904.5.peg.1950	hypothetical protein
+fig|391904.5.peg.1951	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)
+fig|391904.5.peg.1952	"Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3) / Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)"
+fig|391904.5.peg.1953	hypothetical protein
+fig|391904.5.peg.1954	hypothetical protein
+fig|391904.5.peg.1955	hypothetical protein
+fig|391904.5.peg.1956	G:T/U mismatch-specific uracil/thymine DNA-glycosylase
+fig|391904.5.peg.1957	hypothetical protein
+fig|391904.5.peg.1958	hypothetical protein
+fig|391904.5.peg.1959	hypothetical protein
+fig|391904.5.peg.1960	hypothetical protein
+fig|391904.5.peg.1961	DNA-damage repair protein
+fig|391904.5.peg.1962	Adenosylhomocysteinase (EC 3.3.1.1)
+fig|391904.5.peg.1963	possible chlorohydrolase-like protein
+fig|391904.5.peg.1964	FIG018171: hypothetical protein of Cupin superfamily
+fig|391904.5.peg.1965	"Amino acid ABC transporter, substrate-binding protein"
+fig|391904.5.peg.1966	"polar amino acid ABC transporter, inner membrane subunit"
+fig|391904.5.peg.1967	"ABC-type polar amino acid transport system, ATPase component"
+fig|391904.5.peg.1968	Amidophosphoribosyltransferase (EC 2.4.2.14)
+fig|391904.5.peg.1969	Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)
+fig|391904.5.peg.1970	Phosphoribosylamine--glycine ligase (EC 6.3.4.13)
+fig|391904.5.peg.1971	Aldehyde dehydrogenase (EC 1.2.1.3)
+fig|391904.5.peg.1972	hypothetical protein
+fig|391904.5.peg.1973	hypothetical protein
+fig|391904.5.peg.1974	"Zinc ABC transporter, substrate-binding protein ZnuA"
+fig|391904.5.peg.1975	"SSU ribosomal protein S14p (S29e) @ SSU ribosomal protein S14p (S29e), zinc-independent"
+fig|391904.5.peg.1976	hypothetical protein
+fig|391904.5.peg.1977	"LSU ribosomal protein L28p @ LSU ribosomal protein L28p, zinc-independent"
+fig|391904.5.peg.1978	"LSU ribosomal protein L33p @ LSU ribosomal protein L33p, zinc-independent"
+fig|391904.5.peg.1979	"SSU ribosomal protein S14p (S29e) @ SSU ribosomal protein S14p (S29e), zinc-independent"
+fig|391904.5.peg.1980	"LSU ribosomal protein L31p @ LSU ribosomal protein L31p, zinc-independent"
+fig|391904.5.peg.1981	"LSU ribosomal protein L36p @ LSU ribosomal protein L36p, zinc-independent"
+fig|391904.5.peg.1982	hypothetical protein
+fig|391904.5.peg.1983	hypothetical protein
+fig|391904.5.peg.1984	hypothetical protein
+fig|391904.5.peg.1985	hypothetical protein
+fig|391904.5.peg.1986	hypothetical protein
+fig|391904.5.peg.1987	Zinc uptake regulation protein ZUR
+fig|391904.5.peg.1988	hypothetical protein
+fig|391904.5.peg.1989	hypothetical protein
+fig|391904.5.peg.1990	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.1991	"ABC transporter, permease protein"
+fig|391904.5.peg.1992	Zinc uptake regulation protein ZUR
+fig|391904.5.peg.1993	N5-carboxyaminoimidazole ribonucleotide synthase (EC 6.3.4.18)
+fig|391904.5.peg.1994	N5-carboxyaminoimidazole ribonucleotide mutase (EC 5.4.99.18)
+fig|391904.5.peg.1995	NADPH:quinone oxidoreductases or alcohol dehydrogenase
+fig|391904.5.peg.1996	1-deoxy-D-xylulose 5-phosphate synthase (EC 2.2.1.7)
+fig|391904.5.peg.1997	hypothetical protein
+fig|391904.5.peg.1998	hypothetical protein
+fig|391904.5.peg.1999	hypothetical protein
+fig|391904.5.peg.2000	hypothetical protein
+fig|391904.5.peg.2001	"Transcriptional regulator, RpiR family"
+fig|391904.5.peg.2002	"Predicted alpha-L-arabinofuranosidase AbfA2 (EC 3.2.1.55), GH51 family # BL1138 orthologs"
+fig|391904.5.peg.2003	hypothetical protein
+fig|391904.5.peg.2004	Asparaginase
+fig|391904.5.peg.2005	Aspartate aminotransferase (EC 2.6.1.1)
+fig|391904.5.peg.2006	"Pyridoxal 5&#39;-phosphate synthase (glutamine hydrolyzing), glutaminase subunit (EC 4.3.3.6)"
+fig|391904.5.peg.2007	"Pyridoxal 5&#39;-phosphate synthase (glutamine hydrolyzing), synthase subunit (EC 4.3.3.6)"
+fig|391904.5.peg.2008	DNA primase (EC 2.7.7.-)
+fig|391904.5.peg.2009	"dNTP triphosphohydrolase, broad substrate specificity"
+fig|391904.5.peg.2010	Alanine racemase (EC 5.1.1.1)
+fig|391904.5.peg.2011	hypothetical protein
+fig|391904.5.peg.2012	Amino acid permease
+fig|391904.5.peg.2013	Histone acetyltransferase HPA2 and related acetyltransferases
+fig|391904.5.peg.2014	S-ribosylhomocysteine lyase (EC 4.4.1.21) @ Autoinducer-2 production protein LuxS
+fig|391904.5.peg.2015	ATP-dependent DNA helicase RecQ
+fig|391904.5.peg.2016	hypothetical protein
+fig|391904.5.peg.2017	"Cystathionine gamma-lyase (EC 4.4.1.1), truncated"
+fig|391904.5.peg.2018	"Cystathionine beta-synthase (EC 4.2.1.22), truncated"
+fig|391904.5.peg.2019	hypothetical protein
+fig|391904.5.peg.2020	"Predicted nucleoside transporter, MFS family"
+fig|391904.5.peg.2021	Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)
+fig|391904.5.peg.2022	probable ATP binding protein of ABC transporter for peptides
+fig|391904.5.peg.2023	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)
+fig|391904.5.peg.2024	"ABC-type dipeptide/oligopeptide/nickel transport systems, permease components"
+fig|391904.5.peg.2025	Dipeptide transport system permease protein DppB (TC 3.A.1.5.2)
+fig|391904.5.peg.2026	hypothetical protein
+fig|391904.5.peg.2027	Phosphopantothenoylcysteine synthetase (EC 6.3.2.5) / Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36)
+fig|391904.5.peg.2028	"Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)"
+fig|391904.5.peg.2029	"Galactooligosaccharides ABC transporter, substrate-binding protein"
+fig|391904.5.peg.2030	"Exo-beta-(1-3/1-4/1-6)-galactosidase, GH42"
+fig|391904.5.peg.2031	"Similar to ribosomal large subunit pseudouridine synthase D, type RluD4"
+fig|391904.5.peg.2032	Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)
+fig|391904.5.peg.2033	"Predicted arginine ABC transporter, ATP-binding protein"
+fig|391904.5.peg.2034	"Predicted arginine ABC transporter, permease protein"
+fig|391904.5.peg.2035	"Predicted arginine ABC transporter, substrate-binding protein"
+fig|391904.5.peg.2036	"Predicted arginine ABC transporter, substrate-binding protein"
+fig|391904.5.peg.2037	tmRNA-binding protein SmpB
+fig|391904.5.peg.2038	Surface antigen
+fig|391904.5.peg.2039	FtsX-like protein involved in cell division
+fig|391904.5.peg.2040	"Cell division transporter, ATP-binding protein FtsE (TC 3.A.5.1.1)"
+fig|391904.5.peg.2041	Peptide chain release factor 2
+fig|391904.5.peg.2042	hypothetical protein
+fig|391904.5.peg.2043	FIG00424334: hypothetical protein
+fig|391904.5.peg.2044	hypothetical protein
+fig|391904.5.peg.2045	hypothetical protein
+fig|391904.5.peg.2046	Peptide deformylase (EC 3.5.1.88)
+fig|391904.5.peg.2047	Phosphoglucosamine mutase (EC 5.4.2.10)
+fig|391904.5.peg.2048	hypothetical protein
+fig|391904.5.peg.2049	Membrane alanine aminopeptidase N (EC 3.4.11.2)
+fig|391904.5.peg.2050	Ribonuclease J2 (endoribonuclease in RNA processing)
+fig|391904.5.peg.2051	4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)
+fig|391904.5.peg.2052	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
+fig|391904.5.peg.2053	Putative transport protein
+fig|391904.5.peg.2054	ATP-dependent DNA helicase SCO5184
+fig|391904.5.peg.2055	ATP-dependent DNA helicase SCO5183
+fig|391904.5.peg.2056	Serine/threonine protein kinase
+fig|391904.5.peg.2057	Fibronectin type III domain protein
+fig|391904.5.peg.2058	Fibronectin type III domain protein
+fig|391904.5.peg.2059	FIG022979: MoxR-like ATPases
+fig|391904.5.peg.2060	hypothetical protein
+fig|391904.5.peg.2061	FIG002343: hypothetical protein
+fig|391904.5.peg.2062	"FIG001454: Transglutaminase-like enzymes, putative cysteine proteases"
+fig|391904.5.peg.2063	Serine/threonine protein phosphatase (EC 3.1.3.16)
+fig|391904.5.peg.2064	hypothetical protein
+fig|391904.5.peg.2065	FOG: FHA domain
+fig|391904.5.peg.2066	DNA-directed RNA polymerase beta&#39; subunit (EC 2.7.7.6)
+fig|391904.5.peg.2067	DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+fig|391904.5.peg.2068	hypothetical protein
+fig|391904.5.peg.2069	A/G-specific adenine glycosylase (EC 3.2.2.-)
+fig|391904.5.peg.2070	tRNA (cytidine(34)-2&#39;-O)-methyltransferase (EC 2.1.1.207)
+fig|391904.5.peg.2071	hypothetical protein
+fig|391904.5.peg.2072	ACT domain protein
+fig|391904.5.peg.2073	"Exo-beta-(2-1/2-6)-fructofuranosidase, GH32"
+fig|391904.5.peg.2074	"Putative transcriptional regulator of fructooligosaccharide utilization, LacI-family"
+fig|391904.5.peg.2075	YTEU
+fig|391904.5.peg.2076	"Predicted fructosides ABC transporter, permease protein BfrD"
+fig|391904.5.peg.2077	"Predicted fructosides ABC transporter, permease protein BfrC"
+fig|391904.5.peg.2078	"Predicted fructosides ABC transporter, substrate-binding protein BfrB"
+fig|391904.5.peg.2079	Galactokinase (EC 2.7.1.6)
+fig|391904.5.peg.2080	Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)
+fig|391904.5.peg.2081	"Transcriptional regulator of galactose metabolism, DeoR family"
+fig|391904.5.peg.2082	FIG00427104: hypothetical protein
+fig|391904.5.peg.2083	Dihydroorotate dehydrogenase (quinone) (EC 1.3.5.2)
+fig|391904.5.peg.2084	probable NADH-dependent flavin oxidoreductase YqjM
+fig|391904.5.peg.2085	Penicillin-binding protein
+fig|391904.5.peg.2086	hypothetical protein
+fig|391904.5.peg.2087	Prospective global regulator Crp
+fig|391904.5.peg.2088	Lipoate-protein ligase A
+fig|391904.5.peg.2089	3-isopropylmalate dehydrogenase (EC 1.1.1.85)
+fig|391904.5.peg.2090	Protease II
+fig|391904.5.peg.2091	narrowly conserved hypothetical protein
+fig|391904.5.peg.2092	Glycine cleavage system H protein
+fig|391904.5.peg.2093	hypothetical protein
+fig|391904.5.peg.2094	alpha/beta hydrolase fold
+fig|391904.5.peg.2095	ADP-ribose pyrophosphatase
+fig|391904.5.peg.2096	Thioredoxin
+fig|391904.5.peg.2097	putative secreted protein
+fig|391904.5.peg.2098	Toxin HigB / Protein kinase domain of HipA
+fig|391904.5.peg.2099	hypothetical protein
+fig|391904.5.peg.2100	possible Etk-like tyrosine kinase involved in Eps biosynthesis
+fig|391904.5.peg.2101	hypothetical protein
+fig|391904.5.peg.2102	hypothetical protein
+fig|391904.5.peg.2103	Mobile element protein
+fig|391904.5.peg.2104	hypothetical protein
+fig|391904.5.peg.2105	hypothetical protein
+fig|391904.5.peg.2106	Transposase
+fig|391904.5.peg.2107	hypothetical protein
+fig|391904.5.peg.2108	Transposase
+fig|391904.5.peg.2109	Mobile element protein
+fig|391904.5.peg.2110	hypothetical protein
+fig|391904.5.peg.2111	Mobile element protein
+fig|391904.5.peg.2112	hypothetical protein
+fig|391904.5.peg.2113	hypothetical protein
+fig|391904.5.peg.2114	Putative glycosyltransferase
+fig|391904.5.peg.2115	hypothetical protein
+fig|391904.5.peg.2116	Putative transposase
+fig|391904.5.peg.2117	hypothetical protein
+fig|391904.5.peg.2118	hypothetical protein
+fig|391904.5.peg.2119	Glycosyltransferase
+fig|391904.5.peg.2120	"conserved hypothetical protein, putative polysaccharide polymerase"
+fig|391904.5.peg.2121	hypothetical protein
+fig|391904.5.peg.2122	Glycosyltransferase
+fig|391904.5.peg.2123	Mobile element protein
+fig|391904.5.peg.2124	Low molecular weight protein-tyrosine-phosphatase Wzb (EC 3.1.3.48)
+fig|391904.5.peg.2125	Mobile element protein
+fig|391904.5.peg.2126	Undecaprenyl-phosphate galactosephosphotransferase (EC 2.7.8.6)
+fig|391904.5.peg.2127	hypothetical protein
+fig|391904.5.peg.2128	hypothetical protein
+fig|391904.5.peg.2129	Transcriptional regulator
+fig|391904.5.peg.2130	hypothetical protein
+fig|391904.5.peg.2131	hypothetical protein
+fig|391904.5.peg.2132	hypothetical protein
+fig|391904.5.peg.2133	hypothetical protein
+fig|391904.5.peg.2134	putative secreted protein
+fig|391904.5.peg.2135	"Exo-beta-(1-4)-galactosidase, GH42"
+fig|391904.5.peg.2136	"Pup ligase PafA, possible component of postulated heterodimer PafA-PafA&#39;"
+fig|391904.5.peg.2137	Prokaryotic ubiquitin-like protein Pup
+fig|391904.5.peg.2138	Inositol-1-monophosphatase (EC 3.1.3.25)
+fig|391904.5.peg.2139	"Pup ligase PafA&#39; paralog, possible component of postulated heterodimer PafA-PafA&#39;"
+fig|391904.5.peg.2140	Bacterial proteasome-activating AAA-ATPase (PAN)
+fig|391904.5.peg.2141	DedA family protein
+fig|391904.5.peg.2142	Phosphoserine phosphatase (EC 3.1.3.3)
+fig|391904.5.peg.2143	Helicase PriA essential for oriC/DnaA-independent DNA replication
+fig|391904.5.peg.2144	possible alpha beta hydrolase
+fig|391904.5.peg.2145	Methionyl-tRNA formyltransferase (EC 2.1.2.9)
+fig|391904.5.peg.2146	Dihydroxy-acid dehydratase (EC 4.2.1.9)
+fig|391904.5.peg.2147	DNA-directed RNA polymerase omega subunit (EC 2.7.7.6)
+fig|391904.5.peg.2148	S-adenosylmethionine synthetase (EC 2.5.1.6)
+fig|391904.5.peg.2149	"ABC-type antimicrobial peptide transport system, permease component"
+fig|391904.5.peg.2150	"ABC-type antimicrobial peptide transport system, permease component"
+fig|391904.5.peg.2151	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.2152	COG0394: Protein-tyrosine-phosphatase
+fig|391904.5.peg.2153	Dihydrofolate reductase (EC 1.5.1.3)
+fig|391904.5.peg.2154	Thymidylate synthase (EC 2.1.1.45)
+fig|391904.5.peg.2155	hypothetical protein
+fig|391904.5.peg.2156	Universal stress protein UspA and related nucleotide-binding proteins
+fig|391904.5.peg.2157	hypothetical protein
+fig|391904.5.peg.2158	hypothetical protein
+fig|391904.5.peg.2159	hypothetical protein
+fig|391904.5.peg.2160	Phosphoserine aminotransferase (EC 2.6.1.52)
+fig|391904.5.peg.2161	hypothetical protein
+fig|391904.5.peg.2162	histidine kinase sensor of two component system
+fig|391904.5.peg.2163	Phosphate transport system regulatory protein PhoU
+fig|391904.5.peg.2164	Phosphoglycerate mutase (EC 5.4.2.11)
+fig|391904.5.peg.2165	hypothetical protein
+fig|391904.5.peg.2166	cytochrome P450-like enzyme
+fig|391904.5.peg.2167	UBA/THIF-type NAD/FAD binding protein
+fig|391904.5.peg.2168	transposase for insertion sequence
+fig|391904.5.peg.2169	MccC-like protein
+fig|391904.5.peg.2170	"1,4-dihydroxy-2-naphthoate polyprenyltransferase (EC 2.5.1.74)"
+fig|391904.5.peg.2171	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)
+fig|391904.5.peg.2172	Protein AraJ precursor
+fig|391904.5.peg.2173	hypothetical protein
+fig|391904.5.peg.2174	TPR-repeat-containing proteins
+fig|391904.5.peg.2175	hypothetical protein
+fig|391904.5.peg.2176	hypothetical protein
+fig|391904.5.peg.2177	hypothetical protein
+fig|391904.5.peg.2178	hypothetical protein
+fig|391904.5.peg.2179	Two-component system sensor histidine kinase
+fig|391904.5.peg.2180	"Two-component transcriptional response regulator, LuxR family"
+fig|391904.5.peg.2181	UDP-hexose 4-epimerase involved in lacto-N-biose utilization
+fig|391904.5.peg.2182	"UTP-hexose-1-phosphate uridylyltransferase involved in lacto-N-biose utilization, predicted"
+fig|391904.5.peg.2183	N-acetylhexosamine 1-kinase (EC 2.7.1.162)
+fig|391904.5.peg.2184	"1,3-beta-galactosyl-N-acetylhexosamine phosphorylase (EC 2.4.1.211)"
+fig|391904.5.peg.2185	"Lacto-N-biose and Galacto-N-biose ABC transporter 1, permease component 2 @ Type I HMOs transporter, permease protein 2"
+fig|391904.5.peg.2186	"Lacto-N-biose and Galacto-N-biose ABC transporter 1, permease component 1 @ Type I HMOs transporter, permease protein 1"
+fig|391904.5.peg.2187	"Lacto-N-biose and Galacto-N-biose ABC transporter 1, periplasmic substrate-binding protein @ Type I HMOs transporter, substrate-binding protein"
+fig|391904.5.peg.2188	Seryl-tRNA synthetase (EC 6.1.1.11)
+fig|391904.5.peg.2189	hypothetical protein
+fig|391904.5.peg.2190	"Glucose utilization antiterminator, BglG family @ Fructose utilization antiterminator, BglG family"
+fig|391904.5.peg.2191	Mobile element protein
+fig|391904.5.peg.2192	"PTS system, glucose-specific IIABC (EC 2.7.1.69) @ PTS system, fructose-specific IIABC (EC 2.7.1.202)"
+fig|391904.5.peg.2193	hypothetical protein
+fig|391904.5.peg.2194	Phosphoglucomutase (EC 5.4.2.2)
+fig|391904.5.peg.2195	hypothetical protein
+fig|391904.5.peg.2196	Predicted transcriptional regulator
+fig|391904.5.peg.2197	"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase"
+fig|391904.5.peg.2198	hypothetical protein
+fig|391904.5.peg.2199	Ribonuclease HI (EC 3.1.26.4)
+fig|391904.5.peg.2200	Ribose 5-phosphate isomerase A (EC 5.3.1.6)
+fig|391904.5.peg.2201	hypothetical protein
+fig|391904.5.peg.2202	hypothetical protein
+fig|391904.5.peg.2203	DNA repair protein RadA
+fig|391904.5.peg.2204	Riboflavin kinase (EC 2.7.1.26)
+fig|391904.5.peg.2205	tRNA pseudouridine synthase B (EC 5.4.99.25)
+fig|391904.5.peg.2206	Ribosome-binding factor A
+fig|391904.5.peg.2207	Translation initiation factor 2
+fig|391904.5.peg.2208	Transcription termination protein NusA
+fig|391904.5.peg.2209	hypothetical protein
+fig|391904.5.peg.2210	hypothetical protein
+fig|391904.5.peg.2211	"2&#39;FL, 3FL, LDFT, LNFP I ABC transporter, substrate-binding protein"
+fig|391904.5.peg.2212	"2&#39;FL, 3FL, LDFT, LNFP I ABC transporter, permease component 2"
+fig|391904.5.peg.2213	"2&#39;FL, 3FL, LDFT, LNFP I ABC transporter, permease component 1"
+fig|391904.5.peg.2214	Transposase
+fig|391904.5.peg.2215	hypothetical protein
+fig|391904.5.peg.2216	"Protein containing transglutaminase-like domain, putative cysteine protease"
+fig|391904.5.peg.2217	"Protein containing domains DUF404, DUF407, DUF403"
+fig|391904.5.peg.2218	tRNA pseudouridine synthase A (EC 5.4.99.12)
+fig|391904.5.peg.2219	LSU ribosomal protein L17p
+fig|391904.5.peg.2220	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)
+fig|391904.5.peg.2221	SSU ribosomal protein S11p (S14e)
+fig|391904.5.peg.2222	SSU ribosomal protein S13p (S18e)
+fig|391904.5.peg.2223	"LSU ribosomal protein L36p @ LSU ribosomal protein L36p, zinc-dependent"
+fig|391904.5.peg.2224	Translation initiation factor 1
+fig|391904.5.peg.2225	Adenylate kinase (EC 2.7.4.3)
+fig|391904.5.peg.2226	Protein translocase subunit SecY
+fig|391904.5.peg.2227	LSU ribosomal protein L15p (L27Ae)
+fig|391904.5.peg.2228	LSU ribosomal protein L30p (L7e)
+fig|391904.5.peg.2229	SSU ribosomal protein S5p (S2e)
+fig|391904.5.peg.2230	LSU ribosomal protein L18p (L5e)
+fig|391904.5.peg.2231	LSU ribosomal protein L6p (L9e)
+fig|391904.5.peg.2232	SSU ribosomal protein S8p (S15Ae)
+fig|391904.5.peg.2233	"SSU ribosomal protein S14p (S29e) @ SSU ribosomal protein S14p (S29e), zinc-dependent"
+fig|391904.5.peg.2234	LSU ribosomal protein L5p (L11e)
+fig|391904.5.peg.2235	LSU ribosomal protein L24p (L26e)
+fig|391904.5.peg.2236	LSU ribosomal protein L14p (L23e)
+fig|391904.5.peg.2237	SSU ribosomal protein S17p (S11e)
+fig|391904.5.peg.2238	LSU ribosomal protein L29p (L35e)
+fig|391904.5.peg.2239	LSU ribosomal protein L16p (L10e)
+fig|391904.5.peg.2240	SSU ribosomal protein S3p (S3e)
+fig|391904.5.peg.2241	LSU ribosomal protein L22p (L17e)
+fig|391904.5.peg.2242	SSU ribosomal protein S19p (S15e)
+fig|391904.5.peg.2243	LSU ribosomal protein L2p (L8e)
+fig|391904.5.peg.2244	LSU ribosomal protein L23p (L23Ae)
+fig|391904.5.peg.2245	LSU ribosomal protein L4p (L1e)
+fig|391904.5.peg.2246	LSU ribosomal protein L3p (L3e)
+fig|391904.5.peg.2247	SSU ribosomal protein S10p (S20e)
+fig|391904.5.peg.2248	Alpha-acetolactate decarboxylase (EC 4.1.1.5)
+fig|391904.5.peg.2249	Alcohol dehydrogenase (EC 1.1.1.1) / Acetaldehyde dehydrogenase (EC 1.2.1.10)
+fig|391904.5.peg.2250	"Predicted mannitol operon activator, ROK family"
+fig|391904.5.peg.2251	Glycogen debranching enzyme (EC 3.2.1.-)
+fig|391904.5.peg.2252	SSU ribosomal protein S9p (S16e)
+fig|391904.5.peg.2253	LSU ribosomal protein L13p (L13Ae)
+fig|391904.5.peg.2254	4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)
+fig|391904.5.peg.2255	hypothetical protein
+fig|391904.5.peg.2256	FIG000605: protein co-occurring with transport systems (COG1739)
+fig|391904.5.peg.2257	Phosphoglycerate dehydrogenase
+fig|391904.5.peg.2258	hypothetical protein
+fig|391904.5.peg.2259	DNA polymerase IV (EC 2.7.7.7)
+fig|391904.5.peg.2260	"N-succinyl-L,L-diaminopimelate aminotransferase (EC 2.6.1.17), type 2"
+fig|391904.5.peg.2261	"4Fe-4S ferredoxin, iron-sulfur binding"
+fig|391904.5.peg.2262	Amino acid permease-associated region precursor
+fig|391904.5.peg.2263	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98)
+fig|391904.5.peg.2264	"LSU ribosomal protein L33p @ LSU ribosomal protein L33p, zinc-dependent"
+fig|391904.5.peg.2265	Methionine gamma-lyase (EC 4.4.1.11)
+fig|391904.5.peg.2266	Heat shock protein 60 family co-chaperone GroES
+fig|391904.5.peg.2267	hypothetical protein
+fig|391904.5.peg.2268	Ribosomal-protein-S5p-alanine acetyltransferase (EC 2.3.1.128)
+fig|391904.5.peg.2269	5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)
+fig|391904.5.peg.2270	hypothetical protein
+fig|391904.5.peg.2271	hypothetical protein
+fig|391904.5.peg.2272	hypothetical protein
+fig|391904.5.peg.2273	hypothetical protein
+fig|391904.5.peg.2274	hypothetical protein
+fig|391904.5.peg.2275	hypothetical protein
+fig|391904.5.peg.2276	LSU ribosomal protein L7/L12 (P1/P2)
+fig|391904.5.peg.2277	LSU ribosomal protein L10p (P0)
+fig|391904.5.peg.2278	hypothetical protein
+fig|391904.5.peg.2279	Xanthine/uracil/thiamine/ascorbate permease family protein
+fig|391904.5.peg.2280	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+fig|391904.5.peg.2281	SSU ribosomal protein S15p (S13e)
+fig|391904.5.peg.2282	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.2283	ABC transporter related
+fig|391904.5.peg.2284	Lantibiotic response regulator
+fig|391904.5.peg.2285	hypothetical protein
+fig|391904.5.peg.2286	hypothetical protein
+fig|391904.5.peg.2287	response regulator of two-component system
+fig|391904.5.peg.2288	IS30 family transposase
+fig|391904.5.peg.2289	Mobile element protein
+fig|391904.5.peg.2290	Membrane protein involved in the export of O-antigen and teichoic acid
+fig|391904.5.peg.2291	hypothetical protein
+fig|391904.5.peg.2292	hypothetical protein
+fig|391904.5.peg.2293	Holo-[acyl-carrier protein] synthase (EC 2.7.8.7)
+fig|391904.5.peg.2294	[Acyl-carrier-protein] acetyl transferase of FASI (EC 2.3.1.38) / Enoyl-[acyl-carrier-protein] reductase of FASI (EC 1.3.1.9) / 3-hydroxypalmitoyl-[acyl-carrier-protein] dehydratase of FASI (EC 4.2.1.61) / [Acyl-carrier-protein] malonyl transferase of FASI (EC 2.3.1.39) / [Acyl-carrier-protein] palmitoyl transferase of FASI (EC 2.3.1.-) / Acyl carrier protein of FASI / 3-oxoacyl-[acyl-carrier-protein] reductase of FASI (EC 1.1.1.100) / 3-oxoacyl-[acyl-carrier-protein] synthase of FASI (EC 2.3.1.41)
+fig|391904.5.peg.2295	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)
+fig|391904.5.peg.2296	Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14) / Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+fig|391904.5.peg.2297	truncated Substrate-specific component BioY of biotin ECF transporter
+fig|391904.5.peg.2298	Biotin--protein ligase (EC 6.3.4.9)(EC 6.3.4.10)(EC 6.3.4.11)(EC 6.3.4.15)
+fig|391904.5.peg.2299	hypothetical protein
+fig|391904.5.peg.2300	Regulator of polyketide synthase expression
+fig|391904.5.peg.2301	"Transcriptional regulator, IclR family"
+fig|391904.5.peg.2302	"Transcriptional regulator, IclR family"
+fig|391904.5.peg.2303	LSU ribosomal protein L1p (L10Ae)
+fig|391904.5.peg.2304	LSU ribosomal protein L11p (L12e)
+fig|391904.5.peg.2305	Transcription antitermination protein NusG
+fig|391904.5.peg.2306	Protein translocase subunit SecE
+fig|391904.5.peg.2307	Aspartate aminotransferase (EC 2.6.1.1)
+fig|391904.5.peg.2308	Glutamate 5-kinase (EC 2.7.2.11)
+fig|391904.5.peg.2309	GTP-binding protein Obg
+fig|391904.5.peg.2310	LSU ribosomal protein L27p
+fig|391904.5.peg.2311	LSU ribosomal protein L21p
+fig|391904.5.peg.2312	Cytoplasmic axial filament protein CafA and Ribonuclease G (EC 3.1.4.-)
+fig|391904.5.peg.2313	"N-succinyl-L,L-diaminopimelate desuccinylase (EC 3.5.1.18)"
+fig|391904.5.peg.2314	putative membrane protein
+fig|391904.5.peg.2315	hypothetical protein
+fig|391904.5.peg.2316	L-fucose mutarotase (EC 5.1.3.29)
+fig|391904.5.peg.2317	L-fuconolactone hydrolase
+fig|391904.5.peg.2318	Fucose permease
+fig|391904.5.peg.2319	"L-fuco-beta-pyranose dehydrogenase, type 2 (EC 1.1.1.122)"
+fig|391904.5.peg.2320	L-fuconate dehydratase (EC 4.2.1.68)
+fig|391904.5.peg.2321	"Predicted transcriptional regulator for fucose utilization, LacI family"
+fig|391904.5.peg.2322	hypothetical protein
+fig|391904.5.peg.2323	ATP-binding protein of ABC transporter system
+fig|391904.5.peg.2324	hypothetical protein
+fig|391904.5.peg.2325	Septum formation protein Maf
+fig|391904.5.peg.2326	Homoserine kinase (EC 2.7.1.39)
+fig|391904.5.peg.2327	Homoserine dehydrogenase (EC 1.1.1.3)
+fig|391904.5.peg.2328	Diaminopimelate decarboxylase (EC 4.1.1.20)
+fig|391904.5.peg.2329	Arginyl-tRNA synthetase (EC 6.1.1.19)
+fig|391904.5.peg.2330	"Transcriptional regulator, LysR family"
+fig|391904.5.peg.2331	"Cystathionine beta-lyase, type II (EC 4.4.1.8)"
+fig|391904.5.peg.2332	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)
+fig|391904.5.peg.2333	hypothetical protein
+fig|391904.5.peg.2334	Uncharacterized NAD(FAD)-dependent dehydrogenase
+fig|391904.5.peg.2335	Dihydroorotate dehydrogenase (quinone) (EC 1.3.5.2)
+fig|391904.5.peg.2336	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)
+fig|391904.5.peg.2337	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)
+fig|391904.5.peg.2338	hypothetical protein
+fig|391904.5.peg.2339	"Transcriptional regulator, IclR family"
+fig|391904.5.peg.2340	FIG00672316: hypothetical protein
+fig|391904.5.peg.2341	FIG00424999: hypothetical protein
+fig|391904.5.peg.2342	Polyphosphate kinase (EC 2.7.4.1)
+fig|391904.5.peg.2343	probable MutT1 protein
+fig|391904.5.peg.2344	hypothetical protein
+fig|391904.5.peg.2345	"Lactose and galactose permease, GPH translocator family"
+fig|391904.5.peg.2346	"Lactose and galactose permease, GPH translocator family"
+fig|391904.5.peg.2347	Mobile element protein
+fig|391904.5.peg.2348	"Exo-beta-(1-4)-galactosidase, GH2"
+fig|391904.5.peg.2349	"Exo-alpha-L-(1-2)-fucosidase, GH95"
+fig|391904.5.peg.2350	"Exo-alpha-L-(1-3/1-4)-fucosidase, GH29"
+fig|391904.5.peg.2351	L-fucose mutarotase (EC 5.1.3.29)
+fig|391904.5.peg.2352	Predicted 2-keto-3-deoxy-L-fuconate aldolase
+fig|391904.5.peg.2353	"L-fuco-beta-pyranose dehydrogenase, type 2 (EC 1.1.1.122)"
+fig|391904.5.peg.2354	L-fuconate dehydratase (EC 4.2.1.68)
+fig|391904.5.peg.2355	hypothetical protein
+fig|391904.5.peg.2356	"Type II HMOs transporter, permease protein 2"
+fig|391904.5.peg.2357	"Type II HMOs transporter, permease protein 1"
+fig|391904.5.peg.2358	"Type II HMOs transporter (Blon_2344) II, substrate-binding protein"
+fig|391904.5.peg.2359	"Type II HMOs transporter, permease protein 2"
+fig|391904.5.peg.2360	"Type II HMOs transporter, permease protein 1"
+fig|391904.5.peg.2361	"Type II HMOs transporter (Blon_2347) I, substrate-binding protein"
+fig|391904.5.peg.2362	"HMO cluster exo-alpha-(2-3/2-6)-sialidase, GH33"
+fig|391904.5.peg.2363	N-acetylneuraminate lyase (EC 4.1.3.3)
+fig|391904.5.peg.2364	hypothetical protein
+fig|391904.5.peg.2365	"Predicted HMO transporter Blon_2350, substrate-binding protein"
+fig|391904.5.peg.2366	"Predicted HMO transporter Blon_2351, substrate-binding protein"
+fig|391904.5.peg.2367	hypothetical protein
+fig|391904.5.peg.2368	"Predicted HMO transporter Blon_2352, substrate-binding protein"
+fig|391904.5.peg.2369	hypothetical protein
+fig|391904.5.peg.2370	hypothetical protein
+fig|391904.5.peg.2371	"Predicted HMO transporter Blon_2354, substrate-binding protein"
+fig|391904.5.peg.2372	"Exo-beta-(1-3/1-4)-N-acetylglucosaminidase, GH20"
+fig|391904.5.peg.2373	hypothetical protein
+fig|391904.5.peg.2374	"Glycerol-3-phosphate ABC transporter, periplasmic glycerol-3-phosphate-binding protein (TC 3.A.1.1.3)"
+fig|391904.5.peg.2375	hypothetical protein
+fig|391904.5.peg.2376	hypothetical protein
+fig|391904.5.peg.2377	"ABC transporter, permease component 2"
+fig|391904.5.peg.2378	"ABC transporter, permease component 1"
+fig|391904.5.peg.2379	"ABC transporter, ATP-binding protein"
+fig|391904.5.peg.2380	DUF1706 domain-containing protein
+fig|391904.5.peg.2381	Uracil phosphoribosyltransferase (EC 2.4.2.9)
+fig|391904.5.peg.2382	23S rRNA (pseudouridine(1915)-N(3))-methyltransferase (EC 2.1.1.177)
+fig|391904.5.peg.2383	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)
+fig|391904.5.peg.2384	"Glycerol-3-phosphate ABC transporter, periplasmic glycerol-3-phosphate-binding protein (TC 3.A.1.1.3)"
+fig|391904.5.peg.2385	hypothetical protein
+fig|391904.5.peg.2386	"ABC transport system, permease protein 1"
+fig|391904.5.peg.2387	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)
+fig|391904.5.peg.2388	glutamyl-Q-tRNA synthetase
+fig|391904.5.peg.2389	ClpB protein
+fig|391904.5.peg.2390	"2-keto-4-pentenoate hydratase/2-oxohepta-3-ene-1,7-dioic acid hydratase"
+fig|391904.5.peg.2391	UDP-galactopyranose mutase (EC 5.4.99.9)
+fig|391904.5.peg.2392	"N-glycan acting exo-beta-mannosidase, GH5_18"
+fig|391904.5.peg.2393	"Predicted N-glycan ABC transport system, permease protein 2"
+fig|391904.5.peg.2394	"Predicted N-glycan ABC transport system, permease protein 1"
+fig|391904.5.peg.2395	"Predicted N-glycan ABC transport system, substrate-binding protein"
+fig|391904.5.peg.2396	Putative glycosyltransferase
+fig|391904.5.peg.2397	Putative acyltransferase
+fig|391904.5.peg.2398	hypothetical protein
+fig|391904.5.peg.2399	hypothetical protein
+fig|391904.5.peg.2400	glycosyl transferase family 8 protein
+fig|391904.5.peg.2401	"Polysaccharide ABC transporter, ATP-binding protein"
+fig|391904.5.peg.2402	rhamnose-containing polysacharide translocation permease
+fig|391904.5.peg.2403	glycosyl transferase family 8 protein
+fig|391904.5.peg.2404	UDP-glucose 6-dehydrogenase (EC 1.1.1.22)
+fig|391904.5.peg.2405	"dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)"
+fig|391904.5.peg.2406	hypothetical protein
+fig|391904.5.peg.2407	hypothetical protein
+fig|391904.5.peg.2408	"ABC transporter, permease protein"
+fig|391904.5.peg.2409	hypothetical protein
+fig|391904.5.peg.2410	hypothetical protein
+fig|391904.5.peg.2411	Predicted glutamine amidotransferase
+fig|391904.5.peg.2412	Kup system potassium uptake protein
+fig|391904.5.peg.2413	Putative deoxyribonuclease YcfH
+fig|391904.5.peg.2414	hypothetical protein
+fig|391904.5.peg.2415	Esterase/lipase
+fig|391904.5.peg.2416	Sugar transporter
+fig|391904.5.peg.2417	N-acetylmannosamine kinase (EC 2.7.1.60)
+fig|391904.5.peg.2418	hypothetical protein
+fig|391904.5.peg.2419	hypothetical protein
+fig|391904.5.peg.2420	hypothetical protein
+fig|391904.5.peg.2421	probable permease protein of ABC transporter system
+fig|391904.5.peg.2422	probable permease protein of ABC transporter system
+fig|391904.5.peg.2423	"archaeal ATPase, fused to C-terminal DUF234 domain"
+fig|391904.5.peg.2424	Predicted ATPase (AAA+ superfamily)
+fig|391904.5.peg.2425	"endo-1,4-beta-xylanase"
+fig|391904.5.peg.2426	"Predicted b(1-4)-linked galactooligosaccharides ABC transporter, permease protein 2"
+fig|391904.5.peg.2427	"Predicted b(1-4)-linked galactooligosaccharides ABC transporter, permease protein 1"
+fig|391904.5.peg.2428	"Predicted b(1-4)-linked galactooligosaccharides ABC transporter, substrate-binding protein"
+fig|391904.5.peg.2429	"Predicted transcriptional regulator of b(1-4)-linked galactooligosaccharides, LacI family"
+fig|391904.5.peg.2430	"Exo-beta-(1-4)-galactosidase, GH42"
+fig|391904.5.peg.2431	hypothetical protein
+fig|391904.5.peg.2432	hypothetical protein
+fig|391904.5.peg.2433	Oligopeptide-binding protein oppA
+fig|391904.5.peg.2434	"oligopeptide/dipeptide ABC transporter, ATP-binding protein, C-terminal"
+fig|391904.5.peg.2435	"Peptide ABC transporter, permease protein"
+fig|391904.5.peg.2436	Binding-protein-dependent transport systems inner membrane component
+fig|391904.5.peg.2437	Aminopeptidase C (EC 3.4.22.40)
+fig|391904.5.peg.2438	hypothetical protein
+fig|391904.5.peg.2439	hypothetical protein
+fig|391904.5.peg.2440	Methionyl-tRNA synthetase (EC 6.1.1.10)
+fig|391904.5.peg.2441	hypothetical protein
+fig|391904.5.peg.2442	hypothetical protein
+fig|391904.5.peg.2443	16S rRNA (cytidine(1402)-2&#39;-O)-methyltransferase (EC 2.1.1.198)
+fig|391904.5.peg.2444	Mobile element protein
+fig|391904.5.peg.2445	hypothetical protein
+fig|391904.5.peg.2446	probable permease protein of ABC transporter system
+fig|391904.5.peg.2447	probable permease protein of ABC transporter system
+fig|391904.5.peg.2448	"Transcriptional regulator, MarR family"
+fig|391904.5.peg.2449	Amino acid permease
+fig|391904.5.peg.2450	large transmembrane protein possibly involved in transport
+fig|391904.5.peg.2451	hypothetical protein
+fig|391904.5.peg.2452	Aromatic amino acid transport protein AroP
+fig|391904.5.peg.2453	4-hydroxybenzoate polyprenyltransferase and related prenyltransferases
+fig|391904.5.peg.2454	"Maltose/maltodextrin ABC transporter, permease protein MalG"
+fig|391904.5.peg.2455	"Maltose/maltodextrin ABC transporter, permease protein MalF"
+fig|391904.5.peg.2456	"Maltodextrin utilization transcriptional regulator MalR1, LacI family"
+fig|391904.5.peg.2457	"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE"
+fig|391904.5.peg.2458	putative phosphoglycerate mutase family protein
+fig|391904.5.peg.2459	hypothetical protein
+fig|391904.5.peg.2460	Oxygen-insensitive NADPH nitroreductase (EC 1.-.-.-)
+fig|391904.5.peg.2461	Phage infection protein
+fig|391904.5.peg.2462	hypothetical protein
+fig|391904.5.peg.2463	NAD-dependent protein deacetylase of SIR2 family
+fig|391904.5.peg.2464	Threonine dehydratase (EC 4.3.1.19)
+fig|391904.5.peg.2465	hypothetical protein
+fig|391904.5.peg.2466	"Exo-alpha-(1-6)-glucosidase, GH13"
+fig|391904.5.peg.2467	"Melibiose/Raffinose/Stachyose ABC transporter, permease protein 2 @ Panose/isomaltooligosaccharides ABC transporter, permease protein 2"
+fig|391904.5.peg.2468	"Melibiose/Raffinose/Stachyose ABC transporter, permease protein 1 @ Panose/isomaltooligosaccharides ABC transporter, permease protein 1"
+fig|391904.5.peg.2469	"Melibiose/Raffinose/Stachyose ABC transporter, substrate-binding protein @ Panose/isomaltooligosaccharides ABC transporter, substrate-binding protein"
+fig|391904.5.peg.2470	"Raffinose utilization transcriptional regulator, ROK family"
+fig|391904.5.peg.2471	"Exo-alpha-(1-6/1-4/1-3)-galactosidase, GH36"
+fig|391904.5.peg.2472	tRNA-specific adenosine-34 deaminase (EC 3.5.4.33)
+fig|391904.5.peg.2473	probable NhaP-type Na(+)/H(+) exchanger
+fig|391904.5.peg.2474	possible phospholipase/carboxylesterase
+fig|391904.5.peg.2475	hypothetical protein
+fig|391904.5.peg.2476	Deoxycytidine triphosphate deaminase (EC 3.5.4.30) (dUMP-forming)
+fig|391904.5.peg.2477	hypothetical protein
+fig|391904.5.peg.2478	hypothetical protein
+fig|391904.5.peg.2479	sodium:dicarboxylate symporter family
+fig|391904.5.peg.2480	"Endo-beta-N-acetylglucosaminidase, GH18"
+fig|391904.5.peg.2481	cation-transporting ATPase PacL
+fig|391904.5.peg.2482	hypothetical protein
+fig|391904.5.peg.2483	"PTS system, IIA component (EC 2.7.1.69)"
+fig|391904.5.peg.2484	PTS system IIB component (EC 2.7.1.69) / PTS system IIC component (EC 2.7.1.69)
+fig|391904.5.peg.2485	Major facilitator superfamily MFS_1
+fig|391904.5.peg.2486	23S rRNA (guanosine(2251)-2&#39;-O)-methyltransferase (EC 2.1.1.185)
+fig|391904.5.peg.2487	Chromosome segregation ATPases
+fig|391904.5.peg.2488	Maltose/maltodextrin transport ATP-binding protein MalK (EC 3.6.3.19)
+fig|391904.5.peg.2489	Putative glycosyltransferase
+fig|391904.5.peg.2490	"Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)"
+fig|391904.5.peg.2491	"Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)"
+fig|391904.5.peg.2492	Ribonucleotide reduction protein NrdI
+fig|391904.5.peg.2493	"Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib"
+fig|391904.5.peg.2494	Tyrosine protein kinase:Serine/threonine protein kinase
+fig|391904.5.peg.2495	hypothetical protein
+fig|391904.5.peg.2496	Cell wall-binding protein
+fig|391904.5.peg.2497	SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC 2.1.1.182)
+fig|391904.5.peg.2498	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)
+fig|391904.5.peg.2499	hypothetical protein
+fig|391904.5.peg.2500	CCA tRNA nucleotidyltransferase (EC 2.7.7.72)
+fig|391904.5.peg.2501	Diadenosine hexaphosphate (Ap6A) hydrolase; Bis(5&#39;-nucleosyl)-tetraphosphatase (Ap4A) (Asymmetrical) (EC 3.6.1.17)
+fig|391904.5.peg.2502	FIG01967133: Putative secreted protein
+fig|391904.5.peg.2503	Proposed peptidoglycan lipid II flippase MurJ / Pseudokinase domain in MviN
+fig|391904.5.peg.2504	Thioredoxin reductase (EC 1.8.1.9)
+fig|391904.5.peg.2505	Chromosome (plasmid) partitioning protein ParB / Stage 0 sporulation protein J
+fig|391904.5.peg.2506	Chromosome (plasmid) partitioning protein ParA / Sporulation initiation inhibitor protein Soj
+fig|391904.5.peg.2507	16S rRNA (guanine(527)-N(7))-methyltransferase (EC 2.1.1.170)
+fig|391904.5.peg.2508	RNA-binding protein Jag
+fig|391904.5.peg.2509	"Inner membrane protein translocase component YidC, short form OxaI-like"
+fig|391904.5.peg.2510	Protein YidD
+fig|391904.5.peg.2511	Ribonuclease P protein component (EC 3.1.26.5)
+fig|391904.5.peg.2512	LSU ribosomal protein L34p

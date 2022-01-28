@@ -1,0 +1,13 @@
+{
+	"n_targets": 2508,
+	"n_bootstraps": 0,
+	"n_processed": 7216439,
+	"n_pseudoaligned": 5087886,
+	"n_unique": 4552338,
+	"p_pseudoaligned": 70.5,
+	"p_unique": 63.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Tue Jan 25 16:11:18 2022",
+	"call": "kallisto quant -i data/refs/Binfantis_ATCC15697_transcriptome.index -o data/kallisto/26-M3-lac1_S54_L001_R1_001 --single -l 200 -s 20 data/fq_filt/26-M3-lac1_S54_L001_R1_001.fastq.gz"
+}
