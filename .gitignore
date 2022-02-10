@@ -13,7 +13,6 @@
 /*.tar.gz
 
 # any fastq files or fastq references
-*docx
 *fastq.gz
 *fq.gz
 *fq
@@ -22,6 +21,17 @@
 *fasta
 *fa.gz
 *fa
+
+# paper raw data
+*gb
+*docx
+*xlsx
+*tif
+docs/
+data/rnaseq/RNA_isolation
+data/rnaseq/GEO_submission
+data/rnaseq/kallisto
+data/emsa/gels
 
 # Output files from R CMD check
 /*.Rcheck/

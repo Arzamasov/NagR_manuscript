@@ -1,24 +1,24 @@
 ---
-title: "<center> Supplemental code file for manuscript titled: Human Milk Oligosaccharide Utilization in Intestinal Bifidobacteria is Governed by a Master Transcriptional Regulator NagR <center>"
-author: "<center> Aleksandr A. Arzamasov *Aleksandr A. Arzamasov, Aruto Nakajima, Mikiyasu Sakanaka, Miriam Ojima, Takane Katayama, Dmitry A. Rodionov, Andrei L. Osterman* <center><br>"
+title: "<center> Supplemental code file for manuscript titled: Human Milk Oligosaccharide Utilization in Intestinal Bifidobacteria is Governed by a Global Transcriptional Regulator NagR <center>"
+author: "<center> *Aleksandr A. Arzamasov, Aruto Nakajima, Mikiyasu Sakanaka, Miriam Ojima, Takane Katayama, Dmitry A. Rodionov, Andrei L. Osterman* <center><br>"
 output:
+  html_document:
+    code_folding: hide
+    df_print: paged
+    theme: yeti
+    highlight: tango
+    toc: yes
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+    number_sections: true
+    keep_md: true
   pdf_document:
     toc: true
     toc_depth: 3
     number_sections: true
     fig_caption: yes
     latex_engine: xelatex
-  html_document:
-    code_folding: show
-    df_print: paged
-    theme: yeti
-    highlight: tango
-    toc: yes
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
-    number_sections: true
-    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
@@ -30,51 +30,52 @@ knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE, linewidth=60)
 
 # Background
 
-**Insert background text**
+*Bifidobacterium longum* subsp. *infantis* (*B. infantis*) is a prevalent beneficial bacterium that colonizes the human neonatal gut and is uniquely adapted to efficiently use Human Milk Oligosaccharides (HMOs) as a carbon and energy source. While the metabolic pathways for HMO utilization in *B. infantis* have been studied in detail, the regulatory mechanisms governing utilization of these glycans in this bacterium remain poorly understood. A genomic-based regulon reconstruction approach used in this study implicated NagR, a transcription factor from the repressor, open reading frame, kinase (ROK) family, as a negative global regulator of genomic loci encoding lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) utilization pathways in *B. infantis*. This conjecture was corroborated by transcriptomic profiling upon *nagR* genetic inactivation and experimental assessment of recombinant NagR binding affinity to predicted DNA motifs. The latter approach also implicated N-acetylglucosamine (GlcNAc), a universal intermediate of LNT and LNnT catabolism, and its phosphorylated derivatives as plausible NagR effectors. Reconstruction of NagR regulons in various *Bifidobacterium* lineages revealed multiple potential regulon expansion events, suggesting evolution from a local regulator of GlcNAc catabolism in ancestral bifidobacteria to a global regulator controlling foraging of mixtures of GlcNAc-containing host-derived glycans in infant gut-colonizing species *B. infantis* and *Bifidobacterium bifidum*.
 
-The code below describes:
-1. Analysis of RNA-seq data: processing of raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome
-2. Analysis of EMSA data: processing of gel quantification data and building of 4-PL models
+**Importance**
+
+The predominance of bifidobacteria in the gut of breastfed infants is attributed to the ability of these bacteria to selectively utilize Human Milk Oligosaccharides (HMOs). Individual HMOs such as lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) are used as prebiotic additions to infant formulas to selectively stimulate the growth of bifidobacteria and confer multiple health benefits to preterm and malnourished children suffering from impaired (stunted) gut microbiota development. However, rational selection of HMO-based prebiotics is hampered by the incomplete knowledge of regulatory mechanisms governing HMO utilization in target bifidobacteria. This study describes NagR-mediated transcriptional regulation of LNT and LNnT utilization in *Bifidobacterium longum* subsp. *infantis*. The elucidated regulatory network appears optimally adapted to simultaneous utilization of multiple HMOs, providing an incentive to include HMO mixtures (rather than individual components) into infant formulas. The study also provides insights into the evolution of complex regulatory networks controlling carbohydrate metabolism in bifidobacteria.
+
+**This supplementary code file file below describes**:
+
+1. Analysis of RNA-seq data: (1) processing of raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome, (2) identification of differentially expressed genes between conditions
+2. Analysis of EMSA data: processing of gel quantification data and building of 4-PL models to infer EC~50~ values for NagR and NagR effectors
+3. Analysis of growth curves and HMO consumption data: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO
 
 ***
 
 # Reproducibility and accessibility
 
-To reproduce **all** steps listed below, you will need to download raw fastq files from the Gene Expression Omnibus, under accession [instert_accession](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=instert_accession). All code used in this analysis, including the Rmarkdown document used to compile this supplementary code file, is available on GitHub **[here](https://github.com/Arzamasov/NagR_manuscript)**. Once the GitHub repo has been downloaded, navigate to `NagR_manuscript/` to find the Rmarkdown document as well as an RProject file. This should be your working directory for executing code. Downloaded fastq files should be placed in: `NagR_manuscript/data/fastq/`.
+All code used in this analysis, including the Rmarkdown document used to compile this supplementary code file, is available on GitHub **[here](https://github.com/Arzamasov/NagR_manuscript)**. Once the GitHub repo has been downloaded, navigate to `NagR_manuscript/` to find the Rmarkdown document as well as the RProject file. This should be your working directory for executing code. To reproduce RNA-seq data analysis you will need to additionally download raw fastq files from the Gene Expression Omnibus, under accession [GSE196064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196064). Downloaded fastq files should be placed to  `NagR_manuscript/data/rnaseq/fastq/`.
 
 ***
 
-# R packages used
+# R packages and functions used
 
-A set of R packages was used for this analysis. All graphics and data wrangling were handled using the [tidyverse suite of packages](https://www.tidyverse.org/). All packages used are available from the Comprehensive R Archive Network (CRAN), Bioconductor.org, or Github.  
-
+A set of R packages was used for this analysis. The [pacman](https://cran.r-project.org/web/packages/pacman/index.html) package was used to simplify downloading and loading of the required packages. All graphics and data wrangling were handled using the [tidyverse suite of packages](https://www.tidyverse.org/).
 ```{r packages}
-library(tidyverse)
-library(tximport)
-library(gt)
-library(edgeR)
-library(matrixStats)
-library(cowplot)
-library(ggrepel)
-library(pheatmap)
+# load the pacman package for rapid install of packages that are not in library
+if (!require("pacman")) install.packages("pacman") # for rapid install if not in library
+# use pacman to install/load all the packages for the analysis
+pacman::p_load('tidyverse', 'tximport', 'gt', 'tidyverse', 'edgeR', 'matrixStats', 'cowplot', 
+               'ggrepel', 'pheatmap', 'drc', 'Cairo', 'ggpubr')
 ```
 
-***
-
-# External R functions used
-
 A set of external R functions was used to keep the code tidy. All used R scripts with functions can be found in `NagR_manuscript/code/`.
-
 ```{r functions}
 source("code/profile.R") # calculates counts per million (CPM) for each gene, 
 # and plots the distribution of CPM values for each sample
 source("code/deg_list.R") # selects differential expressed genes (DEGs) based on input cut-offs,
-# outputs an annotated tables with DEGs to a txt file 
+# outputs an annotated tables with DEGs to a txt file
+source("code/emsa.R") # builds 4-parameter logistic (4PL) model for EMSA quantification data,
+# plots the fit from the 4PL model with 95% confidence intervals
 ```
 
 ***
 
-## Introduction
+# Analysis of RNA-seq data
+
+## Processing of raw fastq files and read mapping
 
 The code chuck below describes processing of raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome.
 The following software is required (can be installed to a conda environment):
@@ -86,26 +87,29 @@ The following software is required (can be installed to a conda environment):
 5. [MultiQC (v1.11)](https://multiqc.info/)
 6. [Parallel (v20210222)](https://www.gnu.org/software/parallel/)
 
-*Note*: due to size limitation, raw fastq files and indexed references could not be stored in the GitHub repo.
-Thus, you will need to download the fastq files from the Gene Expression Omnibus, under accession [instert_accession](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=instert_accession). Downloaded fastq files should be in `data/fastq/`. The reference fasta files should be in `data/refs/`. Sample names should be in `data/runids.txt`.
+**Note**: due to size limitation, raw fastq files could not be stored in the GitHub repo. Thus, you will need to download the fastq files from the Gene Expression Omnibus, under accession [GSE196064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196064). Downloaded fastq files should be in `data/rnaseq/fastq/`. 
+
+The reference fasta files used for building Bowtie2 and Kallisto indeces can be found in `data/rnaseq/refs/`. 
+
+**Note**: exact file names (without the .fastq.qz extension) should be entered into `data/rnaseq/runids.txt`.
 
 Alternatively, you can run `code/qc_readmapping.sh` instead of the code chunk below.
 
-## Summary of the script
+Summary of the script:
 
 1. Quality control of raw reads was carried out using FastQC
 2. Illumina sequencing adapters and short reads (< 20 bp) were removed using Cutadapt
 3. Reads were mapped against rRNA and tRNA gene sequences extracted from the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 genome (GenBank accession no. CP001095.1) using Bowtie2. Unmapped (filtered) reads were saved and used further
 4. Filtered reads were mapped to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 (CP001095.1) using Kallisto
-5. The quality of raw/filtered reads, as well as the results of Bowtie2/Kallisto mapping were summarized in `data/multiqc_report.html` generated via MultiQC
-
+5. The quality of raw/filtered reads, as well as the results of Bowtie2/Kallisto mapping were summarized in `data/rnaseq/multiqc_report.html` generated via MultiQC
 ```{bash QC reads, eval=FALSE}
-#!/bin/bash
+source ~/.bash_profile
 echo $BASH_VERSION
 set -ex
 
-# required software: fastqc (v0.11.9), cutadapt (v3.4), bowtie2 (v2.4.4), kallisto (v0.46.2), multiqc (1.11), and parallel (v20210222)
-# sample names should be in data/runids.txt
+# required software: fastqc (v0.11.9), cutadapt (v3.4), bowtie2 (v2.4.4), kallisto (v0.46.2)
+# multiqc (1.11), and parallel (v20210222)
+# sample names should be in data/rnaseq/runids.txt
 
 # activate conda enviroment with required software
 eval "$(command conda 'shell.bash' 'hook' 2> /dev/null)" # initializes conda in sub-shell
@@ -113,67 +117,77 @@ conda activate transcriptomics
 conda info|egrep "conda version|active environment"
 
 # create directories
-mkdir data/qc1 # qc results for raw reads
-mkdir data/qc2 # qc results for filtered reads
-mkdir data/fq_trim # trimmed reads
-mkdir data/fq_filt # filtered reads
-mkdir data/sam # sam files produced during bowtie2 alignment; will be deleted
-mkdir data/kallisto # kallisto mapping results
+mkdir data/rnaseq/qc1 # qc results for raw reads
+mkdir data/rnaseq/qc2 # qc results for filtered reads
+mkdir data/rnaseq/fq_trim # trimmed reads
+mkdir data/rnaseq/fq_filt # filtered reads
+mkdir data/rnaseq/sam # sam files produced during bowtie2 alignment; will be deleted
+mkdir data/rnaseq/kallisto # kallisto mapping results
 
 # run fastqc on raw reads
-cat data/runids.txt | parallel "fastqc data/fastq/{}.fastq.gz --outdir data/qc1"
+cat data/rnaseq/runids.txt | parallel "fastqc data/rnaseq/fastq/{}.fastq.gz \
+--outdir data/rnaseq/qc1"
 
 # trim adapters using cutadapt
-cat data/runids.txt | parallel "cutadapt -m 20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTC \
--o data/fq_trim/{}.fastq.gz data/fastq/{}.fastq.gz \
-&> data/fq_trim/{}.fastq.qz.log"
+cat data/rnaseq/runids.txt | parallel "cutadapt -m 20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTC \
+-o data/rnaseq/fq_trim/{}.fastq.gz data/rnaseq/fastq/{}.fastq.gz \
+&> data/rnaseq/fq_trim/{}.fastq.qz.log"
 
 # filter reads mapping to rRNA and tRNA genes
 # build bowtie2 index
-bowtie2-build data/refs/Binfantis_ATCC15697_rRNA_tRNA.fasta data/refs/Binfantis_ATCC15697_rRNA_tRNA
+bowtie2-build data/rnaseq/refs/Binfantis_ATCC15697_rRNA_tRNA.fasta \
+data/rnaseq/refs/Binfantis_ATCC15697_rRNA_tRNA
 # align reads via bowtie2; save ones that did not align to a separate file
-cat data/runids.txt | parallel "bowtie2 -x data/refs/Binfantis_ATCC15697_rRNA_tRNA \
--U data/fq_trim/{}.fastq.gz \
--S data/sam/{}.sam \
---un data/fq_filt/{}.fastq \
-&> data/fq_filt/{}.log"
-rm -rf data/sam
-cat data/runids.txt | parallel "gzip data/fq_filt/{}.fastq"
+cat data/rnaseq/runids.txt | \
+parallel "bowtie2 -x data/rnaseq/refs/Binfantis_ATCC15697_rRNA_tRNA \
+-U data/rnaseq/fq_trim/{}.fastq.gz \
+-S data/rnaseq/sam/{}.sam \
+--un data/rnaseq/fq_filt/{}.fastq \
+&> data/rnaseq/fq_filt/{}.log"
+cat data/rnaseq/runids.txt | parallel "gzip data/rnaseq/fq_filt/{}.fastq"
 
 # run fastqc on filtered reads
-cat data/runids.txt | parallel "fastqc data/fq_filt/{}.fastq.gz --outdir data/qc2"
+cat data/rnaseq/runids.txt | parallel "fastqc data/rnaseq/fq_filt/{}.fastq.gz \
+--outdir data/rnaseq/qc2"
 
 # pseudolalign reads to transcriptome
 # build kallisto index
-kallisto index -i data/refs/Binfantis_ATCC15697_transcriptome.index data/refs/Binfantis_ATCC15697_transcriptome.fasta
+kallisto index -i data/rnaseq/refs/Binfantis_ATCC15697_transcriptome.index \
+data/rnaseq/refs/Binfantis_ATCC15697_transcriptome.fasta
 # map reads to indexed reference via kallisto
-cat data/runids.txt | parallel "kallisto quant -i data/refs/Binfantis_ATCC15697_transcriptome.index \
--o data/kallisto/{} \
+cat data/rnaseq/runids.txt | parallel "kallisto quant \
+-i data/rnaseq/refs/Binfantis_ATCC15697_transcriptome.index \
+-o data/rnaseq/kallisto/{} \
 --single \
 -l 200 \
 -s 20 \
-data/fq_filt/{}.fastq.gz \
-&> data/kallisto/{}_2.log"
+data/rnaseq/fq_filt/{}.fastq.gz \
+&> data/rnaseq/kallisto/{}_2.log"
 
 # run multiqc
 export LC_ALL=en_US.utf-8
 export LANG=en_US.utf-8
-multiqc -d . -o data
+multiqc -d . -o data/rnaseq
+
+# remove directories with intermediate files
+rm -rf data/rnaseq/qc1
+rm -rf data/rnaseq/qc2
+rm -rf data/rnaseq/fq_filt
+rm -rf data/rnaseq/sam
 ```
 
 ***
 
-# Using R/bioconductor to import and analyze RNA-seq data
-
 ## Importing count data into R
 
-After read mapping with Kallisto, [TxImport](https://bioconductor.org/packages/release/bioc/html/tximport.html) was used to read Kallisto outputs into the R environment.
+[TxImport](https://bioconductor.org/packages/release/bioc/html/tximport.html) was used to read Kallisto outputs into the R environment.
 
+*Note*: before running the code, double-check that file names in the file_names column in `data/rnaseq/studydesign.txt` are identical to file names in `data/rnaseq/runids.txt`.
 ```{r step 1 - TxImport}
 # read the study design file
-targets <- read_tsv("data/studydesign.txt")
+targets <- read_tsv("data/rnaseq/studydesign.txt")
 # set file paths to Kallisto output folders with quantification data
-files <- file.path("data/kallisto", targets$file_name, "abundance.tsv")
+files <- file.path("data/rnaseq/kallisto", targets$file_name, "abundance.tsv")
 # check that all output files are present
 all(file.exists(files))
 # use 'tximport' to import Kallisto output into R
@@ -194,7 +208,7 @@ sampleLabels <- targets$sample
 # saw a table with raw counts for GEO submission
 raw_counts <- as.tibble(txi_kallisto$counts, rownames = "locus_tag")
 colnames(raw_counts) <- c("geneID", sampleLabels)
-write_tsv(raw_counts, "results/tables/GEO_kallisto_raw_counts.txt")
+write_tsv(raw_counts, "results/tables/Arzamasov_raw_count_matrix.txt")
 
 # use gt package to produce the study design table
 gt(targets) %>% 
@@ -203,6 +217,7 @@ gt(targets) %>%
     columns = TRUE
   )
 ```
+***
 
 ## Filtering and normalization
 
@@ -212,7 +227,8 @@ myDGEList <- DGEList(txi_kallisto$counts)
 p1 <- profile(myDGEList, sampleLabels, "Unfiltered, non-normalized")
 # filter counts
 cpm <- cpm(myDGEList)
-keepers <- rowSums(cpm>1)>=3 # only keep genes that have cpm>1 (== not zeroes) in more than 2 samples (minimal group size)
+keepers <- rowSums(cpm>1)>=3 # only keep genes that have cpm>1 (== not zeroes) 
+# in more than 2 samples (minimal group size)
 myDGEList.filtered <- myDGEList[keepers,]
 # plot filtered, non-normalized CPM
 p2 <- profile(myDGEList.filtered, sampleLabels, "Filtered, non-normalized")
@@ -227,16 +243,19 @@ plot_grid(p1, p2, p3, labels = c('A', 'B', 'C'), label_size = 12)
 Filtering was carried out to remove lowly expressed genes. Genes with less than 1 count per million (CPM) in at least 3 or more samples filtered out. This procedure reduced the number of genes from **`r nrow(myDGEList)`** to **`r nrow(myDGEList.filtered)`**.
 In addition, the [TMM method](https://doi.org/10.1186/gb-2010-11-3-r25) was used for between-sample normalization.
 
-## PCA plot
+***
 
-Principal Component Analysis (PCA) plots reduce complex datasets to a 2D representation where each axis represents a source of variance (known or unknown) in the dataset.  As you can see from the plots below, Principal Component 1 (PC1; X-axis), which accounts for >38% of the variance in the data, is separating the samples based on carbon source. PC2 (Y-axis) accounts for a smaller source of variance (~21%) and can be attributed to variation between strains of *Bifidobacterium longum* subsp. *infantis* ATCC 15697: WT and *ΔnagR*.
+## PCA plot \textcolor{red}{Fig. 2B}
 
-```{r step 3 - multivariate (PCA plot)}
+Principal Component Analysis (PCA) plots reduce complex datasets to a 2D representation where each axis represents a source of variance (known or unknown) in the dataset.  As you can see from the plots below, Principal Component 1 (PC1; X-axis), which accounts for >38% of the variance in the data, is separating the samples based on carbon source. PC2 (Y-axis) accounts for a smaller source of variance (~21%) and can be attributed to variation between strains of *Bifidobacterium longum* subsp. *infantis* ATCC 15697: WT and *nagR*-KO.
+
+```{r step 3 - multivariate (PCA plot), fig.align='center', fig.dim=c(5,5), fig.cap = "Fig. 2B"}
 # running PCA
 log2.cpm.filtered.norm <- cpm(myDGEList.filtered.norm, log=TRUE)
 pca.res <- prcomp(t(log2.cpm.filtered.norm), scale.=F, retx=T)
 pc.var <- pca.res$sdev^2 # sdev^2 captures eigenvalues from the PCA result
-pc.per <- round(pc.var/sum(pc.var)*100, 1) # calculate percentage of the total variation explained by each eigenvalue
+pc.per <- round(pc.var/sum(pc.var)*100, 1) # calculate percentage of the total variation 
+# explained by each eigenvalue
 # converting PCA result into a tibble for plotting
 pca.res.df <- as_tibble(pca.res$x)
 
@@ -251,24 +270,27 @@ ggplot(pca.res.df) +
   scale_fill_manual(name = "Strain",
                      breaks=c("ATCC15697","M3"),
                      values=c("#008800", "#ffcf34"),
-                     labels=c("WT", "ΔnagR")) +
+                     labels=c("WT", "nagR-KO")) +
   guides(fill = guide_legend(override.aes=list(shape=21))) +
   xlab(paste0("PC1 (",pc.per[1],"%",")")) + 
   ylab(paste0("PC2 (",pc.per[2],"%",")")) +
-  labs(title= "PCA of B. infantis ATCC 15697: WT vs ΔnagR",
-       subtitle = "Principal component analysis (PCA) showing clear separation \nbetween growth on Lac and LNnT and between WT and ΔnagR",
+  labs(title= "PCA of B. infantis ATCC 15697: WT vs nagR-KO",
+       subtitle = "Principal component analysis (PCA) showing clear separation 
+       between growth on Lac and LNnT and between WT and nagR-KO",
        color = "strain", shape="carb") +
   coord_fixed(ratio=1.2) +
   theme_bw() +
   theme(plot.title = element_text(face="bold"))
 
-# save the figure as pdf
+# save the figure
 ggsave("results/figures/figure_2B.pdf", device = "pdf", width = 5, height = 5)
 ```
 
+***
+
 ## Differentially expressed genes 
 
-To identify differentially expressed genes (DEGs), precision weights were first applied to each gene based on its mean-variance relationship using [VOOM](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-2-r29).  Linear modeling and bayesian stats were employed using [Limma](https://academic.oup.com/nar/article/43/7/e47/2414268) to find genes that were up- or down-regulated by 2-fold or more at false-discovery rate (FDR) of 0.01.
+To identify differentially expressed genes (DEGs), precision weights were first applied to each gene based on its mean-variance relationship using [VOOM](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-2-r29). Linear modeling and bayesian stats were employed using [Limma](https://academic.oup.com/nar/article/43/7/e47/2414268) to find genes that were up- or down-regulated by 2-fold or more at false-discovery rate (FDR) of 0.01.
 
 ```{r step 4.1 - DE analysis}
 # setting up model matrix without intercept
@@ -288,33 +310,41 @@ fits <- contrasts.fit(fit, contrast.matrix)
 ebFit <- eBayes(fits)
 ```
 
-DEGs were annotated based on a [RAST-annotated](https://doi.org/10.1093/nar/gkt1226) version of the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 genome, which was additionally subjected to extensive manual curation performed in the web-based mcSEED environment, a private clone of the publicly available [SEED platform](https://doi.org/10.1093/nar/gki866). The manual curation focused on annotating genes encoding functional roles (transporters, glycoside hydrolases, downstream catabolic enzymes, transcriptional regulators) for bifidobacterial carbohydrate metabolism.
+***
 
-```{r step 4.2.1 - DEG annotation}
+DEGs were annotated based on a [RAST-annotated](https://doi.org/10.1093/nar/gkt1226) version of the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 genome, which was additionally subjected to extensive manual curation in the web-based mcSEED environment, a private clone of the publicly available [SEED platform](https://doi.org/10.1093/nar/gki866). The manual curation focused on annotating genes encoding functional roles (transporters, glycoside hydrolases, downstream catabolic enzymes, transcriptional regulators) involved in carbohydrate metabolism.
+
+DEGs: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 grown in MRS-CS-Lac: *nagR*-KO vs WT
+```{r step 4.2.1 - DEG annotation 1}
 # create a master annotation table
-seed.ann <- read_tsv('data/annotation/SEED_annotations.tsv')
-corr <- read_tsv('data/annotation/Binfantis_ATCC15697_GenBank_vs_mcSEED.txt')
+seed.ann <- read_tsv('data/rnaseq/annotation/SEED_annotations.tsv')
+corr <- read_tsv('data/rnaseq/annotation/Binfantis_ATCC15697_GenBank_vs_mcSEED.txt')
 final.ann <- right_join(seed.ann, corr, by = c('seed_id' = 'seed_id')) %>%
-  select(locus_tag, annotation)
+  dplyr::select(locus_tag, annotation)
 
 # annotate DEGs
 # Mut_Lac vs WT_Lac
 myTopHits.Mut <- topTable(ebFit, adjust ="BH", coef=1, number=2600, sort.by="logFC")
 deg_list(myTopHits.Mut, -1, 1, 0.01, "results/tables/DEG_Mut_Lac_vs_WT_Lac.txt")
 ```
-```{r step 4.2.2 - DEG annotation}
+
+***
+
+DEGs: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT: grown in MRS-CS-LNnT vs grown in MRS-CS-Lac
+```{r step 4.2.2 - DEG annotation 2}
 # annotate DEGs
 # WT_LNnT vs WT_Lac
 myTopHits.WT <- topTable(ebFit, adjust ="BH", coef=3, number=2600, sort.by="logFC")
 deg_list(myTopHits.WT, -1, 1, 0.01, "results/tables/DEG_WT_LNnT_vs_WT_Lac.txt")
 ```
+***
 
-## Volcano plot: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 grown in MRS-CS-Lac: *ΔnagR* vs WT
+## Volcano plot: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 grown in MRS-CS-Lac: *nagR*-KO vs WT \textcolor{red}{Fig. 2C}
 
 Volcano plots are convenient ways to represent gene expression data because they combine magnitude of change (X-axis) with significance (Y-axis). Since the Y-axis is the inverse log10 of the adjusted Pvalue, higher points are more significant.
-In the case of this particular plot, there are many genes in the upper right of the plot, which represent genes that are significantly **upregulated** in the *ΔnagR* mutant grown in MRS-CS-Lac, compared to WT grown in MRS-CS-Lac.
+In the case of this particular plot, there are many genes in the upper right of the plot, which represent genes that are significantly **upregulated** in the *nagR*-KO mutant grown in MRS-CS-Lac, compared to WT grown in MRS-CS-Lac.
 
-```{r step 4.3.1 - vplot1}
+```{r step 4.3.1 - vplot1, fig.align='center', fig.dim=c(8,5), fig.cap = "Fig. 3C"}
 # list stats for all genes in the dataset to be used for making volcano plot
 myTopHits <- topTable(ebFit, adjust ="BH", coef=1, number=2600, sort.by="logFC")
 myTopHits.df <- myTopHits %>%
@@ -322,7 +352,11 @@ myTopHits.df <- myTopHits %>%
 # select only genes with significant logFC and adj.P.Val
 myTopHits.df.de <- subset(myTopHits.df, (logFC > 1 | logFC < -1) & adj.P.Val < 0.01)
 # create a vector containing locus_tags of genes predicted to be in the NagR regulon
-targets.nagR <- c("Blon_0879", "Blon_0881", "Blon_0882", "Blon_2171", "Blon_2172","Blon_2173", "Blon_2174", "Blon_2175", "Blon_2176", "Blon_2177", "Blon_2341", "Blon_2342", "Blon_2343", "Blon_2344", "Blon_2345", "Blon_2346", "Blon_2347", "Blon_2348", "Blon_2349", "Blon_2350", "Blon_2351", "Blon_2352", "Blon_2354")
+targets.nagR <- c("Blon_0879", "Blon_0881", "Blon_0882", "Blon_2171", "Blon_2172","Blon_2173", 
+                  "Blon_2174", "Blon_2175", "Blon_2176", "Blon_2177", "Blon_2331", "Blon_2332",
+                  "Blon_2341", "Blon_2342", "Blon_2343", "Blon_2344", "Blon_2345", "Blon_2346", 
+                  "Blon_2347", "Blon_2348", "Blon_2349", "Blon_2350", "Blon_2351", "Blon_2352", 
+                  "Blon_2354")
 # create a vector containing locus_tags of genes predicted to be in the CscR regulon
 targets.cscR <- c("Blon_0789", "Blon_0788", "Blon_0787", "Blon_0786")
 # subset volcano plot data based targets.nagR and targets.cscR
@@ -341,10 +375,14 @@ myTopHits.df$cscR[!myTopHits.cscR_selected] <- NA
 ggplot(myTopHits.df) +
   aes(y=-log10(adj.P.Val), x=logFC, text = paste("Symbol:", geneID)) +
   geom_point(size=3, shape = 16, color="black", alpha=.3) +
-  geom_point(mapping=NULL, myTopHits.nagR, size = 3, shape = 16, color= "sienna2", inherit.aes = TRUE) +
-  geom_point(mapping=NULL, myTopHits.cscR , size = 3, shape = 16, color= "slateblue", inherit.aes = TRUE) +
-  geom_text_repel(aes(label = nagR), size = 3, fontface=2, color="black") +
-  geom_text_repel(aes(label = cscR), size = 3, fontface=2, color="black") +
+  geom_point(mapping=NULL, myTopHits.nagR, size = 3, shape = 16, color= "sienna2",
+             inherit.aes = TRUE) +
+  geom_point(mapping=NULL, myTopHits.cscR , size = 3, shape = 16, color= "slateblue",
+             inherit.aes = TRUE) +
+  geom_text_repel(aes(label = nagR), size = 3, fontface=2, color="black", min.segment.length = 0,
+                  seed = 42, box.padding = 0.5, max.overlaps = 100) +
+  geom_text_repel(aes(label = cscR), size = 3, fontface=2, color="black", min.segment.length = 0,
+                  seed = 42, box.padding = 0.5, max.overlaps = 100) +
   geom_hline(yintercept = -log10(0.01), linetype="longdash", colour="grey", size=0.6) +
   geom_vline(xintercept = 1, linetype="longdash", colour="#BE684D", size=0.6) +
   geom_vline(xintercept = -1, linetype="longdash", colour="#2C467A", size=0.6) +
@@ -352,16 +390,18 @@ ggplot(myTopHits.df) +
            label=paste("Padj<0.01"), size=5, fontface="bold") +
   scale_x_continuous(limits=c(-7,5), breaks = -7:5) +
   labs(title="Volcano plot",
-       subtitle = "B. infantis ATCC15697 grown in MRS-CS-Lac: ΔnagR vs WT") +
+       subtitle = "B. infantis ATCC15697 grown in MRS-CS-Lac: nagR-KO vs WT") +
   theme(plot.title = element_text(face="bold")) +
   theme_cowplot()
-# save the figure as pdf
+# save the figure
 ggsave("results/figures/figure_2C.pdf", device = "pdf", width = 8, height = 5)
 ```
 
-## Volcano plot: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT: grown in MRS-CS-LNnT vs grown in MRS-CS-Lac
+***
 
-```{r step 4.3.2 - vplot2}
+## Volcano plot: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT: grown in MRS-CS-LNnT vs grown in MRS-CS-Lac \textcolor{red}{Fig. 2D}
+
+```{r step 4.3.2 - vplot2, fig.align='center', fig.dim=c(8,5), fig.cap = "Fig. 3D"}
 # listing stats for all genes in the dataset to be used for making volcano plot
 myTopHits3 <- topTable(ebFit, adjust ="BH", coef=3, number=2600, sort.by="logFC")
 myTopHits.df3 <- myTopHits3 %>%
@@ -384,10 +424,14 @@ myTopHits.df3$cscR[!myTopHits.cscR_selected3] <- NA
 ggplot(myTopHits.df3) +
   aes(y=-log10(adj.P.Val), x=logFC, text = paste("Symbol:", geneID)) +
   geom_point(size=3, shape = 16, color = "black", alpha =.3) +
-  geom_point(mapping=NULL, myTopHits.nagR3, size = 3, shape = 16, color = "sienna2", inherit.aes = TRUE) +
-  geom_point(mapping=NULL, myTopHits.cscR3 , size = 3, shape = 16, color = "slateblue", inherit.aes = TRUE) +
-  geom_text_repel(aes(label = nagR), size = 3, fontface=2, color="black", max.overlaps = 100) +
-  geom_text_repel(aes(label = cscR), size = 3, fontface=2, color="black") +
+  geom_point(mapping=NULL, myTopHits.nagR3, size = 3, shape = 16, color = "sienna2",
+             inherit.aes = TRUE) +
+  geom_point(mapping=NULL, myTopHits.cscR3 , size = 3, shape = 16, color = "slateblue",
+             inherit.aes = TRUE) +
+  geom_text_repel(aes(label = nagR), size = 3, fontface=2, color="black", min.segment.length = 0,
+                  seed = 42, box.padding = 0.5, max.overlaps = 100) +
+  geom_text_repel(aes(label = cscR), size = 3, fontface=2, color="black", mmin.segment.length = 0,
+                  seed = 42, box.padding = 0.5, max.overlaps = 100) +
   geom_hline(yintercept = -log10(0.01), linetype="longdash", colour="grey", size=0.6) +
   geom_vline(xintercept = 1, linetype="longdash", colour="#BE684D", size=0.6) +
   geom_vline(xintercept = -1, linetype="longdash", colour="#2C467A", size=0.6) +
@@ -398,20 +442,24 @@ ggplot(myTopHits.df3) +
        subtitle = "B. infantis ATCC15697 WT: grown in LNnT vs Lac") +
   theme(plot.title = element_text(face="bold")) +
   theme_cowplot()
-# save the figure as pdf
+# save the figure
 ggsave("results/figures/figure_2D.pdf", device = "pdf", width = 8, height = 5)
 ```
 
-## Heatmap
+***
 
-Heatmap was plotted using the [pheatmap](https://CRAN.R-project.org/package=pheatmap) package. Rows are clustered by hierarchical clustering. Data are scaled by Z-score for each row.
+## Heatmap \textcolor{red}{Fig. S3}
 
-```{r step 4.4 - heatmap}
+Heatmap was plotted using the [pheatmap](https://CRAN.R-project.org/package=pheatmap) package. Rows are clustered by hierarchical clustering. Data are scaled by row Z-score.
+
+```{r step 4.4 - heatmap, fig.align='center', fig.dim=c(4,9), fig.cap = "Fig. S3"}
 colnames(v.DEGList.filtered.norm$E) <- sampleLabels
 diffGenes <- v.DEGList.filtered.norm$E
 diffGenes.df <- as_tibble(diffGenes, rownames = "geneID")
-diffGenes.df.two_conditions <- subset(diffGenes.df, geneID %in% myTopHits.df.de$geneID | geneID %in% myTopHits.df3.de$geneID) %>%
-    relocate(geneID, WT_Lac1, WT_Lac2, WT_Lac3, Mut_Lac1, Mut_Lac2, Mut_Lac3, WT_LNnT1, WT_LNnT2, WT_LNnT3, Mut_LNnT1, Mut_LNnT2, Mut_LNnT3)
+diffGenes.df.two_conditions <- subset(diffGenes.df, geneID %in% myTopHits.df.de$geneID 
+                                      | geneID %in% myTopHits.df3.de$geneID) %>%
+    relocate(geneID, WT_Lac1, WT_Lac2, WT_Lac3, Mut_Lac1, Mut_Lac2, Mut_Lac3, 
+             WT_LNnT1, WT_LNnT2, WT_LNnT3, Mut_LNnT1, Mut_LNnT2, Mut_LNnT3)
 diffGenes.two_conditions <- as.matrix(diffGenes.df.two_conditions[,-1])
 rownames(diffGenes.two_conditions) <- diffGenes.df.two_conditions$geneID
 # plot the heatmap
@@ -423,12 +471,175 @@ pheatmap(diffGenes.two_conditions,
          gaps_col = c(3, 6, 9),
          cellwidth = 10,
          cellheight = 10,
-         filename = "results/figures/figure_S3.pdf")
+         #filename = "results/figures/figure_S3.pdf")
+)
 ```
+
+***
+
+# Analysis of Electrophoretic Mobility Shift Assay (EMSA) data
+
+## Determining EC~50~ for NagR \textcolor{red}{Fig. S4}
+
+EC~50~ for NagR is defined as NagR concentration (nM) at which 50% of a particular DNA probe (containing a predicted NagR-binding site) is shifted in an EMSA experiment. To calculate EC~50~ values, EMSA gels were visualized via Odyssey CLx. Bands were quantified in Image Studio v5.2, and shift percentages (how much of the probe is shifted at a particular NagR concentration) were calculated. The resulting data (`data/emsa/NagR_data.txt`) were imported into R and approximated by a 4-parameter logistic (4PL) equation implemented in the [drc package](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146021). In the 4PL model, the lower limit was fixed at 0 and the upper limit at 1.
+```{r 4PL model for probes}
+# read gel quantification data
+emsa_data <- read_tsv("data/emsa/NagR_data.txt")
+# split data for each probe into separate tibbles
+data_Blon_0879 <- filter(emsa_data, site == "Blon_0879")
+data_Blon_0881_I <- filter(emsa_data, site == "Blon_0881_I")
+data_Blon_2177 <- filter(emsa_data, site == "Blon_2177")
+data_Blon_2344 <- filter(emsa_data, site == "Blon_2344")
+data_Blon_2347 <- filter(emsa_data, site == "Blon_2347")
+data_Blon_2350 <- filter(emsa_data, site == "Blon_2350")
+probes_data <- lst(data_Blon_0879, data_Blon_0881_I, data_Blon_2177, 
+              data_Blon_2344, data_Blon_2347, data_Blon_2350)
+# fit the 4-parameter logistic model
+models <- lapply(probes_data, fourPL_model)
+# print summary for each model
+model_summary <- lapply(models, summary)
+print(model_summary)
+```
+
+Plot quantification data and the resulting 4PL fit with 95% confidence intervals.
+```{r Fig. S4, fig.align='center', fig.dim=c(5, 15), fig.cap = "Fig. S4"}
+# plot data
+plot_Blon_0879 <- plot_fit(models$data_Blon_0879, data_Blon_0879, 1000)
+plot_Blon_0881_I <- plot_fit(models$data_Blon_0881_I, data_Blon_0881_I, 1000)
+plot_Blon_2177 <- plot_fit(models$data_Blon_2177, data_Blon_2177, 2000)
+plot_Blon_2344 <- plot_fit(models$data_Blon_2344, data_Blon_2344, 1000)
+plot_Blon_2347 <- plot_fit(models$data_Blon_2347, data_Blon_2347, 1000)
+plot_Blon_2350 <- plot_fit(models$data_Blon_2350, data_Blon_2350, 2000)
+plot_grid(plot_Blon_0879, plot_Blon_0881_I, plot_Blon_2177, 
+               plot_Blon_2344, plot_Blon_2347, plot_Blon_2350,
+          labels = c('Blon_0879', 'Blon_0881_I', 'Blon_2177', 
+                     'Blon_2344', 'Blon_2347', 'Blon_2350'),
+          ncol = 1,
+          label_size = 12,
+          label_x = 0, label_y = 0,
+          hjust = -0.5, vjust = -0.5)
+# save the figure
+ggsave("results/figures/figure_S4.pdf", device = cairo_pdf, width = 5, height = 15)
+```
+
+***
+
+## Correlation between RNA-seq and EMSA-data \textcolor{red}{Fig. 3C}
+
+Pearson correlation coefficient was calculated between log~2~EC~50~ values determined by EMSA and log~2~(FoldChange) of genes in the RNA-seq experiment (*nagR*-KO grown in MRS-CS-Lac vs WT grown in MRS-CS-Lac).
+```{r Fig. 3C, fig.align='center', fig.dim=c(5,5), fig.cap = "Fig. 3C"}
+# read data
+emsa_data_corr <- read_tsv("data/emsa/NagR_EMSA_vs_RNA_seq.txt")
+# plot data
+ggplot(emsa_data_corr, aes(x = logFC_mut_Lac, y = logEC50)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm) + 
+  scale_x_continuous(name ="log2FC") +
+  scale_y_continuous(name ="log2EC50") +
+  # print Pearson R^2
+  stat_cor(method = "pearson", 
+           label.y = 1.0, 
+           aes(label = paste(..r.label.., ..p.label.., sep = "~`,`~"))) +
+  theme_cowplot()
+# save the figure
+ggsave("results/figures/figure_3C.pdf", device = cairo_pdf, width = 5, height = 5)
+```
+
+***
+
+## Determining EC~50~ values for NagR effectors \textcolor{red}{Fig. 3D}
+
+EC~50~ value for an effector is defined as effector concentration which inhibits 50% of the "control" shift (shift without the effector). To calculate EC~50~ values, EMSA gels were visualized via Odyssey CLx. Bands were quantified in Image Studio v5.2, and shift percentages (how much of the probe is shifted at a particular effector concentration) were calculated. The shift percentage w/ effector was divided by shift percentage w/o effector ("control" shift). The resulting data (`data/emsa/NagR_effector_data.txt`) were imported into R and approximated by a 4-parameter logistic (4PL) equation implemented in the drc package. In the 4PL model, the upper limit was fixed at 1.
+```{r 4PL model for effectors}
+# 4-parameter logistic model; upper limit is fixed to 1
+# input: tibble with data
+fourPL_model_eff <- function(site_data){
+  drm(percent_max_shift~conc_mM, 
+      data = site_data,
+      fct = LL.4(fixed=c(NA,NA,1,NA), names=c("Slope", "Min", "Max", "EC50")))
+}
+# read gel quantification data
+emsa_data_eff <- read_tsv("data/emsa/NagR_effector_data.txt")
+# split data for each effector into separate tibbles
+data_GlcNAc <- filter(emsa_data_eff, effector == "GlcNAc")
+data_GlcNAc1P <- filter(emsa_data_eff, effector == "GlcNAc1P")
+data_GlcNAc6P <- filter(emsa_data_eff, effector == "GlcNAc6P")
+probes_data_eff <- lst(data_GlcNAc, data_GlcNAc1P, data_GlcNAc6P)
+# fit the 4-parameter logistic model
+models_eff <- lapply(probes_data_eff, fourPL_model_eff)
+# print summary for each model
+model_summary_eff <- lapply(models_eff, summary)
+print(model_summary_eff)
+```
+
+Plot quantification data and the resulting 4PL fit with 95% confidence intervals.
+```{r Fig. 3D, fig.align='center', fig.dim=c(6,5), fig.cap = "Fig. 3D"}
+# GlcNAc fit for ggplot 
+conf_site_GlcNAc <- expand.grid(conc_mM=exp(seq(log(0.01), log(10), length=100)))
+# calculate predicted values and respective 95% confidence intervals 
+# from the model using the "predict" function
+pm_site_GlcNAc <- predict(models_eff$data_GlcNAc, 
+                          newdata=conf_site_GlcNAc, 
+                          interval="confidence")
+# new data with predictions/confidence intervals
+conf_site_GlcNAc$p <- pm_site_GlcNAc[,1]
+conf_site_GlcNAc$pmin <- pm_site_GlcNAc[,2]
+conf_site_GlcNAc$pmax <- pm_site_GlcNAc[,3]
+EC50_GlcNAc <- models_eff$data_GlcNAc$coefficients[3]
+new_GlcNAc <- data.frame(x=c(EC50_GlcNAc))
+yvalue_GlcNAc <- predict(models_eff$data_GlcNAc, newdata = new_GlcNAc)
+# GlcNAc1P fit for ggplot 
+conf_site_GlcNAc1P <- expand.grid(conc_mM=exp(seq(log(0.01), log(10), length=100)))
+# calculate predicted values and respective 95% confidence intervals
+# from the model using the "predict" function
+pm_site_GlcNAc1P <- predict(models_eff$data_GlcNAc1P,
+                            conf_site_GlcNAc1P,
+                            interval="confidence")
+# new data with predictions/confidence intervals
+conf_site_GlcNAc1P$p <- pm_site_GlcNAc1P[,1]
+conf_site_GlcNAc1P$pmin <- pm_site_GlcNAc1P[,2]
+conf_site_GlcNAc1P$pmax <- pm_site_GlcNAc1P[,3]
+EC50_GlcNAc1P <- models_eff$data_GlcNAc1P$coefficients[3]
+new_GlcNAc1P <- data.frame(x=c(EC50_GlcNAc1P))
+yvalue_GlcNAc1P <-  predict(models_eff$data_GlcNAc1P, newdata = new_GlcNAc1P)
+# plot data
+ggplot() +
+  geom_line(data=conf_site_GlcNAc, aes(x=conc_mM, y=p), color = "#ffcf34") +
+  geom_ribbon(data=conf_site_GlcNAc, aes(x=conc_mM, y=p, ymin=pmin, ymax=pmax), alpha=0.2) +
+  geom_line(data=conf_site_GlcNAc1P, aes(x=conc_mM, y=p), color = "#008800") +
+  geom_ribbon(data=conf_site_GlcNAc1P, aes(x=conc_mM, y=p, ymin=pmin, ymax=pmax), alpha=0.2) +
+  geom_point(data = data_GlcNAc, aes(x = conc_mM, y = percent_max_shift, fill="GlcNAc"),
+             size=4, pch=21) + 
+  geom_point(data = data_GlcNAc1P, aes(x = conc_mM, y = percent_max_shift, fill="GlcNAc1P"),
+             size=4, pch=21) +
+  geom_point(aes(x = EC50_GlcNAc, y = yvalue_GlcNAc, fill="GlcNAc"), size = 7, pch=21) +
+  geom_point(aes(x = EC50_GlcNAc1P, y = yvalue_GlcNAc1P, fill="GlcNAc1P"), size = 7, pch=21) +
+  geom_point(aes(x = 0, y = 1), size = 4, pch=21, fill = "black") +
+  scale_fill_manual(name="Effector",
+      values=c(GlcNAc="#ffcf34", GlcNAc1P="#008800")) +
+  scale_x_continuous(trans=scales::pseudo_log_trans(base=10),
+                     limits=c(0, 10),
+                     breaks=c(0, 0.5, 1, 3, 5, 10)) +
+  scale_y_continuous(limits=c(0, 1),
+                     breaks=c(0, 0.25, 0.5, 0.75, 1)) +
+  annotate("text", x=1.7, y=0.8, 
+           label= paste("EC50 =",signif(EC50_GlcNAc, 4), "mM"),
+           size = 4.5) +
+  annotate("text", x=1, y=0.4, 
+           label= paste("EC50 =",signif(EC50_GlcNAc1P, 4), "mM"),
+           size = 4.5) +
+  xlab("Effector (mM)") +
+  ylab("Shift w/ effector / Shift w/o effector (%)") + 
+  theme_cowplot(12)
+# save the figure
+ggsave("results/figures/figure_3E.pdf", device = cairo_pdf, width = 6, height = 5)
+```
+
+***
 
 # Session info
 
-The output from running 'sessionInfo' is shown below and details all packages and version necessary to reproduce the results in this report.
+The output from running 'sessionInfo' is shown below and details all packages necessary to reproduce the results in this report.
 
 ```{r session info}
 sessionInfo()

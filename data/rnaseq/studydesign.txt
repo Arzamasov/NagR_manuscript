@@ -1,0 +1,13 @@
+sample	file_name	condition	batch	strain	carb
+WT_Lac1	01_WT_Lac1_S53_merged_lanes	WT_Lac	1	ATCC15697	Lac
+Mut_Lac1	02_Mut_Lac1_S54_merged_lanes	Mut_Lac	1	M3	Lac
+WT_LNnT1	03_WT_LNnT1_S55_merged_lanes	WT_LNnT	2	ATCC15697	LNnT
+Mut_LNnT1	04_Mut_LNnT1_S56_merged_lanes	Mut_LNnT	2	M3	LNnT
+WT_Lac2	05_WT_Lac2_S57_merged_lanes	WT_Lac	1	ATCC15697	Lac
+Mut_Lac2	06_Mut_Lac2_S58_merged_lanes	Mut_Lac	1	M3	Lac
+WT_LNnT2	07_WT_LNnT2_S59_merged_lanes	WT_LNnT	2	ATCC15697	LNnT
+Mut_LNnT2	08_Mut_LNnT2_S60_merged_lanes	Mut_LNnT	2	M3	LNnT
+WT_Lac3	09_WT_Lac3_S61_merged_lanes	WT_Lac	1	ATCC15697	Lac
+Mut_Lac3	10_Mut_Lac3_S62_merged_lanes	Mut_Lac	1	M3	Lac
+WT_LNnT3	11_WT_LNnT3_S63_merged_lanes	WT_LNnT	2	ATCC15697	LNnT
+Mut_LNnT3	12_Mut_LNnT3_S64_merged_lanes	Mut_LNnT	2	M3	LNnT

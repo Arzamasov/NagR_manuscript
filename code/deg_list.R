@@ -22,6 +22,7 @@ deg_list <- function(data, logFCmin, logFCmax, FDR, file_name){
   gt(myTopHits.df.de) %>% 
     cols_align(
       align = "left",
-      columns = TRUE
-    )
+      columns = TRUE) %>%
+      tab_options(., container.width = 1000, 
+                  container.height = 500)
 }
