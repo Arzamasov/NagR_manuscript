@@ -30,45 +30,194 @@ knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE, linewidth=60)
 
 # Background
 
-*Bifidobacterium longum* subsp. *infantis* (*B. infantis*) is a prevalent beneficial bacterium that colonizes the human neonatal gut and is uniquely adapted to efficiently use Human Milk Oligosaccharides (HMOs) as a carbon and energy source. While the metabolic pathways for HMO utilization in *B. infantis* have been studied in detail, the regulatory mechanisms governing utilization of these glycans in this bacterium remain poorly understood. A genomic-based regulon reconstruction approach used in this study implicated NagR, a transcription factor from the repressor, open reading frame, kinase (ROK) family, as a negative global regulator of genomic loci encoding lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) utilization pathways in *B. infantis*. This conjecture was corroborated by transcriptomic profiling upon *nagR* genetic inactivation and experimental assessment of recombinant NagR binding affinity to predicted DNA motifs. The latter approach also implicated N-acetylglucosamine (GlcNAc), a universal intermediate of LNT and LNnT catabolism, and its phosphorylated derivatives as plausible NagR effectors. Reconstruction of NagR regulons in various *Bifidobacterium* lineages revealed multiple potential regulon expansion events, suggesting evolution from a local regulator of GlcNAc catabolism in ancestral bifidobacteria to a global regulator controlling foraging of mixtures of GlcNAc-containing host-derived glycans in infant gut-colonizing species *B. infantis* and *Bifidobacterium bifidum*.
+*Bifidobacterium longum* subsp. *infantis* (*B. infantis*) is a prevalent beneficial bacterium that colonizes the human neonatal gut and is uniquely adapted to efficiently use Human Milk Oligosaccharides (HMOs) as a carbon and energy source. While the metabolic pathways for HMO utilization in *B. infantis* have been studied in detail, the regulatory mechanisms governing utilization of these glycans in this bacterium remain poorly understood. A genomics-based regulon reconstruction approach used in this study implicated NagR, a transcription factor from the repressor, open reading frame, kinase (ROK) family, as a negative global regulator of genomic loci encoding lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) utilization pathways in *B. infantis*. This conjecture was corroborated by transcriptome profiling upon *nagR* genetic inactivation and experimental assessment of recombinant NagR binding affinity to predicted DNA motifs. The latter approach also implicated N-acetylglucosamine (GlcNAc), a universal intermediate of LNT and LNnT catabolism, and its phosphorylated derivatives as plausible NagR effectors. Reconstruction of NagR regulons in various *Bifidobacterium* lineages revealed multiple potential regulon expansion events, suggesting evolution from a local regulator of GlcNAc catabolism in ancestral bifidobacteria to a global regulator controlling foraging of mixtures of GlcNAc-containing host-derived glycans in infant gut-colonizing *B. infantis* and *Bifidobacterium bifidum*.
 
 **Importance**
 
 The predominance of bifidobacteria in the gut of breastfed infants is attributed to the ability of these bacteria to selectively utilize Human Milk Oligosaccharides (HMOs). Individual HMOs such as lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) are used as prebiotic additions to infant formulas to selectively stimulate the growth of bifidobacteria and confer multiple health benefits to preterm and malnourished children suffering from impaired (stunted) gut microbiota development. However, rational selection of HMO-based prebiotics is hampered by the incomplete knowledge of regulatory mechanisms governing HMO utilization in target bifidobacteria. This study describes NagR-mediated transcriptional regulation of LNT and LNnT utilization in *Bifidobacterium longum* subsp. *infantis*. The elucidated regulatory network appears optimally adapted to simultaneous utilization of multiple HMOs, providing an incentive to include HMO mixtures (rather than individual components) into infant formulas. The study also provides insights into the evolution of complex regulatory networks controlling carbohydrate metabolism in bifidobacteria.
 
-**This supplementary code file file below describes**:
+**This supplementary code file below describes**:
 
-1. Analysis of RNA-seq data: (1) processing of raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome, (2) identification of differentially expressed genes between conditions
-2. Analysis of EMSA data: processing of gel quantification data and building of 4-PL models to infer EC~50~ values for NagR and NagR effectors
-3. Analysis of growth curves and HMO consumption data: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO
+1. Analysis of growth, HMO consumption, and organic acid production data
+2. Analysis of RNA-seq data: (a) processing raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome, (b) identification of differentially expressed genes between experimental conditions
+3. Analysis of Electrophoretic Mobility Shift Assay (EMSA) data: processing gel quantification data and building 4-parameter logistic (4PL) models to infer EC~50~ values for NagR/NagR effectors
 
 ***
 
 # Reproducibility and accessibility
 
-All code used in this analysis, including the Rmarkdown document used to compile this supplementary code file, is available on GitHub **[here](https://github.com/Arzamasov/NagR_manuscript)**. Once the GitHub repo has been downloaded, navigate to `NagR_manuscript/` to find the Rmarkdown document as well as the RProject file. This should be your working directory for executing code. To reproduce RNA-seq data analysis you will need to additionally download raw fastq files from the Gene Expression Omnibus, under accession [GSE196064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196064). Downloaded fastq files should be placed to  `NagR_manuscript/data/rnaseq/fastq/`.
+All code used in this analysis, including the Rmarkdown document used to compile this supplementary code file, is available on GitHub **[here](https://github.com/Arzamasov/NagR_manuscript)**. Once the GitHub repo has been downloaded, navigate to `NagR_manuscript/` to find the Rmarkdown document as well as the RProject file. This should be your working directory for executing code. To reproduce RNA-seq data analysis you will also need to download raw fastq files from Gene Expression Omnibus, under accession [GSE196064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196064). Downloaded fastq files should be placed to  `NagR_manuscript/data/rnaseq/fastq/`.
 
 ***
 
-# R packages and functions used
+# R packages and external functions used
 
-A set of R packages was used for this analysis. The [pacman](https://cran.r-project.org/web/packages/pacman/index.html) package was used to simplify downloading and loading of the required packages. All graphics and data wrangling were handled using the [tidyverse suite of packages](https://www.tidyverse.org/).
+A set of R packages was used for this analysis. The [pacman](https://cran.r-project.org/web/packages/pacman/index.html) package was used to simplify downloading and loading the required packages. All graphics and data wrangling were handled using the [tidyverse suite of packages](https://www.tidyverse.org/).
 ```{r packages}
-# load the pacman package for rapid install of packages that are not in library
-if (!require("pacman")) install.packages("pacman") # for rapid install if not in library
-# use pacman to install/load all the packages for the analysis
+# install/load the pacman package for rapid installation of packages that are not in library
+if (!require("pacman")) install.packages("pacman")
+# use pacman to install/load all packages needed for the analysis
 pacman::p_load('tidyverse', 'tximport', 'gt', 'tidyverse', 'edgeR', 'matrixStats', 'cowplot', 
                'ggrepel', 'pheatmap', 'drc', 'Cairo', 'ggpubr')
 ```
 
 A set of external R functions was used to keep the code tidy. All used R scripts with functions can be found in `NagR_manuscript/code/`.
 ```{r functions}
-source("code/profile.R") # calculates counts per million (CPM) for each gene, 
-# and plots the distribution of CPM values for each sample
-source("code/deg_list.R") # selects differential expressed genes (DEGs) based on input cut-offs,
-# outputs an annotated tables with DEGs to a txt file
-source("code/emsa.R") # builds 4-parameter logistic (4PL) model for EMSA quantification data,
+source("code/profile.R") # calculates counts per million (CPM) for each gene 
+# plots the distribution of CPM values for each sample
+source("code/deg_list.R") # selects differential expressed genes (DEGs) based on input cut-offs
+# outputs an annotated table with DEGs to a txt file
+source("code/emsa.R") # builds a 4PL model for EMSA quantification data
 # plots the fit from the 4PL model with 95% confidence intervals
+```
+
+***
+
+# Analysis of growth, HMO consumption, and organic acid production data
+
+## Growth data
+
+Growth of WT and *nagR*-KO strains in MRS-CS supplemented with various carbon sources was measured by OD~600~. Data points (taken at 0, 4, 8, 12, and 24 h) represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
+```{r Fig. 2, fig.align='center', fig.dim=c(6,5), fig.cap = "Fig. 2"}
+# read growth data
+growth_data <- read_tsv("data/growth/growth_data.txt") %>%
+  filter(sugar != "control")
+# plot data
+growth_data %>%
+  # rearrange plot order
+  mutate(across(sugar, factor, levels=c("Lactose", "HMO", "Sucrose", "FOS"))) %>%
+ggplot(aes(x = time, y = od, group = strain)) +
+  # display mean and connect points by line
+  stat_summary(
+    fun = mean,
+    geom='line',
+    size = 0.7,
+    aes(color=strain)) +
+  # display 95% non-parametric confidence interval for the mean
+  stat_summary(
+    fun.data=mean_cl_boot,
+    geom='errorbar',
+    width=0.6,
+    aes(color=strain)) +
+  stat_summary(
+    fun=mean,
+    geom ='point',
+    aes(fill=strain, shape=strain),
+    size = 1.5)+
+  scale_color_manual(name="Strain",
+                    values=c(WT="#008800", Mut="#F48326")) +
+  scale_fill_manual(name="Strain",
+                    values=c(WT="#008800", Mut="#F48326")) +
+  scale_shape_manual(name="Strain",
+                    values=c(WT=21, Mut=24)) +
+  scale_x_continuous(limits=c(-0.4, 24.4),
+                     breaks=c(0, 4, 8, 12, 16, 20, 24)) +
+  scale_y_continuous(limits=c(0, 6.5),
+                     breaks=c(0, 1, 2, 3, 4, 5, 6)) +
+  xlab("Time (h)") +
+  ylab("OD600") +
+  facet_wrap(. ~ sugar) +
+  theme_bw(14) + 
+  theme(axis.text=element_text(size=10), strip.text = element_text(size = 14))
+# save the figure
+ggsave("results/figures/figure_2.pdf", device = cairo_pdf, width = 6, height = 5)
+```
+
+***
+
+## HMO consumption
+
+HMO consumption of WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by normal phase high-performance liquid chromatography (HPLC). Data points (taken at 0, 4, 8, 12, and 24 h) represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
+```{r Fig. S2C, fig.align='center', fig.dim=c(12,10), fig.cap = "Fig. S2C"}
+# read HMO consumption data
+hmo_data <- read_tsv("data/metabolomics/HMO_concentration.txt")
+# plot data
+hmo_data %>%
+  # rearrange plot order
+  mutate(across(sugar, factor, levels=c("Lactose", "2'FL", "3FL", "DFL",
+                                        "LNT", "LNnT", "LNFP I",
+                                        "LNFP II/III", "LNDFH I",
+                                        "LNDFH II",
+                                        "LNTriose II", "Fucose"))) %>%
+  ggplot(aes(x = time, y = conc, group = strain)) +
+  # display mean and connect points by line
+  stat_summary(
+    fun = mean,
+    geom='line',
+    size = 1,
+    aes(color=strain)) +
+  # display 95% non-parametric confidence intervals for the mean
+  stat_summary(
+    fun.data=mean_cl_boot,
+    geom='errorbar',
+    width=0.6,
+    aes(color=strain)) +
+  stat_summary(
+    fun=mean,
+    geom ='point',
+    aes(fill=strain, shape=strain),
+    size = 3) +
+  scale_color_manual(name="Strain",
+                     values=c(WT="#008800", Mut="#F48326")) +
+  scale_fill_manual(name="Strain",
+                     values=c(WT="#008800", Mut="#F48326")) +
+  scale_shape_manual(name="Strain",
+                     values=c(WT=21, Mut=24)) +
+  scale_x_continuous(limits=c(-0.4, 24.4),
+                     breaks=c(0, 4, 8, 12, 16, 20, 24)) +
+  xlab("Time (h)") +
+  ylab("Concentration (mM)") +
+  # set different scales for each plot 
+  facet_wrap(. ~ sugar, scales = "free") +
+  theme_bw(14)
+# save the figure
+ggsave("results/figures/figure_S2C.pdf", device = cairo_pdf, width = 12, height = 10)
+```
+
+***
+
+## Organic acid production
+
+Organic acid production of WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by anion-exchange chromatography. Since MRS-CS contains baseline levels of acetate, formate, and lactate, measurements at 0 h were subtracted from subsequent ones (4, 8, 12, and 24 h). Data represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
+```{r Fig. S2D, fig.align='center', fig.dim=c(10,5), fig.cap = "Fig. S2D"}
+# read SCFA production data
+scfa_data <- read_tsv("data/metabolomics/organic_acid_concentration.txt")
+# plot data
+scfa_data %>%
+  # rearrange plot order
+  mutate(across(scfa, factor, levels=c("Acetate", "Formate", "Lactate"))) %>%
+  ggplot(aes(x = time, y = conc_substr, group = strain)) +
+  # display mean and connect points by line
+  stat_summary(
+    fun = mean,
+    geom='line',
+    size = 1,
+    aes(color=strain)) +
+  # display 95% non-parametric confidence intervals for the mean
+  stat_summary(
+    fun.data=mean_cl_boot,
+    geom='errorbar',
+    width=0.6,
+    aes(color=strain)) +
+  stat_summary(
+    fun=mean,
+    geom ='point',
+    aes(fill=strain, shape=strain),
+    size = 3) +
+  scale_color_manual(name="Strain",
+                     values=c(WT="#008800", Mut="#F48326")) +
+  scale_fill_manual(name="Strain",
+                     values=c(WT="#008800", Mut="#F48326")) +
+  scale_shape_manual(name="Strain",
+                     values=c(WT=21, Mut=24)) +
+  scale_x_continuous(limits=c(-0.4, 24.4),
+                     breaks=c(0, 4, 8, 12, 16, 20, 24)) +
+  xlab("Time (h)") +
+  ylab("Concentration (mM)") +
+  facet_wrap(. ~ scfa, scales = "free") +
+  theme_bw(14)
+# save the figure
+ggsave("results/figures/figure_S2D.pdf", device = cairo_pdf, width = 10, height = 5)
 ```
 
 ***
