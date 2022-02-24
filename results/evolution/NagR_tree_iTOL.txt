@@ -1,0 +1,31 @@
+LABELS	
+SEPARATOR TAB	
+DATA	
+Blon_0880	B. longum subsp. infantis ATCC 15697
+BAD15_RS06120	B. longum subsp. infantis IN-07
+BLJ_RS06430	B. longum subsp. suis JDM301
+BL1342	B. longum subsp. longum NCC2705
+BLLJ_1261	B. longum subsp. longum JCM 1217
+B5780_RS00580	B. longum 1897B
+Bbr_1249	B. breve UCC2003
+BBPR_0565_NagR1_	B. bifidum PRL2010 (1)
+BBPR_1053_NagR2_	B. bifidum PRL2010 (2)
+BBSC_1785	B. scardovii JCM 12489 
+BILOF6F16E45_RS02055	B. catenulatum subsp. catenulatum BCJG468
+BBKW_1888	B. catenulatum subsp. kashiwanohense JCM 15439 
+BPSE_1661	B. pseudocatenulatum JCM 1200
+BREU_RS05845	B. reuteri DSM 23975
+BSTEL_RS01125	B. stellenboschense DSM 23968
+BCHO_RS06745	B. choerinum LMG 10510
+BMAGN_0529	B. magnum LMG 11591
+BITS_RS02010	B. tsurumiense JCM 13495
+BBOH_RS02115	B. bohemicum DSM 22767 (1)
+BBOH_RS02100	B. bohemicum DSM 22767 (2)
+BMON_RS02190	B. mongoliense DSM 21395
+AB656_RS02675	B. actinocoloniiforme DSM 22766
+BAST_RS00590	B. asteroides PRL2011
+BAQU_RS06240	B. aquikefiri LMG 28769
+BPSY_RS09670	B. psychraerophilum LMG 21775
+OU11_RS07535	B. pullorum subsp. pullorum DSM 20433
+EJ419_RS05885	Alloscardovia theropitheci GLDI4/2
+Krad_3729	Kineococcus radiotolerans SRS30216

@@ -36,7 +36,6 @@ data/nagR_expression
 data/growth/sugar_exchange
 data/growth/growth_unsorted
 data/mutants
-data/regulons
 
 # Output files from R CMD check
 /*.Rcheck/

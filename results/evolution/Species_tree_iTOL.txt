@@ -1,0 +1,28 @@
+LABELS	
+SEPARATOR TAB	
+DATA	
+391904.5	B. longum subsp. infantis ATCC 15697
+1682.27	B. longum subsp. infantis IN-07
+759350.3	B. longum subsp. suis JDM301
+206672.9	B. longum subsp. longum NCC2705
+565042.3	B. longum subsp. longum JCM 1217
+216816.144	B. longum 1897B
+326426.4	B. breve UCC2003
+702459.3	B. bifidum PRL2010
+1150461.5	B. scardovii JCM 12489 
+566552.23	B. catenulatum subsp. catenulatum BCJG468
+1150460.7	B. catenulatum subsp. kashiwanohense JCM 15439 
+547043.16	B. pseudocatenulatum JCM 1200
+1437610.3	B. reuteri DSM 23975
+762211.3	B. stellenboschense DSM 23968
+35760.3	B. choerinum LMG 10510
+1692.3	B. magnum LMG 11591
+356829.3	B. tsurumiense JCM 13495
+1437606.3	B. bohemicum DSM 22767
+1437603.3	B. mongoliense DSM 21395
+1437605.3	B. actinocoloniiforme DSM 22766
+1147128.3	B. asteroides PRL2011
+1653207.3	B. aquikefiri LMG 28769
+218140.3	B. psychraerophilum LMG 21775
+1437600.3	B. pullorum subsp. pullorum DSM 20433
+Atheropitheci_GLDI4_2	Alloscardovia theropitheci GLDI4/2

@@ -1,0 +1,29 @@
+name	name_short	SEED_id	NagR_id
+Bifidobacterium longum subsp. infantis ATCC 15697	B. longum subsp. infantis ATCC 15697	391904.5	Blon_0880
+Bifidobacterium longum subsp. infantis IN-07	B. longum subsp. infantis IN-07	1682.27	BAD15_RS06120
+Bifidobacterium longum subsp. suis JDM301	B. longum subsp. suis JDM301	759350.3	BLJ_RS06430
+Bifidobacterium longum subsp. longum NCC2705	B. longum subsp. longum NCC2705	206672.9	BL1342
+Bifidobacterium longum subsp. longum JCM 1217	B. longum subsp. longum JCM 1217	565042.3	BLLJ_1261
+Bifidobacterium longum 1897B	B. longum 1897B	216816.144	B5780_RS00580
+Bifidobacterium breve UCC2003	B. breve UCC2003	326426.4	Bbr_1249
+Bifidobacterium bifidum PRL2010	B. bifidum PRL2010 (1)	702459.3	BBPR_0565_NagR1_
+Bifidobacterium bifidum PRL2010	B. bifidum PRL2010 (2)	702459.3	BBPR_1053_NagR2_
+Bifidobacterium scardovii JCM 12489 = DSM 13734	B. scardovii JCM 12489 	1150461.5	BBSC_1785
+Bifidobacterium catenulatum BCJG468	B. catenulatum subsp. catenulatum BCJG468	566552.23	BILOF6F16E45_RS02055
+Bifidobacterium kashiwanohense JCM 15439 = DSM 21854	B. catenulatum subsp. kashiwanohense JCM 15439 	1150460.7	BBKW_1888
+Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505	B. pseudocatenulatum JCM 1200	547043.16	BPSE_1661
+Bifidobacterium reuteri DSM 23975	B. reuteri DSM 23975	1437610.3	BREU_RS05845
+Bifidobacterium stellenboschense DSM 23968	B. stellenboschense DSM 23968	762211.3	BSTEL_RS01125
+Bifidobacterium choerinum LMG 10510	B. choerinum LMG 10510	35760.3	BCHO_RS06745
+Bifidobacterium magnum LMG 11591	B. magnum LMG 11591	1692.3	BMAGN_0529
+Bifidobacterium tsurumiense JCM 13495	B. tsurumiense JCM 13495	356829.3	BITS_RS02010
+Bifidobacterium bohemicum DSM 22767	B. bohemicum DSM 22767 (1)	1437606.3	BBOH_RS02115
+Bifidobacterium bohemicum DSM 22767	B. bohemicum DSM 22767 (2)	1437606.3	BBOH_RS02100
+Bifidobacterium mongoliense DSM 21395	B. mongoliense DSM 21395	1437603.3	BMON_RS02190
+Bifidobacterium actinocoloniiforme DSM 22766	B. actinocoloniiforme DSM 22766	1437605.3	AB656_RS02675
+Bifidobacterium asteroides PRL2011	B. asteroides PRL2011	1147128.3	BAST_RS00590
+Bifidobacterium aquikefiri LMG 28769	B. aquikefiri LMG 28769	1653207.3	BAQU_RS06240
+Bifidobacterium psychraerophilum LMG 21775	B. psychraerophilum LMG 21775	218140.3	BPSY_RS09670
+Bifidobacterium pullorum DSM 20433	B. pullorum subsp. pullorum DSM 20433	1437600.3	OU11_RS07535
+Alloscardovia theropitheci GLDI4/2	Alloscardovia theropitheci GLDI4/2	NA	EJ419_RS05885
+Kineococcus radiotolerans SRS30216	K. radiotolerans SRS30216	266940.11	Krad_3729
