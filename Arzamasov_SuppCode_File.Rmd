@@ -1,6 +1,13 @@
 ---
 title: "<center> Supplemental code file for manuscript titled: Human Milk Oligosaccharide Utilization in Intestinal Bifidobacteria is Governed by a Global Transcriptional Regulator NagR <center>"
-author: "<center> *Aleksandr A. Arzamasov, Aruto Nakajima, Mikiyasu Sakanaka, Miriam Ojima, Takane Katayama,\n Dmitry A. Rodionov, Andrei L. Osterman* <center><br>"
+author: 
+- Aleksandr A. Arzamasov
+- Aruto Nakajima
+- Mikiyasu Sakanaka
+- Miriam Ojima
+- Takane Katayama
+- Dmitry A. Rodionov
+- Andrei L. Osterman
 output:
   pdf_document:
     toc: true
@@ -30,43 +37,39 @@ knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE, linewidth=60)
 
 # Background
 
-*Bifidobacterium longum* subsp. *infantis* (*B. infantis*) is a prevalent beneficial bacterium that colonizes the human neonatal gut and is uniquely adapted to efficiently use Human Milk Oligosaccharides (HMOs) as a carbon and energy source. While the metabolic pathways for HMO utilization in *B. infantis* have been studied in detail, the regulatory mechanisms governing utilization of these glycans in this bacterium remain poorly understood. A genomics-based regulon reconstruction approach used in this study implicated NagR, a transcription factor from the repressor, open reading frame, kinase (ROK) family, as a negative global regulator of genomic loci encoding lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) utilization pathways in *B. infantis*. This conjecture was corroborated by transcriptome profiling upon *nagR* genetic inactivation and experimental assessment of recombinant NagR binding affinity to predicted DNA motifs. The latter approach also implicated N-acetylglucosamine (GlcNAc), a universal intermediate of LNT and LNnT catabolism, and its phosphorylated derivatives as plausible NagR effectors. Reconstruction of NagR regulons in various *Bifidobacterium* lineages revealed multiple potential regulon expansion events, suggesting evolution from a local regulator of GlcNAc catabolism in ancestral bifidobacteria to a global regulator controlling foraging of mixtures of GlcNAc-containing host-derived glycans in infant gut-colonizing *B. infantis* and *Bifidobacterium bifidum*.
+*Bifidobacterium longum* subsp. *infantis* (*B. infantis*) is a prevalent beneficial bacterium that colonizes the human neonatal gut and is uniquely adapted to efficiently use Human Milk Oligosaccharides (HMOs) as a carbon and energy source. While the metabolic pathways for HMO utilization in *B. infantis* have been studied in detail, the regulatory mechanisms governing utilization of these glycans in this bacterium remain poorly understood. A bioinformatic regulon reconstruction approach used in this study implicated NagR, a transcription factor from the ROK family, as a negative global regulator of genomic loci encoding lacto-N-biose/galacto-N-biose (LNB/GNB), lacto-*N*-tetraose (LNT), and lacto-*N*-neotetraose (LNnT) utilization pathways in *B. infantis*. This conjecture was corroborated by transcriptome profiling upon *nagR* genetic inactivation and experimental assessment of binding of recombinant NagR to predicted DNA operators. The latter approach also implicated *N*-acetylglucosamine (GlcNAc), a universal intermediate of LNT and LNnT catabolism, and its phosphorylated derivatives as plausible NagR effectors. Reconstruction of NagR regulons in various *Bifidobacterium* lineages revealed multiple regulon expansion events, suggesting evolution from a local regulator of GlcNAc catabolism in ancestral bifidobacteria to a global regulator controlling foraging of mixtures of GlcNAc-containing host-derived glycans in infant gut-colonizing *B. infantis* and *Bifidobacterium bifidum*.
 
-**Importance**
-
-The predominance of bifidobacteria in the gut of breastfed infants is attributed to the ability of these bacteria to selectively utilize Human Milk Oligosaccharides (HMOs). Individual HMOs such as lacto-N-tetraose (LNT) and lacto-N-neotetraose (LNnT) are used as prebiotic additions to infant formulas to selectively stimulate the growth of bifidobacteria and confer multiple health benefits to preterm and malnourished children suffering from impaired (stunted) gut microbiota development. However, rational selection of HMO-based prebiotics is hampered by the incomplete knowledge of regulatory mechanisms governing HMO utilization in target bifidobacteria. This study describes NagR-mediated transcriptional regulation of LNT and LNnT utilization in *Bifidobacterium longum* subsp. *infantis*. The elucidated regulatory network appears optimally adapted to simultaneous utilization of multiple HMOs, providing an incentive to include HMO mixtures (rather than individual components) into infant formulas. The study also provides insights into the evolution of complex regulatory networks controlling carbohydrate metabolism in bifidobacteria.
-
-**This supplementary code file below describes**:
+**This supplementary code file describes**:
 
 1. Analysis of growth, HMO consumption, and organic acid production data
-2. Analysis of RNA-seq data: (a) processing raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome, (b) identification of differentially expressed genes between experimental conditions
-3. Analysis of Electrophoretic Mobility Shift Assay (EMSA) data: processing gel quantification data and building 4-parameter logistic (4PL) models to infer EC~50~ values for NagR/NagR effectors
+2. Analysis of RNA-seq data: (a) processing raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome, (b) identification of differentially expressed genes (DEGs) between experimental conditions
+3. Analysis of Electrophoretic Mobility Shift Assay (EMSA) data: processing gel quantification data and building 4-parameter logistic (4PL) models to infer EC~50~ values
 4. Phylogenetic analysis
 
 ***
 
 # Reproducibility and accessibility
 
-All code used in this analysis, including the Rmarkdown document used to compile this supplementary code file, is available on GitHub **[here](https://github.com/Arzamasov/NagR_manuscript)**. Once the GitHub repo has been downloaded, navigate to `NagR_manuscript/` to find the Rmarkdown document as well as the RProject file. This should be your working directory for executing code. To reproduce RNA-seq data analysis you will also need to download raw fastq files from Gene Expression Omnibus, under accession [GSE196064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196064). Downloaded fastq files should be placed to  `NagR_manuscript/data/rnaseq/fastq/`.
+All code used in this analysis, including the Rmarkdown document used to compile this supplementary code file, is available on GitHub **[here](https://github.com/Arzamasov/NagR_manuscript)**. Once the GitHub repo has been downloaded, navigate to `NagR_manuscript/` to find the Rmarkdown document as well as the RProject file. This should be your working directory for executing code. To fully reproduce the processing of raw fastq files (RNA-seq data analysis), you will need to download them from Gene Expression Omnibus, under accession **[GSE196064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196064)**. Downloaded fastq files should be placed to `NagR_manuscript/data/rnaseq/fastq/`. Otherwise, `data/rnaseq/kallisto/` already includes Kallisto mapping outputs.
 
 ***
 
 # R packages and external functions used
 
-A set of R packages was used for this analysis. The [pacman](https://cran.r-project.org/web/packages/pacman/index.html) package was used to simplify downloading and loading the required packages. All graphics and data wrangling were handled using the [tidyverse suite of packages](https://www.tidyverse.org/).
+A set of R packages was used for this analysis. The [pacman](https://cran.r-project.org/web/packages/pacman/index.html) package was used to simplify downloading and loading the required packages. All graphics and data wrangling were handled using the [tidyverse suite of packages](https://www.tidyverse.org/). To fully reproduce the R environment used in the analysis, use the [renv](https://rstudio.github.io/renv/articles/renv.html) package and `renv::restore()` to restore the environment from `renv.lock`.
 ```{r packages}
 # install/load the pacman package for rapid installation of packages that are not in library
 if (!require("pacman")) install.packages("pacman")
 # use pacman to install/load all packages needed for the analysis
-pacman::p_load('tidyverse', 'tximport', 'gt', 'tidyverse', 'edgeR', 'matrixStats', 'cowplot', 
-               'ggrepel', 'pheatmap', 'drc', 'Cairo', 'ggpubr', 'microseq')
+pacman::p_load('tidyverse', 'emmeans', 'tximport', 'gt', 'tidyverse', 'edgeR', 'matrixStats',
+               'cowplot', 'ggrepel', 'pheatmap', 'drc', 'Cairo', 'ggpubr', 'microseq')
 ```
 
 A set of external R functions was used to keep the code tidy. All used R scripts with functions can be found in `NagR_manuscript/code/`.
 ```{r functions}
 source("code/profile.R") # calculates counts per million (CPM) for each gene 
 # plots the distribution of CPM values for each sample
-source("code/deg_list.R") # selects differential expressed genes (DEGs) based on input cut-offs
+source("code/deg_list.R") # selects DEGs based on input cut-offs
 # outputs an annotated table with DEGs to a txt file
 source("code/emsa.R") # builds a 4PL model for EMSA quantification data
 # plots the fit from the 4PL model with 95% confidence intervals
@@ -79,7 +82,7 @@ source("code/emsa.R") # builds a 4PL model for EMSA quantification data
 ## Growth data \textcolor{red}{Fig. 2}
 
 Growth of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains in MRS-CS supplemented with various carbon sources was measured by OD~600~. Data points (taken at 0, 4, 8, 12, and 24 h) represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
-```{r Fig. 2, fig.align='center', fig.dim=c(6,5), fig.cap = "Fig. 2"}
+```{r Fig. 2, fig.align='center', fig.dim=c(6,5)}
 # read growth data
 growth_data <- read_tsv("data/growth/growth_data.txt") %>%
   filter(sugar != "control")
@@ -125,12 +128,32 @@ ggplot(aes(x = time, y = od, group = strain)) +
 ggsave("results/figures/figure_2.pdf", device = cairo_pdf, width = 6, height = 5)
 ```
 
+A linear model and post hoc comparisons implemented in the [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) package were used to identify time points where the mean OD~600~ values for WT and *nagR*-KO strains were significantly different. Computed p-values were adjusted for multiple comparisons using the Bonferroni correction.
+```{r Fig. 2 stats}
+# function below:
+# (1) builds a linear model with two factors (strain and time)
+# (2) performs pairwise comparisons of OD600 means (WT vs nagR-KO) at each time point using emmeans
+# (3) computes p-values and adjusts for multiple comparisons using the Bonferroni correction 
+compare_growth_means <- function(measurement_data){
+  lm_strain <- lm(od ~ strain + time + strain:time, data=measurement_data)
+  compare_means_strain <- emmeans(lm_strain, ~ strain | time)
+  summary(pairs(compare_means_strain), by = NULL, adjust = "bonferroni")
+}
+
+# for each carbon source, compare OD600 values (WT vs nagR-KO) at each time point 
+growth_data_split <- growth_data %>%
+  mutate(across(c(strain, time), factor)) %>%
+  group_by(sugar) %>%
+  split(f = as.factor(.$sugar))
+lapply(growth_data_split, compare_growth_means)
+```
+
 ***
 
 ## HMO consumption \textcolor{red}{Fig. S2C}
 
 HMO consumption of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by normal phase high-performance liquid chromatography (HPLC). Data points (taken at 0, 4, 8, 12, and 24 h) represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
-```{r Fig. S2C, fig.align='center', fig.dim=c(12,10), fig.cap = "Fig. S2C"}
+```{r Fig. S2C, fig.align='center', fig.dim=c(12,10)}
 # read HMO consumption data
 hmo_data <- read_tsv("data/metabolomics/HMO_concentration.txt")
 # plot data
@@ -177,12 +200,33 @@ hmo_data %>%
 ggsave("results/figures/figure_S2C.pdf", device = cairo_pdf, width = 12, height = 10)
 ```
 
+A linear model and post hoc comparisons implemented in the [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) package were used to identify time points where the mean HMO concentrations for WT and *nagR*-KO strains were significantly different. Computed p-values were adjusted for multiple comparisons using the Bonferroni correction.
+```{r Fig. S2 stats HMO}
+# function below:
+# (1) builds a linear model with two factors (strain and time)
+# (2) performs pairwise comparisons of concentration means (WT vs nagR-KO) at each time point
+# using emmeans
+# (3) compute p-values and adjusts for multiple comparisons using Bonferroni correction 
+compare_growth_means <- function(measurement_data){
+  lm_strain <- lm(conc ~ strain + time + strain:time, data=measurement_data)
+  compare_means_strain <- emmeans(lm_strain, ~ strain | time)
+  summary(pairs(compare_means_strain), by = NULL, adjust = "bonferroni")
+}
+
+# for each carbon source, compare OD600 values (WT vs nagR-KO) at each time point 
+hmo_data_split <- hmo_data %>%
+  mutate(across(c(strain, time), factor)) %>%
+  group_by(sugar) %>%
+  split(f = as.factor(.$sugar))
+lapply(hmo_data_split, compare_growth_means)
+```
+
 ***
 
 ## Organic acid production \textcolor{red}{Fig. S2D}
 
-Organic acid production of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by anion-exchange chromatography. Since MRS-CS contains baseline levels of acetate, formate, and lactate, measurements at 0 h were subtracted from subsequent ones (4, 8, 12, and 24 h). Data represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
-```{r Fig. S2D, fig.align='center', fig.dim=c(10,5), fig.cap = "Fig. S2D"}
+Organic acid production of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by anion-exchange chromatography. Since MRS-CS contains baseline levels of acetate, formate, and lactate, measurements at 0 h were subtracted from subsequent time points (4, 8, 12, and 24 h). Data represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
+```{r Fig. S2D, fig.align='center', fig.dim=c(10,5)}
 # read SCFA production data
 scfa_data <- read_tsv("data/metabolomics/organic_acid_concentration.txt")
 # plot data
@@ -224,19 +268,40 @@ scfa_data %>%
 ggsave("results/figures/figure_S2D.pdf", device = cairo_pdf, width = 10, height = 5)
 ```
 
+A linear model and post hoc comparisons implemented in the [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) package were used to identify time points where the mean organic acid concentrations for WT and *nagR*-KO strains were significantly different. Computed p-values were adjusted for multiple comparisons using the Bonferroni correction.
+```{r Fig. S2 stats organic acids}
+# function below:
+# (1) builds a linear model with two factors (strain and time)
+# (2) performs pairwise comparisons of concentration means (WT vs nagR-KO) at each time point
+# using emmeans
+# (3) compute p-values and adjusts for multiple comparisons using Bonferroni correction 
+compare_growth_means <- function(measurement_data){
+  lm_strain <- lm(conc ~ strain + time + strain:time, data=measurement_data)
+  compare_means_strain <- emmeans(lm_strain, ~ strain | time)
+  summary(pairs(compare_means_strain), by = NULL, adjust = "bonferroni")
+}
+
+# for each carbon source, compare OD600 values (WT vs nagR-KO) at each time point 
+scfa_data_split <- scfa_data %>%
+  mutate(across(c(strain, time), factor)) %>%
+  group_by(scfa) %>%
+  split(f = as.factor(.$scfa))
+lapply(scfa_data_split, compare_growth_means)
+```
+
 ***
 
 # Analysis of RNA-seq data
 
-## Processing of raw fastq files and read mapping
+## Processing of raw fastq files and read mapping \textcolor{red}{(Optional)}
 
 The code chuck below describes processing of raw fastq files and mapping reads to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 transcriptome.
 The following software is required (can be installed to one conda environment):
 
-1. [FastQC (v0.11.9)](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+1. [FastQC(v0.11.9)](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 2. [Cutadapt (v3.4)](https://cutadapt.readthedocs.io/en/stable/)
-3. [Bowtie2 (v2.4.4)](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
-4. [Kallisto v0.46.2](https://pachterlab.github.io/kallisto/)
+3. [Bowtie2 (v 2.4.4)](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+4. [Kallisto (v0.46.2)](https://pachterlab.github.io/kallisto/)
 5. [MultiQC (v1.11)](https://multiqc.info/)
 6. [Parallel (v20210222)](https://www.gnu.org/software/parallel/)
 
@@ -261,7 +326,7 @@ echo $BASH_VERSION
 set -ex
 
 # required software: fastqc (v0.11.9), cutadapt (v3.4), bowtie2 (v2.4.4), kallisto (v0.46.2)
-# multiqc (1.11), and parallel (v20210222)
+# multiqc (v1.11), and parallel (v20210222)
 # sample names should be in data/rnaseq/runids.txt
 
 # activate conda enviroment with required software
@@ -402,8 +467,7 @@ In addition, the [TMM method](https://doi.org/10.1186/gb-2010-11-3-r25) was used
 ## PCA plot \textcolor{red}{Fig. 3B}
 
 Principal Component Analysis (PCA) plots reduce complex datasets to a 2D representation where each axis represents a source of variance (known or unknown) in the dataset.  As you can see from the plots below, Principal Component 1 (PC1; X-axis), which accounts for >38% of the variance in the data, is separating the samples based on carbon source. PC2 (Y-axis) accounts for a smaller source of variance (~21%) and can be attributed to variation between strains of *Bifidobacterium longum* subsp. *infantis* ATCC 15697: WT and *nagR*-KO.
-
-```{r  Fig. 3B, fig.align='center', fig.dim=c(5,5), fig.cap = "Fig. 3B"}
+```{r  Fig. 3B, fig.align='center', fig.dim=c(5,5)}
 # running PCA
 log2.cpm.filtered.norm <- cpm(myDGEList.filtered.norm, log=TRUE)
 pca.res <- prcomp(t(log2.cpm.filtered.norm), scale.=F, retx=T)
@@ -443,7 +507,6 @@ ggsave("results/figures/figure_3B.pdf", device = "pdf", width = 5, height = 5)
 ## Differentially expressed genes \textcolor{red}{Table S2A-B}
 
 To identify differentially expressed genes (DEGs), precision weights were first applied to each gene based on its mean-variance relationship using [VOOM](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-2-r29). Linear modeling and bayesian stats were employed using [Limma](https://academic.oup.com/nar/article/43/7/e47/2414268) to find genes that were up- or down-regulated more than 2-fold at false-discovery rate (FDR) of 0.01.
-
 ```{r DE analysis}
 # setting up model matrix without intercept
 design <- model.matrix(~0 + condition)
@@ -467,7 +530,7 @@ ebFit <- eBayes(fits)
 DEGs were annotated based on a [RAST-annotated](https://doi.org/10.1093/nar/gkt1226) version of the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 genome, which was additionally subjected to extensive manual curation in the web-based mcSEED environment, a private clone of the publicly available [SEED platform](https://doi.org/10.1093/nar/gki866). The manual curation focused on annotating genes encoding functional roles (transporters, glycoside hydrolases, downstream catabolic enzymes, transcriptional regulators) involved in carbohydrate metabolism.
 
 DEGs: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 grown in MRS-CS-Lac: *nagR*-KO vs WT
-```{r Table S2A}
+```{r Table S2A, results = 'hide'}
 # create a master annotation table
 seed.ann <- read_tsv('data/rnaseq/annotation/SEED_annotations.tsv')
 corr <- read_tsv('data/rnaseq/annotation/Binfantis_ATCC15697_GenBank_vs_mcSEED.txt')
@@ -483,7 +546,7 @@ deg_list(myTopHits.Mut, -1, 1, 0.01, "results/tables/table_S2A.txt")
 ***
 
 DEGs: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT: grown in MRS-CS-LNnT vs grown in MRS-CS-Lac
-```{r Table S2B}
+```{r Table S2B, results = 'hide'}
 # annotate DEGs
 # WT_LNnT vs WT_Lac
 myTopHits.WT <- topTable(ebFit, adjust ="BH", coef=3, number=2600, sort.by="logFC")
@@ -495,7 +558,7 @@ deg_list(myTopHits.WT, -1, 1, 0.01, "results/tables/table_S2B.txt")
 
 Volcano plots are convenient ways to represent gene expression data because they combine magnitude of change (X-axis) with significance (Y-axis). Since the Y-axis is the inverse log10 of the adjusted Pvalue, higher points are more significant.
 In the case of this particular plot, there are many genes in the upper right of the plot, which represent genes that are significantly **upregulated** in the *nagR*-KO mutant grown in MRS-CS-Lac, compared to WT grown in MRS-CS-Lac.
-```{r Fig. 3C, fig.align='center', fig.dim=c(8,5), fig.cap = "Fig. 3C"}
+```{r Fig. 3C, fig.align='center', fig.dim=c(8,5)}
 # list stats for all genes in the dataset to be used for making volcano plot
 myTopHits <- topTable(ebFit, adjust ="BH", coef=1, number=2600, sort.by="logFC")
 myTopHits.df <- myTopHits %>%
@@ -552,7 +615,7 @@ ggsave("results/figures/figure_3C.pdf", device = "pdf", width = 8, height = 5)
 
 ## Volcano plot: *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT: grown in MRS-CS-LNnT vs grown in MRS-CS-Lac \textcolor{red}{Fig. 3D}
 
-```{r Fig. 3D, fig.align='center', fig.dim=c(8,5), fig.cap = "Fig. 3D"}
+```{r Fig. 3D, fig.align='center', fig.dim=c(8,5)}
 # listing stats for all genes in the dataset to be used for making volcano plot
 myTopHits3 <- topTable(ebFit, adjust ="BH", coef=3, number=2600, sort.by="logFC")
 myTopHits.df3 <- myTopHits3 %>%
@@ -631,7 +694,7 @@ pheatmap(diffGenes.two_conditions,
 
 ## Determining EC~50~ for NagR \textcolor{red}{Fig. 5}
 
-EC~50~ for NagR is defined as NagR concentration (nM) at which 50% of a particular DNA probe (containing a predicted NagR-binding site) is shifted in an EMSA experiment. To calculate EC~50~ values, EMSA gels were visualized via Odyssey CLx. Bands were quantified in Image Studio v5.2, and shift percentages (how much of the probe is shifted at a particular NagR concentration) were calculated. The resulting data (`data/emsa/NagR_data.txt`) were imported into R and approximated by a 4-parameter logistic (4PL) equation implemented in the [drc package](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146021). In the 4PL model, the lower limit was fixed at 0 and the upper limit at 1.
+EC~50~ for NagR is defined as NagR concentration (nM) at which shift of 50% of a particular DNA probe (containing a predicted NagR operator) is observed in an EMSA experiment. To calculate EC~50~ values, EMSA gels were visualized via Odyssey CLx. Bands were quantified in Image Studio v5.2, and shift percentages (percent of the probe shifted at a particular NagR concentration) were calculated. The resulting data (`data/emsa/NagR_data.txt`) were imported into R and approximated by a 4-parameter logistic (4PL) equation implemented in the [drc package](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146021). In the 4PL model, the lower limit was fixed at 0 and the upper limit at 1.
 ```{r 4PL model for probes}
 # read gel quantification data
 emsa_data <- read_tsv("data/emsa/NagR_data.txt")
@@ -652,7 +715,7 @@ print(model_summary)
 ```
 
 Plot quantification data and the resulting 4PL fit with 95% confidence intervals.
-```{r Fig. 5, fig.align='center', fig.dim=c(5, 15), fig.cap = "Fig. 5"}
+```{r Fig. 5, fig.align='center', fig.dim=c(5, 15)}
 # plot data
 plot_Blon_0879 <- plot_fit(models$data_Blon_0879, data_Blon_0879, 1000)
 plot_Blon_0881_I <- plot_fit(models$data_Blon_0881_I, data_Blon_0881_I, 1000)
@@ -677,7 +740,7 @@ ggsave("results/figures/figure_5.pdf", device = cairo_pdf, width = 5, height = 1
 ## Correlation between RNA-seq and EMSA-data \textcolor{red}{Fig. 4C}
 
 Pearson correlation coefficient was calculated between log~2~EC~50~ values determined by EMSA and log~2~(FoldChange) of genes in the RNA-seq experiment (*nagR*-KO grown in MRS-CS-Lac vs WT grown in MRS-CS-Lac).
-```{r Fig. 4C, fig.align='center', fig.dim=c(5,5), fig.cap = "Fig. 4C"}
+```{r Fig. 4C, fig.align='center', fig.dim=c(5,5)}
 # read data
 emsa_data_corr <- read_tsv("data/emsa/NagR_EMSA_vs_RNA_seq.txt")
 # plot data
@@ -699,7 +762,7 @@ ggsave("results/figures/figure_4C.pdf", device = cairo_pdf, width = 5, height = 
 
 ## Determining EC~50~ values for NagR effectors \textcolor{red}{Fig. 4D}
 
-EC~50~ value for an effector is defined as effector concentration which inhibits 50% of the "control" shift (shift without the effector). To calculate EC~50~ values, EMSA gels were visualized via Odyssey CLx. Bands were quantified in Image Studio v5.2, and shift percentages (how much of the probe is shifted at a particular effector concentration) were calculated. The shift percentage w/ effector was divided by shift percentage w/o effector ("control" shift). The resulting data (`data/emsa/NagR_effector_data.txt`) were imported into R and approximated by a 4-parameter logistic (4PL) equation implemented in the drc package. In the 4PL model, the upper limit was fixed at 1.
+EC~50~ value for an effector is defined as effector concentration which inhibits 50% of the "control" shift (shift without the effector). To calculate EC~50~ values, EMSA gels were visualized via Odyssey CLx. Bands were quantified in Image Studio v5.2, and shift percentages (how much of the probe is shifted at a particular effector concentration) were calculated. The shift percentage w/ effector was divided by shift percentage w/o effector ("control" shift). The resulting data (`data/emsa/NagR_effector_data.txt`) were imported into R and approximated by a 4PL equation implemented in the drc package. In the 4PL model, the upper limit was fixed at 1.
 ```{r 4PL model for effectors}
 # 4-parameter logistic model; upper limit is fixed to 1
 # input: tibble with data
@@ -723,7 +786,7 @@ print(model_summary_eff)
 ```
 
 Plot quantification data and the resulting 4PL fit with 95% confidence intervals.
-```{r Fig. 4D, fig.align='center', fig.dim=c(6,5), fig.cap = "Fig. 4D"}
+```{r Fig. 4D, fig.align='center', fig.dim=c(6,5)}
 # GlcNAc fit for ggplot 
 conf_site_GlcNAc <- expand.grid(conc_mM=exp(seq(log(0.01), log(10), length=100)))
 # calculate predicted values and respective 95% confidence intervals 

@@ -1,0 +1,13 @@
+{
+	"n_targets": 2508,
+	"n_bootstraps": 0,
+	"n_processed": 8231593,
+	"n_pseudoaligned": 5947404,
+	"n_unique": 5355466,
+	"p_pseudoaligned": 72.3,
+	"p_unique": 65.1,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Thu Feb  3 15:16:54 2022",
+	"call": "kallisto quant -i data/rnaseq/refs/Binfantis_ATCC15697_transcriptome.index -o data/rnaseq/kallisto/06_Mut_Lac2_S58_merged_lanes --single -l 200 -s 20 data/rnaseq/fq_filt/06_Mut_Lac2_S58_merged_lanes.fastq.gz"
+}

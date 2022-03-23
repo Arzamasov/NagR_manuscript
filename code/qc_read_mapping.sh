@@ -2,7 +2,7 @@
 echo $BASH_VERSION
 set -ex
 
-# required software: fastqc (v0.11.9), cutadapt (v3.4), bowtie2 (v2.4.4), kallisto (v0.46.2), multiqc (1.11), and parallel (v20210222)
+# required software: fastqc (v0.11.9), cutadapt (v3.4), bowtie2 (v2.4.4), kallisto (v0.46.2), multiqc (v1.11), and parallel (v20210222)
 # sample names should be in data/rnaseq/runids.txt
 
 # activate conda enviroment with required software

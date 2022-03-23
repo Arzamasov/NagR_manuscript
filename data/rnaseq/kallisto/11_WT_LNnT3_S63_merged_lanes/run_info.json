@@ -1,0 +1,13 @@
+{
+	"n_targets": 2508,
+	"n_bootstraps": 0,
+	"n_processed": 5152460,
+	"n_pseudoaligned": 3864476,
+	"n_unique": 3418340,
+	"p_pseudoaligned": 75.0,
+	"p_unique": 66.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Thu Feb  3 15:16:54 2022",
+	"call": "kallisto quant -i data/rnaseq/refs/Binfantis_ATCC15697_transcriptome.index -o data/rnaseq/kallisto/11_WT_LNnT3_S63_merged_lanes --single -l 200 -s 20 data/rnaseq/fq_filt/11_WT_LNnT3_S63_merged_lanes.fastq.gz"
+}

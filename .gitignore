@@ -19,7 +19,6 @@
 *fasta.gz
 *fasta
 *fa.gz
-*fa
 
 # paper raw data
 *gb
@@ -29,13 +28,13 @@
 docs/
 data/rnaseq/RNA_isolation
 data/rnaseq/GEO_submission
-data/rnaseq/kallisto
 data/emsa/gels
 data/nagR_cloning
 data/nagR_expression
 data/growth/sugar_exchange
 data/growth/growth_unsorted
 data/mutants
+data/structure_model
 
 # Output files from R CMD check
 /*.Rcheck/
