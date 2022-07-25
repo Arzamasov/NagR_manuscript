@@ -4,7 +4,7 @@ author:
 - Aleksandr A. Arzamasov
 - Aruto Nakajima
 - Mikiyasu Sakanaka
-- Miriam Ojima
+- Miriam N. Ojima
 - Takane Katayama
 - Dmitry A. Rodionov
 - Andrei L. Osterman
@@ -61,8 +61,8 @@ A set of R packages was used for this analysis. The [pacman](https://cran.r-proj
 # install/load the pacman package for rapid installation of packages that are not in library
 if (!require("pacman")) install.packages("pacman")
 # use pacman to install/load all packages needed for the analysis
-pacman::p_load('tidyverse', 'emmeans', 'tximport', 'gt', 'tidyverse', 'edgeR', 'matrixStats',
-               'cowplot', 'ggrepel', 'pheatmap', 'drc', 'Cairo', 'ggpubr', 'microseq')
+pacman::p_load('tidyverse', 'emmeans', 'growthrates', 'PKNCA', 'tximport', 'rhdf5', 'gt', 'edgeR', 
+               'matrixStats', 'cowplot', 'ggrepel', 'pheatmap', 'drc', 'Cairo', 'ggpubr', 'microseq')
 ```
 
 A set of external R functions was used to keep the code tidy. All used R scripts with functions can be found in `NagR_manuscript/code/`.
@@ -79,10 +79,10 @@ source("code/emsa.R") # builds a 4PL model for EMSA quantification data
 
 # Analysis of growth, HMO consumption, and organic acid production data
 
-## Growth data \textcolor{red}{Fig. 2}
+## Growth curves \textcolor{red}{Fig. 2A}
 
-Growth of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains in MRS-CS supplemented with various carbon sources was measured by OD~600~. Data points (taken at 0, 4, 8, 12, and 24 h) represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
-```{r Fig. 2, fig.align='center', fig.dim=c(6,5)}
+Growth of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains in MRS-CS supplemented with various carbon sources was measured by OD~600~. Data points (taken at 0, 4, 8, 12, and 24 h) represent mean±SD of three replicates.
+```{r Fig. 2A, fig.align='center', fig.dim=c(6,5)}
 # read growth data
 growth_data <- read_tsv("data/growth/growth_data.txt") %>%
   filter(sugar != "control")
@@ -90,7 +90,7 @@ growth_data <- read_tsv("data/growth/growth_data.txt") %>%
 set.seed(123)
 growth_data %>%
   # rearrange plot order
-  mutate(across(sugar, factor, levels=c("Lactose", "HMO", "Sucrose", "FOS"))) %>%
+  mutate(across(sugar, factor, levels=c("Lac", "Gal", "HMO", "Sucrose", "FOS"))) %>%
 ggplot(aes(x = time, y = od, group = strain)) +
   # display mean and connect points by line
   stat_summary(
@@ -98,9 +98,9 @@ ggplot(aes(x = time, y = od, group = strain)) +
     geom='line',
     size = 0.7,
     aes(color=strain)) +
-  # display 95% non-parametric confidence interval for the mean
+  # display standard deviation
   stat_summary(
-    fun.data=mean_cl_boot,
+    fun.data=mean_sd,
     geom='errorbar',
     width=0.6,
     aes(color=strain)) +
@@ -125,11 +125,11 @@ ggplot(aes(x = time, y = od, group = strain)) +
   theme_bw(14) + 
   theme(axis.text=element_text(size=10), strip.text = element_text(size = 14))
 # save the figure
-ggsave("results/figures/figure_2.pdf", device = cairo_pdf, width = 6, height = 5)
+ggsave("results/figures/figure_2A.pdf", device = cairo_pdf, width = 6, height = 5)
 ```
 
 A linear model and post hoc comparisons implemented in the [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) package were used to identify time points where the mean OD~600~ values for WT and *nagR*-KO strains were significantly different. Computed p-values were adjusted for multiple comparisons using the Bonferroni correction.
-```{r Fig. 2 stats}
+```{r Fig. 2A stats}
 # function below:
 # (1) builds a linear model with two factors (strain and time)
 # (2) performs pairwise comparisons of OD600 means (WT vs nagR-KO) at each time point using emmeans
@@ -147,13 +147,115 @@ growth_data_split <- growth_data %>%
   split(f = as.factor(.$sugar))
 lapply(growth_data_split, compare_growth_means)
 ```
+***
+
+## AUC calculation \textcolor{red}{Fig. 2B}
+
+The [PKNCA](https://cran.r-project.org/web/packages/PKNCA/) package was used to calculate empirical Area Under the Curve (AUC) values by integrating the areas under trapezoids made up by connecting consecutive time points in growth curves of *nagR*-KO and WT strains. AUC is a promising metric to summarize a growth curve because it integrates the contributions of the initial population size, growth rate, and carrying capacity into a single value, and emphasizes growth rate (https://doi.org/10.1186/s12859-016-1016-7).
+```{r Fig. 2B, fig.align='center', fig.dim=c(6,5)}
+# this function calculates the AUC under the trapezoid
+# made up by connecting consecutive time points
+calculate_AUC <- function(data){
+  conc_obj <- PKNCAconc(data, od~time)
+  data_obj <- PKNCAdata(data.conc=conc_obj,
+                      intervals=data.frame(start=0,
+                                           end=24,
+                                           aucall=TRUE))
+  results_obj <- pk.nca(data_obj)
+  results_obj$result$PPORRES
+}
+
+# split growth data by strain, sugar, and replicate
+growth_WT_Lac_1 <- filter(growth_data, strain == "WT", sugar == "Lac", rep == 1)
+growth_WT_Lac_2 <- filter(growth_data, strain == "WT", sugar == "Lac", rep == 2)
+growth_WT_Lac_3 <- filter(growth_data, strain == "WT", sugar == "Lac", rep == 3)
+growth_Mut_Lac_1 <- filter(growth_data, strain == "Mut", sugar == "Lac", rep == 1)
+growth_Mut_Lac_2 <- filter(growth_data, strain == "Mut", sugar == "Lac", rep == 2)
+growth_Mut_Lac_3 <- filter(growth_data, strain == "Mut", sugar == "Lac", rep == 3)
+growth_WT_HMO_1 <- filter(growth_data, strain == "WT", sugar == "HMO", rep == 1)
+growth_WT_HMO_2 <- filter(growth_data, strain == "WT", sugar == "HMO", rep == 2)
+growth_WT_HMO_3 <- filter(growth_data, strain == "WT", sugar == "HMO", rep == 3)
+growth_Mut_HMO_1 <- filter(growth_data, strain == "Mut", sugar == "HMO", rep == 1)
+growth_Mut_HMO_2 <- filter(growth_data, strain == "Mut", sugar == "HMO", rep == 2)
+growth_Mut_HMO_3 <- filter(growth_data, strain == "Mut", sugar == "HMO", rep == 3)
+growth_WT_Scr_1 <- filter(growth_data, strain == "WT", sugar == "Sucrose", rep == 1)
+growth_WT_Scr_2 <- filter(growth_data, strain == "WT", sugar == "Sucrose", rep == 2)
+growth_WT_Scr_3 <- filter(growth_data, strain == "WT", sugar == "Sucrose", rep == 3)
+growth_Mut_Scr_1 <- filter(growth_data, strain == "Mut", sugar == "Sucrose", rep == 1)
+growth_Mut_Scr_2 <- filter(growth_data, strain == "Mut", sugar == "Sucrose", rep == 2)
+growth_Mut_Scr_3 <- filter(growth_data, strain == "Mut", sugar == "Sucrose", rep == 3)
+growth_WT_FOS_1 <- filter(growth_data, strain == "WT", sugar == "FOS", rep == 1)
+growth_WT_FOS_2 <- filter(growth_data, strain == "WT", sugar == "FOS", rep == 2)
+growth_WT_FOS_3 <- filter(growth_data, strain == "WT", sugar == "FOS", rep == 3)
+growth_Mut_FOS_1 <- filter(growth_data, strain == "Mut", sugar == "FOS", rep == 1)
+growth_Mut_FOS_2 <- filter(growth_data, strain == "Mut", sugar == "FOS", rep == 2)
+growth_Mut_FOS_3 <- filter(growth_data, strain == "Mut", sugar == "FOS", rep == 3)
+growth_WT_Gal_1 <- filter(growth_data, strain == "WT", sugar == "Gal", rep == 1)
+growth_WT_Gal_2 <- filter(growth_data, strain == "WT", sugar == "Gal", rep == 2)
+growth_WT_Gal_3 <- filter(growth_data, strain == "WT", sugar == "Gal", rep == 3)
+growth_Mut_Gal_1 <- filter(growth_data, strain == "Mut", sugar == "Gal", rep == 1)
+growth_Mut_Gal_2 <- filter(growth_data, strain == "Mut", sugar == "Gal", rep == 2)
+growth_Mut_Gal_3 <- filter(growth_data, strain == "Mut", sugar == "Gal", rep == 3)
+
+# create a list
+growth_data_all <- lst(growth_WT_Lac_1, growth_WT_Lac_2, growth_WT_Lac_3,
+                       growth_Mut_Lac_1, growth_Mut_Lac_2, growth_Mut_Lac_3,
+                       growth_WT_Gal_1, growth_WT_Gal_2, growth_WT_Gal_3,
+                       growth_Mut_Gal_1, growth_Mut_Gal_2, growth_Mut_Gal_3,
+                       growth_WT_HMO_1, growth_WT_HMO_2, growth_WT_HMO_3,
+                       growth_Mut_HMO_1, growth_Mut_HMO_2, growth_Mut_HMO_3,
+                       growth_WT_Scr_1, growth_WT_Scr_2, growth_WT_Scr_3,
+                       growth_Mut_Scr_1, growth_Mut_Scr_2, growth_Mut_Scr_3,
+                       growth_WT_FOS_1, growth_WT_FOS_2, growth_WT_FOS_3,
+                       growth_Mut_FOS_1, growth_Mut_FOS_2, growth_Mut_FOS_3)
+
+# apply the AUC calculation function
+AUC_all <- lapply(growth_data_all, calculate_AUC)
+# transform the AUC list into a tibble 
+auc_data_raw <- enframe(AUC_all)
+auc_data <- auc_data_raw %>%
+  # split by "_" in the column "name"
+  separate(name, c("growth", "strain", "sugar", "rep")) %>%
+  rename(auc = value) %>%
+  # round AUC values to 1 digit after the period
+  mutate(auc = sprintf("%0.1f", auc)) %>%
+  mutate_at(c("auc"), as.numeric) %>%
+  dplyr::select(-growth)
+
+# perform pairwise mean comparisons
+# nagR-KO vs WT for each sugar
+stat.test <- compare_means(
+  auc ~ strain, data = auc_data, group.by = "sugar",
+  method = "t.test",
+  p.adjust = "none"
+)
+
+# plot data
+ggbarplot(auc_data, x = "sugar", y = "auc",
+          fill = "strain",
+          add = "mean_sd", add.params = list(group = "strain"),
+          position = position_dodge(0.8), alpha = 0.8) +
+  scale_color_manual(name="Strain",
+                     values=c(WT="#008800", Mut="#F48326")) +
+  scale_fill_manual(name="Strain",
+                     values=c(WT="#008800", Mut="#F48326")) +
+  ylab("AUC") +
+  # add calculated p-values
+  stat_pvalue_manual(
+          stat.test, x = "sugar", y.position = 100,
+          label = "p.signif",
+          position = position_dodge(0.8)
+)
+# save the figure
+ggsave("results/figures/figure_2B.pdf", device = cairo_pdf, width = 6, height = 5)
+```
 
 ***
 
-## HMO consumption \textcolor{red}{Fig. S2C}
+## HMO consumption \textcolor{red}{Fig. S3A}
 
 HMO consumption of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by normal phase high-performance liquid chromatography (HPLC). Data points (taken at 0, 4, 8, 12, and 24 h) represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
-```{r Fig. S2C, fig.align='center', fig.dim=c(12,10)}
+```{r Fig. S3A, fig.align='center', fig.dim=c(12,10)}
 # read HMO consumption data
 hmo_data <- read_tsv("data/metabolomics/HMO_concentration.txt")
 # plot data
@@ -197,11 +299,11 @@ hmo_data %>%
   facet_wrap(. ~ sugar, scales = "free") +
   theme_bw(14)
 # save the figure
-ggsave("results/figures/figure_S2C.pdf", device = cairo_pdf, width = 12, height = 10)
+ggsave("results/figures/figure_S3A.pdf", device = cairo_pdf, width = 12, height = 10)
 ```
 
 A linear model and post hoc comparisons implemented in the [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) package were used to identify time points where the mean HMO concentrations for WT and *nagR*-KO strains were significantly different. Computed p-values were adjusted for multiple comparisons using the Bonferroni correction.
-```{r Fig. S2 stats HMO}
+```{r Fig. S3A stats HMO}
 # function below:
 # (1) builds a linear model with two factors (strain and time)
 # (2) performs pairwise comparisons of concentration means (WT vs nagR-KO) at each time point
@@ -223,10 +325,10 @@ lapply(hmo_data_split, compare_growth_means)
 
 ***
 
-## Organic acid production \textcolor{red}{Fig. S2D}
+## Organic acid production \textcolor{red}{Fig. S3B}
 
 Organic acid production of *Bifidobacterium longum* subsp. *infantis* ATCC 15697 WT and *nagR*-KO strains grown in MRS-CS-HMO was measured by anion-exchange chromatography. Since MRS-CS contains baseline levels of acetate, formate, and lactate, measurements at 0 h were subtracted from subsequent time points (4, 8, 12, and 24 h). Data represent the mean of three replicates; error bars depict 95% confidence intervals for the mean.
-```{r Fig. S2D, fig.align='center', fig.dim=c(10,5)}
+```{r Fig. S3B, fig.align='center', fig.dim=c(10,5)}
 # read SCFA production data
 scfa_data <- read_tsv("data/metabolomics/organic_acid_concentration.txt")
 # plot data
@@ -265,11 +367,11 @@ scfa_data %>%
   facet_wrap(. ~ scfa, scales = "free") +
   theme_bw(14)
 # save the figure
-ggsave("results/figures/figure_S2D.pdf", device = cairo_pdf, width = 10, height = 5)
+ggsave("results/figures/figure_S3B.pdf", device = cairo_pdf, width = 10, height = 5)
 ```
 
 A linear model and post hoc comparisons implemented in the [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) package were used to identify time points where the mean organic acid concentrations for WT and *nagR*-KO strains were significantly different. Computed p-values were adjusted for multiple comparisons using the Bonferroni correction.
-```{r Fig. S2 stats organic acids}
+```{r Fig. S3B stats organic acids}
 # function below:
 # (1) builds a linear model with two factors (strain and time)
 # (2) performs pairwise comparisons of concentration means (WT vs nagR-KO) at each time point
@@ -317,7 +419,7 @@ Summary of the script:
 
 1. Quality control of raw reads was carried out using FastQC
 2. Illumina sequencing adapters and short reads (< 20 bp) were removed using Cutadapt
-3. Reads were mapped against rRNA and tRNA gene sequences extracted from the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 genome (GenBank accession no. CP001095.1) using Bowtie2. Unmapped (filtered) reads were saved and used further
+3. Reads were aligned to rRNA and tRNA gene sequences extracted from the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 genome (GenBank accession no. CP001095.1) using Bowtie2. Unaligned (filtered) reads were saved and used further
 4. Filtered reads were mapped to the *Bifidobacterium longum* subsp. *infantis* ATCC 15697 (CP001095.1) using Kallisto
 5. The quality of raw/filtered reads, as well as the results of Bowtie2/Kallisto mapping were summarized in `data/rnaseq/multiqc_report.html` generated via MultiQC
 ```{bash QC reads, eval=FALSE}
@@ -662,10 +764,10 @@ ggsave("results/figures/figure_3D.pdf", device = "pdf", width = 8, height = 5)
 
 ***
 
-## Heatmap \textcolor{red}{Fig. S3}
+## Heatmap \textcolor{red}{Fig. S4}
 
 Heatmap was plotted using the [pheatmap](https://CRAN.R-project.org/package=pheatmap) package. Data are scaled by the row Z-score.
-```{r Fig. S3, fig.align='center', fig.dim=c(4,9), fig.cap = "Fig. S3"}
+```{r Fig. S4, fig.align='center', fig.dim=c(4,9), fig.cap = "Fig. S3"}
 colnames(v.DEGList.filtered.norm$E) <- sampleLabels
 diffGenes <- v.DEGList.filtered.norm$E
 diffGenes.df <- as_tibble(diffGenes, rownames = "geneID")
@@ -684,7 +786,7 @@ pheatmap(diffGenes.two_conditions,
          gaps_col = c(3, 6, 9),
          cellwidth = 10,
          cellheight = 10,
-         filename = "results/figures/figure_S3.pdf"
+         filename = "results/figures/figure_S4.pdf"
          )
 ```
 
@@ -898,4 +1000,3 @@ The output from running 'sessionInfo' is shown below and details all packages ne
 ```{r session info}
 sessionInfo()
 ```
-
