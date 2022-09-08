@@ -1,4 +1,4 @@
-source ~/.bash_profile
+#!/bin/bash
 echo $BASH_VERSION
 set -ex
 
@@ -66,5 +66,6 @@ multiqc -d . -o data/rnaseq
 # remove directories with intermediate files
 rm -rf data/rnaseq/qc1
 rm -rf data/rnaseq/qc2
+rm -rf data/rnaseq/fq_trim
 rm -rf data/rnaseq/fq_filt
 rm -rf data/rnaseq/sam
