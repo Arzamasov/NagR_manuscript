@@ -550,7 +550,7 @@ p1 <- profile(myDGEList, sampleLabels, "Unfiltered, non-normalized")
 # filter counts
 cpm <- cpm(myDGEList)
 keepers <- rowSums(cpm>1)>=3 # only keep genes that have cpm>1 (== not zeroes) 
-# in more than 2 samples (minimal group size)
+# in more than 3 samples (minimal group size)
 myDGEList.filtered <- myDGEList[keepers,]
 # plot filtered, non-normalized CPM
 p2 <- profile(myDGEList.filtered, sampleLabels, "Filtered, non-normalized")
